@@ -1,3 +1,4 @@
+# Electricitet
 ## Ström
 Definitionen av ström är elektroner som rör sig i en ledare. Hur många elektroner som rör sig
 är ett mått på hur stor strömmen är. Många elektroner ger en stor ström och vice versa.
@@ -9,14 +10,15 @@ röra på sig. Den negativt laddade elektronen rör sig mot den positivt laddade
 spänningskällan som t.ex. kan vara ett batteri. Strömmen åker alltid från plus till minus.
 Andra namn på plus och minus är anod och katod.
 betyder strömmen är 2 Ampere
-Spänning
+
+## Spänning
 Spänning är den ”kraft” som påverkar elektronerna. Är spänningen hög så kommer
 elektronerna dras med större kraft mot den positiva delen eftersom elektronen var negativt
 laddad. Är spänningen tillräckligt hög så skulle elektronerna tom hoppa från ledaren till den
 positiva delen, det är det som händer när det blixtrar.
 betyder att spänningen är 12 Volt.
 
-## Resistorer
+## Resistans
 Vad som än ansluts till en spänning kallas inom elläran en resistans. Det spelar ingen roll om
 det är en lampa, en spis eller en dator så är alla resistanser. Då blir det enklare att räkna ut
 strömmar, elektrisk energi eller liknande.

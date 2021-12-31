@@ -1,4 +1,4 @@
-Seriekopplingar
+# Seriekopplingar
 I seriekopplingar kopplar man de komponenter i serie eller efter varandra, ungefär som ett
 tåg.
 Det som händer då i kopplingen är att strömmen får svårare att ta sig fram, fler motstånd,

@@ -1,4 +1,4 @@
-Ohms lag
+# Ohms lag
 
 Ohms lag är den mest grundläggande inom ellära och även den viktigaste. Denna formel
 används för att kunna räkna ut spänningar, strömmar och resistanser i olika enkla

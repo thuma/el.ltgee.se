@@ -1,0 +1,4 @@
+baseURL = "https://el.ltgee.se/"
+languageCode = "sv-SE"
+title = "Ellära 1"
+theme = "hugo-book"

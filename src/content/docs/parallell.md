@@ -1,4 +1,4 @@
-Parallellkopplingar
+# Parallellkopplingar
 
 I parallellkopplingar kopplas de komponenter som ska användas på varandra, eller parallellt.
 Detta resulterar i att strömmen kan få fler vägar att ta sig fram och då går det lättare för
