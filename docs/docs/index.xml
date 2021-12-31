@@ -36,7 +36,8 @@
       <guid>https://el.ltgee.se/docs/ohmslag/</guid>
       <description>Ohms lag #  Ohms lag är den mest grundläggande inom ellära och även den viktigaste. Denna formel används för att kunna räkna ut spänningar, strömmar och resistanser i olika enkla kopplingar.
 Ohms lag används för att räkna ut spänningar, strömmar och resistanser och lyder:
-Genom algebra så kan formeln göras om så man kan räkna ut resistansen och strömmen. Alla tre varianterna av Ohm´s lag ses nedan.</description>
+Genom algebra så kan formeln göras om så man kan räkna ut resistansen och strömmen. Alla tre varianterna av Ohm´s lag ses nedan.
+Spänningen #    \(U = I * R\)  Strömmen #   \(I = \frac{U}{R}\)  Resistansen #   \(R = \frac{U}{I}\)  </description>
     </item>
     
     <item>
