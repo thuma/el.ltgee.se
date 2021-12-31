@@ -11,3 +11,12 @@ Genom algebra så kan formeln göras om så man kan
 räkna ut resistansen och strömmen. Alla tre
 varianterna av Ohm´s lag ses nedan.
 
+## Spänningen
+{{< katex >}}U = I * R{{< /katex >}} 
+
+## Strömmen
+{{< katex >}}I = \frac{U}{R}{{< /katex >}}
+
+## Resistansen
+{{< katex >}}R = \frac{U}{I}{{< /katex >}}
+

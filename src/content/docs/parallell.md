@@ -34,3 +34,12 @@ Ett sätt att räkna ut totalresistansen i en parallellkoppling är att använda
 Den första formeln kan även användas om man har fler än två motstånd medans den andre
 endast fungerar på två parallellkopplade motstånd.
 
+### Basform
+{{< katex >}}\frac{1}{R_{tot}} = \frac{1}{R_1} + \frac{1}{R_1} + \frac{1}{R_3} + ...{{< /katex >}}
+
+### Beräkningsform
+{{< katex >}}R_{tot} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_1} + \frac{1}{R_3} + ...}{{< /katex >}}
+
+### Bråkform med 2 resistorer
+{{< katex >}}R_{tot} = \frac{R_1*R_2}{R_1+R_2}{{< /katex >}}
+
