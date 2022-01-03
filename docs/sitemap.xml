@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://el.ltgee.se/docs/effekt/</loc>
+    <loc>https://el.ltgee.se/docs/el/</loc>
   </url>
   
   <url>
-    <loc>https://el.ltgee.se/docs/el/</loc>
+    <loc>https://el.ltgee.se/docs/krets/</loc>
   </url>
   
   <url>
@@ -15,11 +15,19 @@
   </url>
   
   <url>
+    <loc>https://el.ltgee.se/docs/serie/</loc>
+  </url>
+  
+  <url>
     <loc>https://el.ltgee.se/docs/parallell/</loc>
   </url>
   
   <url>
-    <loc>https://el.ltgee.se/docs/serie/</loc>
+    <loc>https://el.ltgee.se/docs/effekt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://el.ltgee.se/docs/kombinerad/</loc>
   </url>
   
   <url>
@@ -32,6 +40,18 @@
   
   <url>
     <loc>https://el.ltgee.se/</loc>
+  </url>
+  
+  <url>
+    <loc>https://el.ltgee.se/docs/elsymboler/</loc>
+  </url>
+  
+  <url>
+    <loc>https://el.ltgee.se/docs/koppla/</loc>
+  </url>
+  
+  <url>
+    <loc>https://el.ltgee.se/docs/matning/</loc>
   </url>
   
   <url>

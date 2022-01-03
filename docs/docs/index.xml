@@ -11,16 +11,7 @@
     
     
     <item>
-      <title></title>
-      <link>https://el.ltgee.se/docs/effekt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://el.ltgee.se/docs/effekt/</guid>
-      <description>Effekt #  Energi finns i många olika former, rörelseenergi, lägesenergi, kemisk energi, elektrisk energi osv. Alla olika energier kan omvandlas till en annan energisort. Detta görs helt självständigt, t.ex. solen, eller genom någon slags maskin t.ex. en motor. Styrkan på maskinen kallas för effekt, det är ett mått på hur mycket energi maskinen behöver per tidsenhet. Ta t.ex. 2 människor som är maskinerna, dessa ska utföra ett arbete. För att de ska kunna utföra arbetet måste de ha mat, kemisk energi.</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>1. Electricitet</title>
       <link>https://el.ltgee.se/docs/el/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -29,7 +20,16 @@
     </item>
     
     <item>
-      <title></title>
+      <title>2. Elekrisk krets</title>
+      <link>https://el.ltgee.se/docs/krets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/krets/</guid>
+      <description>Elektrisk krets #  Strömmen går runt</description>
+    </item>
+    
+    <item>
+      <title>3. Ohms-lag</title>
       <link>https://el.ltgee.se/docs/ohmslag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -37,21 +37,11 @@
       <description>Ohms lag #  Ohms lag är den mest grundläggande inom ellära och även den viktigaste. Denna formel används för att kunna räkna ut spänningar, strömmar och resistanser i olika enkla kopplingar.
 Ohms lag används för att räkna ut spänningar, strömmar och resistanser och lyder:
 Genom algebra så kan formeln göras om så man kan räkna ut resistansen och strömmen. Alla tre varianterna av Ohm´s lag ses nedan.
-Spänningen #    \(U = I * R\)  Strömmen #   \(I = \frac{U}{R}\)  Resistansen #   \(R = \frac{U}{I}\)  </description>
+Krets med beräkningsexemppel U #  Krets med beräkningsexempel I #  Krets med beräkningsecempel R #  Spänningen #    \(U = I * R\)  Strömmen #   \(I = \frac{U}{R}\)  Resistansen #   \(R = \frac{U}{I}\)  </description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://el.ltgee.se/docs/parallell/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://el.ltgee.se/docs/parallell/</guid>
-      <description>Parallellkopplingar #  I parallellkopplingar kopplas de komponenter som ska användas på varandra, eller parallellt. Detta resulterar i att strömmen kan få fler vägar att ta sig fram och då går det lättare för strömmen. Mer ström betyder ju att den totala resistansen måste ha blivit mindre.
-I exemplet så är två resistanser parallellkopplade. Det syns för att strömmen kommer till en förgreningspunkt. Spänningen i uppgiften är 30 V. Resistanserna i uppgifterna är R 1 är 100 Ω och R 2 är 200 Ω Spänningen i uppgiften är 30 V.</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>4. Serie krets</title>
       <link>https://el.ltgee.se/docs/serie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -59,6 +49,61 @@ I exemplet så är två resistanser parallellkopplade. Det syns för att strömm
       <description>Seriekopplingar #  I seriekopplingar kopplar man de komponenter i serie eller efter varandra, ungefär som ett tåg. Det som händer då i kopplingen är att strömmen får svårare att ta sig fram, fler motstånd, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen.
 I exemplet bredvid är två motstånd seriekopplade och anslutna till en spänningskälla på 30 V.
 Låt oss säga att R 1 är 100 Ω och R 2 är 200 Ω så kommer det totala motståndet i kopplingen bli 300 Ω.</description>
+    </item>
+    
+    <item>
+      <title>5. Parallell krets</title>
+      <link>https://el.ltgee.se/docs/parallell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/parallell/</guid>
+      <description>Parallellkoppling #  I parallellkopplingar kopplas de komponenter som ska användas på varandra, eller parallellt. Detta resulterar i att strömmen kan få fler vägar att ta sig fram och då går det lättare för strömmen. Mer ström betyder ju att den totala resistansen måste ha blivit mindre.
+I exemplet så är två resistanser parallellkopplade. Det syns för att strömmen kommer till en förgreningspunkt. Spänningen i uppgiften är 30 V. Resistanserna i uppgifterna är R 1 är 100 Ω och R 2 är 200 Ω Spänningen i uppgiften är 30 V.</description>
+    </item>
+    
+    <item>
+      <title>6. Effektlagen</title>
+      <link>https://el.ltgee.se/docs/effekt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/effekt/</guid>
+      <description>Effekt #  Energi finns i många olika former, rörelseenergi, lägesenergi, kemisk energi, elektrisk energi osv. Alla olika energier kan omvandlas till en annan energisort. Detta görs helt självständigt, t.ex. solen, eller genom någon slags maskin t.ex. en motor. Styrkan på maskinen kallas för effekt, det är ett mått på hur mycket energi maskinen behöver per tidsenhet. Ta t.ex. 2 människor som är maskinerna, dessa ska utföra ett arbete. För att de ska kunna utföra arbetet måste de ha mat, kemisk energi.</description>
+    </item>
+    
+    <item>
+      <title>7. Kombinerad krets</title>
+      <link>https://el.ltgee.se/docs/kombinerad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/kombinerad/</guid>
+      <description>Kombinerad krets #  </description>
+    </item>
+    
+    <item>
+      <title>Ellärasymboler</title>
+      <link>https://el.ltgee.se/docs/elsymboler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/elsymboler/</guid>
+      <description>Ellärasymboler #     Namn Symbol Bild     Batteri     Spänningskälla     Resistor     Ledare     Lampa     Voltmeter     Ohmmeeter     Amperemeter      </description>
+    </item>
+    
+    <item>
+      <title>Kretskoppling</title>
+      <link>https://el.ltgee.se/docs/koppla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/koppla/</guid>
+      <description>Breadboard #  Komponenter #  Bilder och inkopplingar #  </description>
+    </item>
+    
+    <item>
+      <title>Mätning</title>
+      <link>https://el.ltgee.se/docs/matning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/matning/</guid>
+      <description>Mätning #  Mäta ström #  Mäta spänning #  Mäta resistans #  </description>
     </item>
     
   </channel>
