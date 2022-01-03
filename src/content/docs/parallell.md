@@ -1,4 +1,7 @@
-# Parallellkopplingar
+---
+title: "5. Parallell krets"
+---
+# Parallellkoppling
 
 I parallellkopplingar kopplas de komponenter som ska användas på varandra, eller parallellt.
 Detta resulterar i att strömmen kan få fler vägar att ta sig fram och då går det lättare för
@@ -34,12 +37,17 @@ Ett sätt att räkna ut totalresistansen i en parallellkoppling är att använda
 Den första formeln kan även användas om man har fler än två motstånd medans den andre
 endast fungerar på två parallellkopplade motstånd.
 
-### Basform
+### Spänningen
+{{< katex >}}U = U_1 = U_2 = U_3...{{< /katex >}} 
+
+### Strömmen
+{{< katex >}}I = I_1 + 1_2 + I_3...{{< /katex >}}
+
+### Resistansen basform
 {{< katex >}}\frac{1}{R_{tot}} = \frac{1}{R_1} + \frac{1}{R_1} + \frac{1}{R_3} + ...{{< /katex >}}
 
-### Beräkningsform
+### Resistansen Beräkningsform
 {{< katex >}}R_{tot} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_1} + \frac{1}{R_3} + ...}{{< /katex >}}
 
-### Bråkform med 2 resistorer
+### Resistansen bråkform med 2 resistorer
 {{< katex >}}R_{tot} = \frac{R_1*R_2}{R_1+R_2}{{< /katex >}}
-

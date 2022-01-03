@@ -1,3 +1,6 @@
+---
+title: "3. Ohms-lag"
+---
 # Ohms lag
 
 Ohms lag är den mest grundläggande inom ellära och även den viktigaste. Denna formel
@@ -11,12 +14,18 @@ Genom algebra så kan formeln göras om så man kan
 räkna ut resistansen och strömmen. Alla tre
 varianterna av Ohm´s lag ses nedan.
 
-## Spänningen
+### Krets med beräkningsexemppel U
+
+### Krets med beräkningsexempel I
+
+### Krets med beräkningsecempel R
+
+### Spänningen
 {{< katex >}}U = I * R{{< /katex >}} 
 
-## Strömmen
+### Strömmen
 {{< katex >}}I = \frac{U}{R}{{< /katex >}}
 
-## Resistansen
+### Resistansen
 {{< katex >}}R = \frac{U}{I}{{< /katex >}}
 

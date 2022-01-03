@@ -1,3 +1,6 @@
+---
+title: "4. Serie krets"
+---
 # Seriekopplingar
 I seriekopplingar kopplar man de komponenter i serie eller efter varandra, ungefär som ett
 tåg.
@@ -27,4 +30,14 @@ Spänningen som finns på R 2 kan räknas ut med Ohms lag men man kan också anv
 Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalspänningen eller:
 
 I uppgiften måste alltså U 2 bli 20 V eftersom
+
+### Spänningen
+{{< katex >}}U = U_1+U_2+U_3...{{< /katex >}} 
+
+### Strömmen
+{{< katex >}}I = I_1 = 1_2 = I_3...{{< /katex >}}
+
+### Resistansen
+{{< katex >}}R_{tot} = R_1+R_2+R_3...{{< /katex >}}
+
 

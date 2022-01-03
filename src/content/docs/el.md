@@ -1,4 +1,8 @@
+---
+title: "1. Electricitet"
+---
 # Electricitet
+
 ## Ström
 Definitionen av ström är elektroner som rör sig i en ledare. Hur många elektroner som rör sig
 är ett mått på hur stor strömmen är. Många elektroner ger en stor ström och vice versa.
@@ -34,4 +38,12 @@ svårt att ta sig igenom, det blir varmt och
 lampan börjar glöda av värmen.
 Resistansen, eller motståndet mäts i Ohm (Ω).
 betyder resistansen är 100 Ohm.
+
+### Sorheter och enheter
+| Storhet     | Storhetsbeteckning | Enhet       | Enhetsbeteckning |
+| ----------- | ------------------ | ----------- | ---------------- |
+| Ström       | I                  | Ampere      | A                |
+| Spänning    | U                  | Volt        | V                |
+| Resistor    | R                  | Ohm         | Ω                |
+
 

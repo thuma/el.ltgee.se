@@ -1,3 +1,6 @@
+---
+title: "6. Effektlagen"
+---
 # Effekt
 
 Energi finns i många olika former, rörelseenergi, lägesenergi, kemisk energi, elektrisk energi
@@ -14,3 +17,15 @@ på halva tiden.
 Elektrisk effekt
 Elektrisk effekt förkortas P och mäts i Watt som
 förkortas W.
+
+### Effekten
+{{< katex >}}P = U * I{{< /katex >}}
+
+
+### Sorheter och enheter
+| Storhet     | Storhetsbeteckning | Enhet       | Enhetsbeteckning |
+| ----------- | ------------------ | ----------- | ---------------- |
+| Ström       | I                  | Ampere      | A                |
+| Spänning    | U                  | Volt        | V                |
+| Resistor    | R                  | Ohm         | Ω                |
+| Effekt      | P                  | Watt        | W                |
