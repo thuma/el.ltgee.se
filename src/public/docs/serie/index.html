@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Seriekopplingar #  I seriekopplingar kopplar man de komponenter i serie eller efter varandra, ungefär som ett tåg. Det som händer då i kopplingen är att strömmen får svårare att ta sig fram, fler motstånd, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen.
+I exemplet bredvid är två motstånd seriekopplade och anslutna till en spänningskälla på 30 V.
+Låt oss säga att R 1 är 100 Ω och R 2 är 200 Ω så kommer det totala motståndet i kopplingen bli 300 Ω.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="Seriekopplingar #  I seriekopplingar kopplar man de komponenter i serie eller efter varandra, ungefär som ett tåg. Det som händer då i kopplingen är att strömmen får svårare att ta sig fram, fler motstånd, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen.
+I exemplet bredvid är två motstånd seriekopplade och anslutna till en spänningskälla på 30 V.
+Låt oss säga att R 1 är 100 Ω och R 2 är 200 Ω så kommer det totala motståndet i kopplingen bli 300 Ω." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://el.ltgee.se/docs/serie/" />
+
+<title>Serie | Ellära 1</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.3513ec56dcb16d71a7e2d1efec37e0d337d0a18b66102dd37b3cb62b3500337e.js" integrity="sha256-NRPsVtyxbXGn4tHv7Dfg0zfQoYtmEC3Tezy2KzUAM34=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Ellära 1</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/effekt/" class="">Effekt</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/el/" class="">El</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/ohmslag/" class="">Ohmslag</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/parallell/" class="">Parallell</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/serie/" class=" active">Serie</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Serie</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="seriekopplingar">
+  Seriekopplingar
+  <a class="anchor" href="#seriekopplingar">#</a>
+</h1>
+<p>I seriekopplingar kopplar man de komponenter i serie eller efter varandra, ungefär som ett
+tåg.
+Det som händer då i kopplingen är att strömmen får svårare att ta sig fram, fler motstånd,
+och då minskar strömmen.
+Spänningen kommer däremot dela upp sig på varje del i seriekopplingen.</p>
+<p>I exemplet bredvid är två motstånd seriekopplade och anslutna till en
+spänningskälla på 30 V.</p>
+<p>Låt oss säga att R 1 är 100 Ω och R 2 är
+200 Ω så kommer det totala motståndet i
+kopplingen bli 300 Ω. Formeln ser ut så
+här:</p>
+<p>Spänningen i uppgiften är 30 V och då
+blir strömmen i kopplingen enligt Ohm´s
+lag 0,1 A.</p>
+<p>Strömmen är lika stor i hela kopplingen,
+är det 0,1 ampere som kommer ut ur spänningskällan är det 0,1 ampere i R 1 och även 0,1
+ampere som åker tillbaka. Tänk vattenslangar och vatten, det vatten som åker in i slangen
+måste ut till slut.</p>
+<p>Spänningen på resistor 1 blir då enligt ohms lag 10 V.
+Spänningen som finns på R 2 kan räknas ut med Ohms lag men man kan också använda
+Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalspänningen eller:</p>
+<p>I uppgiften måste alltså U 2 bli 20 V eftersom</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

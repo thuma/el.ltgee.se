@@ -1,15 +1,15 @@
 ---
 Title: Ellärasymboler
 ---
-# Ellärasymboler:
+# Ellärasymboler
 
-|Namn | symbol | bild |
-| -- | -- | -- |
-|Batteri|||
-|Spänningskälla|||
-|Resistor|||
-|Ledare|||
-|Lampa|||
-|Voltmeter|||
-|Ohmmeeter|||
-|Amperemeter|||
+| Namn           | Symbol  | Bild |
+| -------------- | ------- | ---- |
+| Batteri        |         |      |
+| Spänningskälla |         |      |
+| Resistor       |         |      |
+| Ledare         |         |      |
+| Lampa          |         |      |
+| Voltmeter      |         |      |
+| Ohmmeeter      |         |      |
+| Amperemeter    |         |      |
