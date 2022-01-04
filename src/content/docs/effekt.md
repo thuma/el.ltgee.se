@@ -23,9 +23,9 @@ förkortas W.
 
 
 ### Sorheter och enheter
-| Storhet     | Storhetsbeteckning | Enhet       | Enhetsbeteckning |
-| ----------- | ------------------ | ----------- | ---------------- |
-| Ström       | I                  | Ampere      | A                |
-| Spänning    | U                  | Volt        | V                |
-| Resistor    | R                  | Ohm         | Ω                |
-| Effekt      | P                  | Watt        | W                |
+| Storhet     | Beteckning | Enhet       | Beteckning |
+| ----------- | ---------- | ----------- | ---------- |
+| Ström       | I          | Ampere      | A          |
+| Spänning    | U          | Volt        | V          |
+| Resistor    | R          | Ohm         | Ω          |
+| Effekt      | P          | Watt        | W          |

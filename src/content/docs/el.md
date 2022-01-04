@@ -4,46 +4,91 @@ title: "1. Electricitet"
 # Electricitet
 
 ## Ström
-Definitionen av ström är elektroner som rör sig i en ledare. Hur många elektroner som rör sig
-är ett mått på hur stor strömmen är. Många elektroner ger en stor ström och vice versa.
-Strömmen som förkortas I, mäts i Ampere som förkortas A. Om elektronerna rör sig enbart åt
-ett håll kallas det för likström och om de rör sig fram och tillbaka så kallas det för växelström.
-Det som gör att elektronerna börjar röra på sig är för att de är elektriskt laddade. När en
-elektrisk laddad partikel utsätts för en spänning, som tas upp senare, så börjar elektronen
-röra på sig. Den negativt laddade elektronen rör sig mot den positivt laddade sidan på
-spänningskällan som t.ex. kan vara ett batteri. Strömmen åker alltid från plus till minus.
-Andra namn på plus och minus är anod och katod.
-betyder strömmen är 2 Ampere
+Ström är elektroner som rör sig i en ledare. Hur många elektroner som rör sig
+är ett mått på hur stor strömmen är. Många elektroner ger en stor ström få ger en låg ström.
+Strömmen som förkortas I, mäts i Ampere som förkortas A.
+
+Innom elläran så säger vi att strömmen åker från plus till minus.
+Plus och minus kallas också anod(+) och katod(-).
+
+### Exempel
+I = 5A  
+Betyder att Strömmen(I) är(=) 5 Ampere(A).
 
 ## Spänning
-Spänning är den ”kraft” som påverkar elektronerna. Är spänningen hög så kommer
-elektronerna dras med större kraft mot den positiva delen eftersom elektronen var negativt
-laddad. Är spänningen tillräckligt hög så skulle elektronerna tom hoppa från ledaren till den
-positiva delen, det är det som händer när det blixtrar.
-betyder att spänningen är 12 Volt.
+Spänning är den ”kraft” som trycker/drar i elektronerna.
+Är spänningen hög så kommer elektronerna dras med större kraft 
+därför kommer fler elektorner att röra sig samtidigt då blir strömmen hög.
+Är spänningen låg så kommer få elektroner att rör sig, då blir strömmen låg.
+
+Spänningen finns även om det inte finns någon ström, ett 1,5V batteri har den
+spänningen även om det inte är inkopplat till något.
+
+### Exempel
+U = 12V  
+Betyder att Spännigen(U) är(=) 12 Volt(V).
 
 ## Resistans
-Vad som än ansluts till en spänning kallas inom elläran en resistans. Det spelar ingen roll om
-det är en lampa, en spis eller en dator så är alla resistanser. Då blir det enklare att räkna ut
-strömmar, elektrisk energi eller liknande.
-En resistans är ett föremål som har en resistans, dvs. den hindrar strömmen i en elektrisk
-krets. Ju större resistans, eller motstånd, ett
-föremål har desto mindre ström kommer att
-åka i kretsen. Ibland ska resistansen vara så
-liten som möjligt, t.ex. i kraftledningar, där ska
-ju strömmen åka så lätt som möjligt till
-kunderna. Men ibland är resistansen bra, t.ex. i
-en lampa, resistansen gör att strömmen får
-svårt att ta sig igenom, det blir varmt och
-lampan börjar glöda av värmen.
-Resistansen, eller motståndet mäts i Ohm (Ω).
-betyder resistansen är 100 Ohm.
+En resistans (kallas också motstånd) hindrar/bromsar strömmen,
+ju större resistans desto mindre ström kommer att åka i kretsen. 
+Resistansen gör alltså att strömmen får svårt att ta sig igenom,
+när elektronerna pressas igenom resistansen blir det värme.
+
+Resistans som förkortas R mäts i Ohm som förkortas Ω.
+
+### Exempel
+R = 100 Ω
+Betyder att Resistansen(R) är(=) 100 Ohm(Ω).
 
 ### Sorheter och enheter
-| Storhet     | Storhetsbeteckning | Enhet       | Enhetsbeteckning |
-| ----------- | ------------------ | ----------- | ---------------- |
-| Ström       | I                  | Ampere      | A                |
-| Spänning    | U                  | Volt        | V                |
-| Resistor    | R                  | Ohm         | Ω                |
+| Storhet     | Beteckning | Enhet       | Beteckning |
+| ----------- | ---------- | ----------- | ---------- |
+| Ström       | I          | Ampere      | A          |
+| Spänning    | U          | Volt        | V          |
+| Resistor    | R          | Ohm         | Ω          |
+
+## Exempel
+
+![ Strömmen pressas av Spänningen och bromsas av Resistansen ](/Ohms-law.jpeg)
+
+Om spänningen ökar i en krets så kommer strömmen att öka, 
+eftersom spänningen drar/trycker hårdare i elektronerna som då rör sig mer (fler).
+
+Om spänningen minskar i en krets så kommer strömmen att minska, 
+eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre (färre).
+
+Om resistansen minskar i en krets så kommer strömmen att öka, 
+eftersom resistansen bromsar elektronerna mindre, de rör sig då mer (fler).
+
+Om resistansen ökar i en krets så kommer strömmen att minska,
+eftersom resistansen bromsar elektronerna mer som, de rör sig då dåmindre (färre).
+
+Om strömmen har ökat i en krets så har spänningen ökat eller resistansen minskat,
+eftersom resistansen bromsar elektronerna mindre, de rör sig då mer (fler),
+eftersom spänningen drar/trycker hårdare i elektronerna som då rör sig mer (fler).
+
+Om strömmen har minskat i en krets så har spänningen minskat eller resistansen ökat,
+eftersom resistansen bromsar elektronerna mer som, de rör sig då dåmindre (färre).
+eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre (färre).
+
+## Frågor
+
+Vad gör spänningen?
+
+Vad gör resistansen?
+
+Vad är ström?
+
+Vad händer som spänningen ökar restiansen är den samma?
+
+Vad händer som resistansen ökar och spänningen är den samma?
+
+Vad händer som spänningen minskar restiansen är den samma?
+
+Vad händer som resistansen minskar och spänningen är den samma?
+
+Vad måste hända för att strömmen ska öka?
+
+Vad måste hända för att strömmen ska minska?
 
 
