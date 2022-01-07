@@ -25,11 +25,11 @@ Krets med beräkningsexemppel U
 | I = 2A     | 
 | R = 15Ω    | 
 
-| Steg | Beräkning    |
-| ---- | ------------ |
-| 1.   | U = I * R    |
-| 2.   | U = 2A * 15Ω |
-| 3.   | U = 30V      |
+| Steg      | Exempel      |
+| --------- | ------------ |
+| Formel    | U = I * R    |
+| Uträkning | U = 2A * 15Ω |
+| Resultat  | U = 30V      |
 
 | Data       |
 | ---------- |
@@ -44,11 +44,11 @@ Krets med beräkningsexempel I
 | U = 15V    | 
 | R = 30Ω    | 
 
-| Steg | Beräkning    |
-| ---- | ------------ |
-| 1.   | I = U/R    |
-| 2.   | U = 15V * 30Ω |
-| 3.   | I = 0,5A      |
+| Steg       | Exempel       |
+| ---------- | ------------- |
+| Formel     | I = U/R       |
+| Uträkning  | U = 15V * 30Ω |
+| Resultat   | I = 0,5A      |
 
 | Data       |
 | ---------- |
@@ -58,3 +58,19 @@ Krets med beräkningsexempel I
 
 Krets med beräkningsecempel R
 
+| Data       |
+| ---------- |
+| U = 15V    | 
+| I = 3A     | 
+
+| Steg      | Exempel      |
+| --------- | ------------ |
+| Formel    | I = U/I      |
+| Uträkning | U = 15V/3A   |
+| Resultat  | I = 5A       |
+
+| Data       |
+| ---------- |
+| U = 15V    |
+| I = 3A     | 
+| R = 5Ω     |

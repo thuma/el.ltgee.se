@@ -3,11 +3,28 @@ title: "4. Serie krets"
 ---
 # Seriekopplingar
 I seriekopplingar kopplar man de komponenter i serie eller efter varandra, ungefär som ett
-tåg.
-Det som händer då i kopplingen är att strömmen får svårare att ta sig fram, fler motstånd,
+tåg. Det som händer då i kopplingen är att strömmen får svårare att ta sig fram, fler motstånd,
 och då minskar strömmen.
-Spänningen kommer däremot dela upp sig på varje del i seriekopplingen.
+Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över varje komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.
 
+## Order serie
+Ordet serie i detta fall är samma princip som när man använder order i vanliga fall också så som:
+ * Seriemördare
+ * Serietidning
+ * Seriespel
+Serie betyder alltså att något sker i en följd efter varandra. En seriemördare mördar en sedan nästa osv,
+till skillnad från tillexempel en massmördare som mördar många samtidigt.
+
+### Spänningen
+{{< katex >}}U = U_1+U_2+U_3...{{< /katex >}} 
+
+### Strömmen
+{{< katex >}}I = I_1 = 1_2 = I_3...{{< /katex >}}
+
+### Resistansen
+{{< katex >}}R_{tot} = R_1+R_2+R_3...{{< /katex >}}
+
+## Exempel
 I exemplet bredvid är två motstånd seriekopplade och anslutna till en
 spänningskälla på 30 V.
 
@@ -30,14 +47,4 @@ Spänningen som finns på R 2 kan räknas ut med Ohms lag men man kan också anv
 Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalspänningen eller:
 
 I uppgiften måste alltså U 2 bli 20 V eftersom
-
-### Spänningen
-{{< katex >}}U = U_1+U_2+U_3...{{< /katex >}} 
-
-### Strömmen
-{{< katex >}}I = I_1 = 1_2 = I_3...{{< /katex >}}
-
-### Resistansen
-{{< katex >}}R_{tot} = R_1+R_2+R_3...{{< /katex >}}
-
 

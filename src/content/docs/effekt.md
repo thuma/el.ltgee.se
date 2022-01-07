@@ -17,9 +17,30 @@ på halva tiden.
 Elektrisk effekt
 Elektrisk effekt förkortas P och mäts i Watt som
 förkortas W.
+## Order effekt
 
 ### Effekten
 {{< katex >}}P = U * I{{< /katex >}}
+
+
+## Exempel
+
+### U
+
+
+### I
+
+
+### P
+
+
+### R
+
+
+### Serie
+
+
+### Paralell
 
 
 ### Sorheter och enheter
