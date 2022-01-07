@@ -3,21 +3,13 @@ title: "6. Effektlagen"
 ---
 # Effekt
 
-Energi finns i många olika former, rörelseenergi, lägesenergi, kemisk energi, elektrisk energi
-osv. Alla olika energier kan omvandlas till en annan energisort. Detta görs helt självständigt,
-t.ex. solen, eller genom någon slags maskin t.ex. en motor. Styrkan på maskinen kallas för
-effekt, det är ett mått på hur mycket energi maskinen behöver per tidsenhet. Ta t.ex. 2
-människor som är maskinerna, dessa ska utföra ett arbete. För att de ska kunna utföra
-arbetet måste de ha mat, kemisk energi. De två människorna ska göra samma jobb, lyfta 500
-kg sten och lägga på ett lastbilsflak. De kommer m.a.o. göra samma arbete, utvecklar
-samma energi. Men den ena personen är mycket stark och lyfter mycket mer sten än den
-andre personen och blir klar på halva tiden. Hans effekt är då dubbelt så stor för han jobbar
-på halva tiden.
+Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till Ljus i en lampa. En lampa som har en hög effekt och allså omvandlar energin snabbt lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsamare. Elenergin kan omvandlas till rörelse i en motor tillexempel en motor med stor effekt är stark/snabb, en med liten effekt är svag/långsam. En elvärmare/element har hög effekt så kommer det mycket värme från den om den har låg effekt så kommer det lite värme från den.
 
-Elektrisk effekt
-Elektrisk effekt förkortas P och mäts i Watt som
-förkortas W.
-## Order effekt
+Den elektriska effekten beror på ström och spänning. Ju fler elektroner som pressare igenom en lamapa tillexempel destå mer lyser den. Ju hårdare elektronerna pressas igenom desto högre effekt blir det. Detta innebära alltså att en ökad ström leder till ökad effekt. En högre spänning leder också till en öka effekt.
+
+## Ordet effekt
+
+Ordet effekt använda även utanför elvärden då betyder det nästan samma sak. Ett exempel är att säga ett effetken av att slå sig på tummern med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.
 
 ### Effekten
 {{< katex >}}P = U * I{{< /katex >}}
@@ -42,6 +34,13 @@ förkortas W.
 
 ### Paralell
 
+
+### Frågor
+
+ * Vad händer med effekten om spänningen ökar och strömmen är den samma?
+ * Vad händer med effekten om strömmen ökar och spänning är den samma?
+ * Vad händer med effekten om spänningen minskar och strömmen är den samma?
+ * Vad händer med effekten om strömmen minskar och spänningen är den samma?
 
 ### Sorheter och enheter
 | Storhet     | Beteckning | Enhet       | Beteckning |

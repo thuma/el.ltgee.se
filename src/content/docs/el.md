@@ -15,6 +15,9 @@ Plus och minus kallas också anod(+) och katod(-).
 I = 5A  
 Betyder att Strömmen(I) är(=) 5 Ampere(A).
 
+### Ordet Ström
+Ordet ström används ofta i andra sammanhagn och då beytder det samma sak. Exempelvis kan vatten strömma i en bäck eller i i ett rör. Follk kan strömma in i på en arena för att se på en match eller en artist.
+
 ## Spänning
 Spänning är den ”kraft” som trycker/drar i elektronerna.
 Är spänningen hög så kommer elektronerna dras med större kraft 
@@ -28,6 +31,9 @@ spänningen även om det inte är inkopplat till något.
 U = 12V  
 Betyder att Spännigen(U) är(=) 12 Volt(V).
 
+### Ordet Spänning
+Ordet spänning används i många andra sammanhang. Spänning finns tillexempel i spännande filmer eller spända pilbågar. På samma sätt em elektrisk spänning är det spänningen som kan göra att något händer tillexempel att pilen skjuts iväg.
+
 ## Resistans
 En resistans (kallas också motstånd) hindrar/bromsar strömmen,
 ju större resistans desto mindre ström kommer att åka i kretsen. 
@@ -39,6 +45,9 @@ Resistans som förkortas R mäts i Ohm som förkortas Ω.
 ### Exempel
 R = 100 Ω
 Betyder att Resistansen(R) är(=) 100 Ohm(Ω).
+
+### Ordet Resistans
+Ordet resistans eller motstånd används i andara sammanghang tillexempel i Star Wars där "the resistance" (engelska) bromsar imperiets framfart. Motstånd kan vara att motstå något tillexempel att motstå att ringa sitt X som man fortfarande är kär i på fyllan.
 
 ### Sorheter och enheter
 | Storhet     | Beteckning | Enhet       | Beteckning |
