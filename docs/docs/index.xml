@@ -11,12 +11,31 @@
     
     
     <item>
+      <title></title>
+      <link>https://el.ltgee.se/docs/transformatorn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/transformatorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://el.ltgee.se/docs/va%CC%88xelstro%CC%88m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/va%CC%88xelstro%CC%88m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>1. Electricitet</title>
       <link>https://el.ltgee.se/docs/el/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/el/</guid>
-      <description>Electricitet #  Ström #  Definitionen av ström är elektroner som rör sig i en ledare. Hur många elektroner som rör sig är ett mått på hur stor strömmen är. Många elektroner ger en stor ström och vice versa. Strömmen som förkortas I, mäts i Ampere som förkortas A. Om elektronerna rör sig enbart åt ett håll kallas det för likström och om de rör sig fram och tillbaka så kallas det för växelström.</description>
+      <description>Electricitet #  Ström #  Ström är elektroner som rör sig i en ledare. Hur många elektroner som rör sig är ett mått på hur stor strömmen är. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i Ampere som förkortas A.
+Innom elläran så säger vi att strömmen åker från plus till minus. Plus och minus kallas också anod(+) och katod(-).</description>
     </item>
     
     <item>
@@ -25,7 +44,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/krets/</guid>
-      <description>Elektrisk krets #  Strömmen går runt</description>
+      <description>Elektrisk krets #  I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via tillexempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets.
+Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så slutar elektronerna att röra på sig, det kallas för en öppen krets.
+När + och - kopplas ihop utan en belastning/resistans så kallas det för kortslutning.</description>
     </item>
     
     <item>
@@ -34,31 +55,29 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/ohmslag/</guid>
-      <description>Ohms lag #  Ohms lag är den mest grundläggande inom ellära och även den viktigaste. Denna formel används för att kunna räkna ut spänningar, strömmar och resistanser i olika enkla kopplingar.
-Ohms lag används för att räkna ut spänningar, strömmar och resistanser och lyder:
-Genom algebra så kan formeln göras om så man kan räkna ut resistansen och strömmen. Alla tre varianterna av Ohm´s lag ses nedan.
-Krets med beräkningsexemppel U #  Krets med beräkningsexempel I #  Krets med beräkningsecempel R #  Spänningen #    \(U = I * R\)  Strömmen #   \(I = \frac{U}{R}\)  Resistansen #   \(R = \frac{U}{I}\)  </description>
+      <description>Ohms lag #  Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste. Denna formel används för att kunna räkna ut spänning, strömm och resistans i kretsar.
+Formel #    \(U = I * R\)  Den kan också omvandlas genom algebra till
+ \(I = \frac{U}{R}\)  eller
+ \(R = \frac{U}{I}\)  Exempel #  Krets med beräkningsexemppel U
+   Data     I = 2A   R = 15Ω       Steg Exempel     Formel U = I * R   Uträkning U = 2A * 15Ω   Resultat U = 30V       Data     I = 2A   R = 15Ω   U = 30V    Krets med beräkningsexempel I</description>
     </item>
     
     <item>
-      <title>4. Serie krets</title>
+      <title>4. Seriekrets</title>
       <link>https://el.ltgee.se/docs/serie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/serie/</guid>
-      <description>Seriekopplingar #  I seriekopplingar kopplar man de komponenter i serie eller efter varandra, ungefär som ett tåg. Det som händer då i kopplingen är att strömmen får svårare att ta sig fram, fler motstånd, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen.
-I exemplet bredvid är två motstånd seriekopplade och anslutna till en spänningskälla på 30 V.
-Låt oss säga att R 1 är 100 Ω och R 2 är 200 Ω så kommer det totala motståndet i kopplingen bli 300 Ω.</description>
+      <description>Seriekretsar #  I seriekretsar kopplar man de komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd at ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
     </item>
     
     <item>
-      <title>5. Parallell krets</title>
+      <title>5. Parallellkrets</title>
       <link>https://el.ltgee.se/docs/parallell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/parallell/</guid>
-      <description>Parallellkoppling #  I parallellkopplingar kopplas de komponenter som ska användas på varandra, eller parallellt. Detta resulterar i att strömmen kan få fler vägar att ta sig fram och då går det lättare för strömmen. Mer ström betyder ju att den totala resistansen måste ha blivit mindre.
-I exemplet så är två resistanser parallellkopplade. Det syns för att strömmen kommer till en förgreningspunkt. Spänningen i uppgiften är 30 V. Resistanserna i uppgifterna är R 1 är 100 Ω och R 2 är 200 Ω Spänningen i uppgiften är 30 V.</description>
+      <description>Parallellkrets #  I parallellkretser kopplas de komponenter som ska användas på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre. Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling.</description>
     </item>
     
     <item>
@@ -67,7 +86,7 @@ I exemplet så är två resistanser parallellkopplade. Det syns för att strömm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/effekt/</guid>
-      <description>Effekt #  Energi finns i många olika former, rörelseenergi, lägesenergi, kemisk energi, elektrisk energi osv. Alla olika energier kan omvandlas till en annan energisort. Detta görs helt självständigt, t.ex. solen, eller genom någon slags maskin t.ex. en motor. Styrkan på maskinen kallas för effekt, det är ett mått på hur mycket energi maskinen behöver per tidsenhet. Ta t.ex. 2 människor som är maskinerna, dessa ska utföra ett arbete. För att de ska kunna utföra arbetet måste de ha mat, kemisk energi.</description>
+      <description>Effekt #  Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till Ljus i en lampa. En lampa som har en hög effekt och allså omvandlar energin snabbt lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsamare. Elenergin kan omvandlas till rörelse i en motor tillexempel en motor med stor effekt är stark/snabb, en med liten effekt är svag/långsam.</description>
     </item>
     
     <item>
@@ -89,6 +108,15 @@ I exemplet så är två resistanser parallellkopplade. Det syns för att strömm
     </item>
     
     <item>
+      <title>Energi</title>
+      <link>https://el.ltgee.se/docs/energi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/energi/</guid>
+      <description>Enrgi #    \(W = P * t \)  Sorheter och enheter #     Storhet Beteckning Enhet Beteckning     Ström I Ampere A   Spänning U Volt V   Resistor R Ohm Ω   Effekt P Watt W   Energi W Watttimmar Wh   Tid t Timmar h    </description>
+    </item>
+    
+    <item>
       <title>Kretskoppling</title>
       <link>https://el.ltgee.se/docs/koppla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -98,12 +126,30 @@ I exemplet så är två resistanser parallellkopplade. Det syns för att strömm
     </item>
     
     <item>
+      <title>Ledningsresistans</title>
+      <link>https://el.ltgee.se/docs/ledningsresistans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/ledningsresistans/</guid>
+      <description>Ledningsresistans #    \(R_l = \frac{\rho*l}{A}\)     Material Ohm/m/mm2     Silver 0,0159   Koppar 0,01678   Guld 0.235   Aluminium 0,0265   Zink 0,0592   Nickel 0,0684   Järn 0,097   Tenn 0,101   Stål 0,16   Bly 0,206    </description>
+    </item>
+    
+    <item>
       <title>Mätning</title>
       <link>https://el.ltgee.se/docs/matning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/matning/</guid>
       <description>Mätning #  Mäta ström #  Mäta spänning #  Mäta resistans #  </description>
+    </item>
+    
+    <item>
+      <title>Verkningsgrad</title>
+      <link>https://el.ltgee.se/docs/verkningsgrad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/verkningsgrad/</guid>
+      <description>Effektförluster #  Verkninsgrad #    \(P_{ut} = P_{in} * \eta\)  Sorheter och enheter #     Storhet Beteckning Enhet Beteckning     Ström I Ampere A   Spänning U Volt V   Resistor R Ohm Ω   Effekt P Watt W   Energi W Watttimmar Wh   Verkninsgrad 𝝶 Procent %    </description>
     </item>
     
   </channel>

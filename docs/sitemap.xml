@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://el.ltgee.se/docs/transformatorn/</loc>
+  </url>
+  
+  <url>
+    <loc>https://el.ltgee.se/docs/va%CC%88xelstro%CC%88m/</loc>
+  </url>
+  
+  <url>
     <loc>https://el.ltgee.se/docs/el/</loc>
   </url>
   
@@ -47,7 +55,15 @@
   </url>
   
   <url>
+    <loc>https://el.ltgee.se/docs/energi/</loc>
+  </url>
+  
+  <url>
     <loc>https://el.ltgee.se/docs/koppla/</loc>
+  </url>
+  
+  <url>
+    <loc>https://el.ltgee.se/docs/ledningsresistans/</loc>
   </url>
   
   <url>
@@ -56,6 +72,10 @@
   
   <url>
     <loc>https://el.ltgee.se/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://el.ltgee.se/docs/verkningsgrad/</loc>
   </url>
   
 </urlset>

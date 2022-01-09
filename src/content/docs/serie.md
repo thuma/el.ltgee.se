@@ -67,12 +67,7 @@ Krets med beräkningsexemppel U
 | Uträkning | {{< katex >}} R_{tot} = 150 \Omega + 250 \Omega + 100 \Omega {{< /katex >}} |
 | Resultat  | {{< katex >}} R_{tot} = 500 \Omega {{< /katex >}} |
 
-| Steg      | Uträkning av totala spänningen alternativ 1 |
-| --------- | ------------ |
-| Formel    | {{< katex >}} R_{tot} 
-| Formel    | {{< katex >}} U = R * I {{< /katex >}}   |
-| Uträkning | {{< katex >}} U = 500 \Omega * 2 A{{< /katex >}} |
-| Resultat  | {{< katex >}} U = 1000 V {{< /katex >}} |
+
 
 | Steg      | Uträkning av delsspänningen 1 |
 | --------- | ------------ |
@@ -91,6 +86,12 @@ Krets med beräkningsexemppel U
 | Formel    | {{< katex >}} U_3 = R_3 * I {{< /katex >}}   |
 | Uträkning | {{< katex >}} U_3 = 100 \Omega * 2 A{{< /katex >}} |
 | Resultat  | {{< katex >}} U_3 = 200 V {{< /katex >}} |
+
+| Steg      | Uträkning av totala spänningen, alternativ 1 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} U = R_{tot} * I {{< /katex >}}   |
+| Uträkning | {{< katex >}} U = 500 \Omega * 2 A{{< /katex >}} |
+| Resultat  | {{< katex >}} U = 1000 V {{< /katex >}} |
 
 | Steg      | Uträkning av totala spänningen, alternativ 2 |
 | --------- | ------------ |
