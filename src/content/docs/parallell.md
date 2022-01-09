@@ -1,10 +1,9 @@
 ---
-title: "5. Parallell krets"
+title: "5. Parallellkrets"
 ---
-# Parallellkoppling
+# Parallellkrets
 
-I parallellkopplingar kopplas de komponenter som ska användas på varandra, eller parallellt.
-Detta resulterar i att strömmen får fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder ju att den totala resistansen måste ha blivit mindre.
+I parallellkretser kopplas de komponenter som ska användas på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
 Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling. En bra minnesregel är därför att totalresistansen alltid blir mindre än den minsta resistansen i en
 parallellkoppling.
 
@@ -15,21 +14,27 @@ För att komma ihåg ordet vad ordet parallell betyder så är det samma ord som
  * Parallellslalom
 Ordet paralell betyder alltså bara att något ligger vid sidan av varandra. Parallella saker korsar inte varandra, när du har dina skidor paralellt så går det bra men korsar du dem så ramlar du direkt.
 
+## Samband
 ### Spänningen
+I en paralellkrets är alla komponeneter direkt kopplade till spänningskällan och har därför samma spänning. Så spänningn för komponent 1,2 och 3 har samma spänning i en parallellkrets.
 {{< katex >}}U = U_1 = U_2 = U_3...{{< /katex >}} 
 
 ### Strömmen
+I en parallellkrets så finns det flera olika strömmar eftersom strömmen kan ta flera olika vägar. Strömmen som kommer från spänningskällan är så summan av alla strömmarna.
 {{< katex >}}I = I_1 + 1_2 + I_3...{{< /katex >}}
 
-### Resistansen basform
+### Resistansen
+I en paralellkrets så minskar resistasen ju fler komponenter som kopplas in. Detta beror på att att strömmen får flera vägar att gå. Eftersom strömmen har flera vägar att gå så kommer den totala strömmen att öka utan att spänningen ändras. Då säger Ohms lag att resistansen har minskat. Alltså fler komponenter innebär lägre resistans. Det finns olika sätt att räka ut resistansen antingen genom att räkna ut den totala strämmen och räkna ut resistansen med hjälp av Ohms-lag eller genom att använda någon av dessa formler:
+
+#### Basform
 {{< katex >}}\frac{1}{R_{tot}} = \frac{1}{R_1} + \frac{1}{R_1} + \frac{1}{R_3} + ...{{< /katex >}}
 
-### Resistansen Beräkningsform
+#### Beräkningsform
 {{< katex >}}R_{tot} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_1} + \frac{1}{R_3} + ...}{{< /katex >}}
 
-### Resistansen bråkform med 2 resistorer
-Denna fungerar bara på två parallellkopplade motstånd.  
-{{< katex >}}R_{tot} = \frac{R_1*R_2}{R_1+R_2}{{< /katex >}}
+#### Bråkform med 2 resistorer
+{{< katex >}}R_{tot} = \frac{R_1*R_2}{R_1+R_2}{{< /katex >}}  
+*Denna fungerar bara på två parallellkopplade motstånd.*
 
 ## Exempel
 I exemplet så är två resistanser parallellkopplade. Det syns för att strömmen kommer till en

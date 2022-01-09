@@ -1,5 +1,5 @@
 ---
-title: "4. Serie krets"
+title: "4. Seriekrets"
 ---
 # Seriekretsar
 I seriekretsar kopplar man de komponenter i serie eller efter varandra, ungefär som ett
@@ -50,4 +50,76 @@ Spänningen som finns på R 2 kan räknas ut med Ohms lag men man kan också anv
 Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalspänningen eller:
 
 I uppgiften måste alltså U 2 bli 20 V eftersom
+
+
+Krets med beräkningsexemppel U
+
+| Data       |
+| ---------- |
+| {{< katex >}} I = 2 A {{< /katex >}}     | 
+| {{< katex >}} R_1 = 150 \Omega {{< /katex >}}   |
+| {{< katex >}} R_2 = 250 \Omega {{< /katex >}}   | 
+| {{< katex >}} R_3 = 100 \Omega {{< /katex >}}   | 
+
+| Steg      | Uträkning av totala resistansen |
+| --------- | ------------ |
+| Formel    | {{< katex >}} R_{tot} = R_1+R_2+R_3 {{< /katex >}}   |
+| Uträkning | {{< katex >}} R_{tot} = 150 \Omega + 250 \Omega + 100 \Omega {{< /katex >}} |
+| Resultat  | {{< katex >}} R_{tot} = 500 \Omega {{< /katex >}} |
+
+| Steg      | Uträkning av totala spänningen alternativ 1 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} R_{tot} 
+| Formel    | {{< katex >}} U = R * I {{< /katex >}}   |
+| Uträkning | {{< katex >}} U = 500 \Omega * 2 A{{< /katex >}} |
+| Resultat  | {{< katex >}} U = 1000 V {{< /katex >}} |
+
+| Steg      | Uträkning av delsspänningen 1 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} U_1 = R_1 * I {{< /katex >}}   |
+| Uträkning | {{< katex >}} U_1 = 150 \Omega * 2 A{{< /katex >}} |
+| Resultat  | {{< katex >}} U_1 = 300 V {{< /katex >}} |
+
+| Steg      | Uträkning av delsspänningen 2 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} U_2 = R_2 * I {{< /katex >}}   |
+| Uträkning | {{< katex >}} U_2 = 250 \Omega * 2 A{{< /katex >}} |
+| Resultat  | {{< katex >}} U_2 = 500 V {{< /katex >}} |
+
+| Steg      | Uträkning av delsspänningen 3 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} U_3 = R_3 * I {{< /katex >}}   |
+| Uträkning | {{< katex >}} U_3 = 100 \Omega * 2 A{{< /katex >}} |
+| Resultat  | {{< katex >}} U_3 = 200 V {{< /katex >}} |
+
+| Steg      | Uträkning av totala spänningen, alternativ 2 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} U = U_1+U_2+U_3{{< /katex >}}    |
+| Uträkning | {{< katex >}} U = 300 V + 500 V + 200 V {{< /katex >}} |
+| Resultat  | {{< katex >}} U = 1000 V {{< /katex >}} |
+
+| Data       |
+| ---------- |
+| I = 2A     | 
+| R = 15Ω    | 
+| U = 30V    | 
+
+Krets med beräkningsecempel R
+
+| Data       |
+| ---------- |
+| U = 15V    | 
+| I = 3A     | 
+
+| Steg      | Exempel      |
+| --------- | ------------ |
+| Formel    | I = U/I      |
+| Uträkning | U = 15V/3A   |
+| Resultat  | I = 5A       |
+
+| Data       |
+| ---------- |
+| U = 15V    |
+| I = 3A     | 
+| R = 5Ω     |
 
