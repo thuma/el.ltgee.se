@@ -1,11 +1,10 @@
 ---
 title: "4. Serie krets"
 ---
-# Seriekopplingar
-I seriekopplingar kopplar man de komponenter i serie eller efter varandra, ungefär som ett
-tåg. Det som händer då i kopplingen är att strömmen får svårare att ta sig fram, fler motstånd,
-och då minskar strömmen.
-Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över varje komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.
+# Seriekretsar
+I seriekretsar kopplar man de komponenter i serie eller efter varandra, ungefär som ett
+tåg. Detta kallas också för seriekopplingar. Det som händer seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd at ta sig förbi, och då minskar strömmen.
+Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.
 
 ## Order serie
 Ordet serie i detta fall är samma princip som när man använder order i vanliga fall också så som:
@@ -15,13 +14,17 @@ Ordet serie i detta fall är samma princip som när man använder order i vanlig
 Serie betyder alltså att något sker i en följd efter varandra. En seriemördare mördar en sedan nästa osv,
 till skillnad från tillexempel en massmördare som mördar många samtidigt.
 
+## Uträkningar i seriekretsen
 ### Spänningen
+Spänningn som kommer från spänningskällan kommmer att delas upp över de olika belastningar. Alla spänningarna övre belastningarna kommer tillsammans bli den spänning som spänningskällan ger.  
 {{< katex >}}U = U_1+U_2+U_3...{{< /katex >}} 
 
 ### Strömmen
+I en seriekrets finns det bara en väg för strömmen att gå. Därför finns det bara en ström i kretsen. Strömman är alltså lika stor över allt i kretsen.  
 {{< katex >}}I = I_1 = 1_2 = I_3...{{< /katex >}}
 
 ### Resistansen
+Eftersom strömmen måste gå igenom alla belastningar den ena efter den andra blir detn totala resistansen  summan av alla belastningarnas resistans.  
 {{< katex >}}R_{tot} = R_1+R_2+R_3...{{< /katex >}}
 
 ## Exempel
