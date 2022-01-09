@@ -67,8 +67,6 @@ Krets med beräkningsexemppel U
 | Uträkning | {{< katex >}} R_{tot} = 150 \Omega + 250 \Omega + 100 \Omega {{< /katex >}} |
 | Resultat  | {{< katex >}} R_{tot} = 500 \Omega {{< /katex >}} |
 
-
-
 | Steg      | Uträkning av delsspänningen 1 |
 | --------- | ------------ |
 | Formel    | {{< katex >}} U_1 = R_1 * I {{< /katex >}}   |
@@ -101,26 +99,69 @@ Krets med beräkningsexemppel U
 
 | Data       |
 | ---------- |
-| I = 2A     | 
-| R = 15Ω    | 
-| U = 30V    | 
+| {{< katex >}} I = 2 A {{< /katex >}}     | 
+| {{< katex >}} R_1 = 150 \Omega {{< /katex >}}   |
+| {{< katex >}} R_2 = 250 \Omega {{< /katex >}}   | 
+| {{< katex >}} R_3 = 100 \Omega {{< /katex >}}   | 
+| {{< katex >}} R_{tot} = 500 \Omega {{< /katex >}} |
+| {{< katex >}} U_1 = 300 V {{< /katex >}} |
+| {{< katex >}} U_2 = 500 V {{< /katex >}} |
+| {{< katex >}} U_3 = 200 V {{< /katex >}} |
+| {{< katex >}} U = 1000 V {{< /katex >}} |
 
 Krets med beräkningsecempel R
 
 | Data       |
 | ---------- |
-| U = 15V    | 
-| I = 3A     | 
+| {{< katex >}} U = 30 V {{< /katex >}}     | 
+| {{< katex >}} R_1 = 50 \Omega {{< /katex >}}   |
+| {{< katex >}} U_2 = 10 V {{< /katex >}}   | 
+| {{< katex >}} U_3 = 12 V {{< /katex >}}   | 
 
-| Steg      | Exempel      |
+| Steg      | Uträkning av delspänning 1 |
 | --------- | ------------ |
-| Formel    | I = U/I      |
-| Uträkning | U = 15V/3A   |
-| Resultat  | I = 5A       |
+| Formel    | {{< katex >}} U_1 = U - (U_2 + U_3) {{< /katex >}}   |
+| Uträkning | {{< katex >}} U_1 = 30V - (10V + 12V) {{< /katex >}} |
+| Resultat  | {{< katex >}} U_1 = 8V {{< /katex >}} |
+
+| Steg      | Uträkning av strömmen |
+| --------- | ------------ |
+| Formel    | {{< katex >}} I = \frac{U_1}{R_1}{{< /katex >}}   |
+| Uträkning | {{< katex >}} I = \frac{8V}{50 \Omega}{{< /katex >}} |
+| Resultat  | {{< katex >}} I = 0.16A {{< /katex >}} |
+
+| Steg      | Uträkning av resitansen 2 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} R_2 = \frac{U_2}{I}{{< /katex >}}   |
+| Uträkning | {{< katex >}} R_2 = \frac{10V}{0.16A}{{< /katex >}} |
+| Resultat  | {{< katex >}} R_2 = 62.5 \Omega {{< /katex >}} |
+
+| Steg      | Uträkning av resitansen 3 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} R_3 = \frac{U_3}{I}{{< /katex >}}   |
+| Uträkning | {{< katex >}} R_3 = \frac{12V}{0.16A}{{< /katex >}} |
+| Resultat  | {{< katex >}} R_3 = 75 \Omega {{< /katex >}} |
+
+| Steg      | Uträkning av totala resistansen, alternativ 1 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} R_{tot} = \frac{U}/{I} {{< /katex >}}   |
+| Uträkning | {{< katex >}} R_{tot} = \frac{30V}/{0.16A}{{< /katex >}} |
+| Resultat  | {{< katex >}} R_{tot} = 187,5 \Omega{{< /katex >}} |
+
+| Steg      | Uträkning av totala resistansen, alternativ 2 |
+| --------- | ------------ |
+| Formel    | {{< katex >}} R_{tot} = R_1 + R_2 + R_3 {{< /katex >}}   |
+| Uträkning | {{< katex >}} R_{tot} = 50 \Omega + 62.4 \Omega + 75 \Omega {{< /katex >}} |
+| Resultat  | {{< katex >}} R_{tot} = 187,5 \Omega{{< /katex >}} |
 
 | Data       |
 | ---------- |
-| U = 15V    |
-| I = 3A     | 
-| R = 5Ω     |
-
+| {{< katex >}} U = 30 V {{< /katex >}}     | 
+| {{< katex >}} R_1 = 50 \Omega {{< /katex >}}   |
+| {{< katex >}} U_2 = 10 V {{< /katex >}}   | 
+| {{< katex >}} U_3 = 12 V {{< /katex >}}   | 
+| {{< katex >}} U_1 = 8V {{< /katex >}} |
+| {{< katex >}} I = 0.16A {{< /katex >}} |
+| {{< katex >}} R_2 = 62.5 \Omega {{< /katex >}} |
+| {{< katex >}} R_3 = 75 \Omega {{< /katex >}} |
+| {{< katex >}} R_{tot} = 187,5 \Omega{{< /katex >}}  |
