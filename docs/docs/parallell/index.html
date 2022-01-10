@@ -17,7 +17,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.67be9492279518d974dac1cae7944e7875104e7b0f6c22c0cd91dbd3ce12c53e.js" integrity="sha256-Z76UkieVGNl02sHK55ROeHUQTnsPbCLAzZHb084SxT4=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.8a3dd4b76a08596864590f9037edb2c7ca91bf381db80143e6cbee07d33f9d59.js" integrity="sha256-ij3Ut2oIWWhkWQ&#43;QN&#43;2yx8qRvzgduAFD5svuB9M/nVk=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -138,7 +138,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/effekt/" class="">6. Effektlagen</a>
+    <a href="https://el.ltgee.se/docs/kombinerad/" class="">6. Kombinerad krets</a>
   
 
         </li>
@@ -151,7 +151,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/kombinerad/" class="">7. Kombinerad krets</a>
+    <a href="https://el.ltgee.se/docs/effekt/" class="">7. Effektlagen</a>
   
 
         </li>
@@ -295,8 +295,12 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#resistansen">Resistansen</a></li>
       </ul>
     </li>
-    <li><a href="#exempel">Exempel</a></li>
-    <li><a href="#exempel-lika-stora">Exempel lika stora</a></li>
+    <li><a href="#exempel">Exempel</a>
+      <ul>
+        <li><a href="#beräkmningsexempel-för-resistans">Beräkmningsexempel för resistans</a></li>
+        <li><a href="#beräkmningsexempel-för-spänmning-och-ström">Beräkmningsexempel för spänmning och ström:</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -386,28 +390,400 @@ Ordet paralell betyder alltså bara att något ligger vid sidan av varandra. Par
   Exempel
   <a class="anchor" href="#exempel">#</a>
 </h2>
-<p>I exemplet så är två resistanser parallellkopplade. Det syns för att strömmen kommer till en
-förgreningspunkt. Spänningen i uppgiften är 30 V.
-Resistanserna i uppgifterna är R 1 är 100 Ω och R 2 är 200 Ω
-Spänningen i uppgiften är 30 V. Den spänning som
-ligger över resistorn R 1 är också 30 V och det är även
-spänningen på R 2 . Spänningen delas alltså inte upp
-utan spänningen är samma på alla delar i en
-parallellkoppling.</p>
-<p>Tittar man på strömmen genom R 1 så blir den enligt
-Ohms lag 3 A.</p>
-<p>På samma sätt kan man räkna ut strömmen genom R 2 .</p>
-<p>Om det åker 0,3 A till R 1 och 0,15 A till R 2 så måste det
-komma 0,45 A från ström och spänningskällan. Detta
-samband kom Kirchhoff på och kallas Kirchhoffs
-strömlag.</p>
-<p>För att räkna ut den totala resistansen i kopplingen så används Ohms lag igen.</p>
-<p>I exemplet är 10 Ω det minsta motståndet och 6,7 Ω är mindre.
-Ett sätt att räkna ut totalresistansen i en parallellkoppling är att använda formlerna:</p>
-<h2 id="exempel-lika-stora">
-  Exempel lika stora
-  <a class="anchor" href="#exempel-lika-stora">#</a>
-</h2>
+<h3 id="beräkmningsexempel-för-resistans">
+  Beräkmningsexempel för resistans
+  <a class="anchor" href="#ber%c3%a4kmningsexempel-f%c3%b6r-resistans">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( U = 30 V \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( I_1 = 2 A \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( I_2 = 3 A \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/parallell1.png" alt=" Krets enlig datatabell " /></p>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av totala strömmen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( I = I_1&#43;I_2 \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( I = 2 A &#43; 3 A  \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( I = 5 A \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av totala resistansen allternativ 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( R_{tot} = \frac{U}{I} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( R_{tot} = \frac{ 30 V }{ 5 A } \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( R_{tot} = 6 \Omega \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av resistans 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( R_1 = \frac{U}{I_1} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( R_1 = \frac{ 30 V }{ 2 A } \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( R_1 = 15 \Omega \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av resistans 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( R_{tot} = \frac{U}{I_2} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( R_{tot} = \frac{ 30 V }{ 3 A } \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( R_{tot} = 10 \Omega \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av totala resistansen allternativ 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( \frac{1}{R_{tot}} = \frac{1}{R_1} &#43; \frac{1}{R_2} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( \frac{1}{R_{tot}} = \frac{1}{ 15 \Omega } &#43; \frac{1}{ 10 \Omega } \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( R_{tot} = \frac{1}{ 0.833333}  \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( R_{tot} = 6 \Omega \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="beräkmningsexempel-för-spänmning-och-ström">
+  Beräkmningsexempel för spänmning och ström:
+  <a class="anchor" href="#ber%c3%a4kmningsexempel-f%c3%b6r-sp%c3%a4nmning-och-str%c3%b6m">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( I_1 = 5.25 A \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( I_2 = 3 A \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( R_1 = 40 \Omega \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( R_1 = 70 \Omega \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/parallell2.png" alt=" Krets enlig datatabell " /></p>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av totala strömmen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( I = I_1&#43;I_2 \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( I = 5.25 A &#43; 3 A  \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( I = 8.25 A \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av spänning alternativ 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( U = I_1 * R_1 \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( U = 5 A * 45 \Omega \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( U = 225 V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av spänning alternativ 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( U = I_1 * R_1 \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( U = 3 A * 70 \Omega \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( U = 225 V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av totala resistansen allternativ 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( R_{tot} = \frac{U}{I} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( R_{tot} = \frac{ 30 V }{ 5 A } \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( R_{tot} = 6 \Omega \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Uträkning av totala resistansen allternativ 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( \frac{1}{R_{tot}} = \frac{1}{R_1} &#43; \frac{1}{R_2} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( \frac{1}{R_{tot}} = \frac{1}{ 15 \Omega } &#43; \frac{1}{ 10 \Omega } \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( R_{tot} = \frac{1}{ 0.833333}  \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( R_{tot} = 6 \Omega \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
 </article>
  
       
@@ -457,8 +833,12 @@ Ett sätt att räkna ut totalresistansen i en parallellkoppling är att använda
         <li><a href="#resistansen">Resistansen</a></li>
       </ul>
     </li>
-    <li><a href="#exempel">Exempel</a></li>
-    <li><a href="#exempel-lika-stora">Exempel lika stora</a></li>
+    <li><a href="#exempel">Exempel</a>
+      <ul>
+        <li><a href="#beräkmningsexempel-för-resistans">Beräkmningsexempel för resistans</a></li>
+        <li><a href="#beräkmningsexempel-för-spänmning-och-ström">Beräkmningsexempel för spänmning och ström:</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 

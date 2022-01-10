@@ -17,7 +17,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.67be9492279518d974dac1cae7944e7875104e7b0f6c22c0cd91dbd3ce12c53e.js" integrity="sha256-Z76UkieVGNl02sHK55ROeHUQTnsPbCLAzZHb084SxT4=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.8a3dd4b76a08596864590f9037edb2c7ca91bf381db80143e6cbee07d33f9d59.js" integrity="sha256-ij3Ut2oIWWhkWQ&#43;QN&#43;2yx8qRvzgduAFD5svuB9M/nVk=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -138,7 +138,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/effekt/" class="">6. Effektlagen</a>
+    <a href="https://el.ltgee.se/docs/kombinerad/" class="">6. Kombinerad krets</a>
   
 
         </li>
@@ -151,7 +151,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/kombinerad/" class="">7. Kombinerad krets</a>
+    <a href="https://el.ltgee.se/docs/effekt/" class="">7. Effektlagen</a>
   
 
         </li>
@@ -295,7 +295,12 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#resistansen">Resistansen</a></li>
       </ul>
     </li>
-    <li><a href="#exempel">Exempel</a></li>
+    <li><a href="#exempel">Exempel</a>
+      <ul>
+        <li><a href="#beräkningsexempel-för-spänning">Beräkningsexempel för spänning:</a></li>
+        <li><a href="#beräkningsexempel-för-resistans-och-ström">Beräkningsexempel för resistans och ström:</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -365,24 +370,13 @@ till skillnad från tillexempel en massmördare som mördar många samtidigt.</l
   Exempel
   <a class="anchor" href="#exempel">#</a>
 </h2>
-<p>I exemplet bredvid är två motstånd seriekopplade och anslutna till en
-spänningskälla på 30 V.</p>
-<p>Låt oss säga att R 1 är 100 Ω och R 2 är
-200 Ω så kommer det totala motståndet i
-kopplingen bli 300 Ω. Formeln ser ut så
-här:</p>
-<p>Spänningen i uppgiften är 30 V och då
-blir strömmen i kopplingen enligt Ohm´s
-lag 0,1 A.</p>
-<p>Strömmen är lika stor i hela kopplingen,
-är det 0,1 ampere som kommer ut ur spänningskällan är det 0,1 ampere i R 1 och även 0,1
-ampere som åker tillbaka. Tänk vattenslangar och vatten, det vatten som åker in i slangen
-måste ut till slut.</p>
-<p>Spänningen på resistor 1 blir då enligt ohms lag 10 V.
-Spänningen som finns på R 2 kan räknas ut med Ohms lag men man kan också använda
-Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalspänningen eller:</p>
-<p>I uppgiften måste alltså U 2 bli 20 V eftersom</p>
-<p>Krets med beräkningsexemppel U</p>
+<p>Om du lägger till en belastning i serie så kommer den totala resistansen att öka eftersom strömmen får ytterligare ett hinder att passera.</p>
+<p>Om du tar bort en belastning som sitter i serie och kopplar ihop så att strömmen kan passera direkt minskar resistansen eftersom strömmen slipper går igenom den belastningen.</p>
+<p>Om du har två resistorer i serie och en har stor resistans och en har liten så kommer den med stor resistans få en hög spänning och den med låg resistanss kommer att få en låg spänning. Detta beror på att båda kommer att få samma ström och strömmen gånger resistansen ger spänningen enligt Ohms-lag. Detta gör att spänningen blir hög med hög resistans och låg med låg resistans.</p>
+<h3 id="beräkningsexempel-för-spänning">
+  Beräkningsexempel för spänning:
+  <a class="anchor" href="#ber%c3%a4kningsexempel-f%c3%b6r-sp%c3%a4nning">#</a>
+</h3>
 <table>
 <thead>
 <tr>
@@ -416,6 +410,7 @@ Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalsp
 </tr>
 </tbody>
 </table>
+<p><img src="/serie1.png" alt=" Krets enlig datatabell " /></p>
 <table>
 <thead>
 <tr>
@@ -605,7 +600,7 @@ Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalsp
 <table>
 <thead>
 <tr>
-<th>Data</th>
+<th>Svar</th>
 </tr>
 </thead>
 <tbody>
@@ -665,7 +660,10 @@ Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalsp
 </tr>
 </tbody>
 </table>
-<p>Krets med beräkningsecempel R</p>
+<h3 id="beräkningsexempel-för-resistans-och-ström">
+  Beräkningsexempel för resistans och ström:
+  <a class="anchor" href="#ber%c3%a4kningsexempel-f%c3%b6r-resistans-och-str%c3%b6m">#</a>
+</h3>
 <table>
 <thead>
 <tr>
@@ -699,6 +697,7 @@ Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalsp
 </tr>
 </tbody>
 </table>
+<p><img src="/serie2.png" alt=" Krets enlig datatabell " /></p>
 <table>
 <thead>
 <tr>
@@ -834,14 +833,14 @@ Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalsp
 <tr>
 <td>Formel</td>
 <td><span>
-  \( R_{tot} = \frac{U}/{I} \)
+  \( R_{tot} = \frac{U}{I} \)
 </span>
 </td>
 </tr>
 <tr>
 <td>Uträkning</td>
 <td><span>
-  \( R_{tot} = \frac{30V}/{0.16A}\)
+  \( R_{tot} = \frac{30V}{0.16A}\)
 </span>
 </td>
 </tr>
@@ -888,7 +887,7 @@ Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalsp
 <table>
 <thead>
 <tr>
-<th>Data</th>
+<th>Svar</th>
 </tr>
 </thead>
 <tbody>
@@ -997,7 +996,12 @@ Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalsp
         <li><a href="#resistansen">Resistansen</a></li>
       </ul>
     </li>
-    <li><a href="#exempel">Exempel</a></li>
+    <li><a href="#exempel">Exempel</a>
+      <ul>
+        <li><a href="#beräkningsexempel-för-spänning">Beräkningsexempel för spänning:</a></li>
+        <li><a href="#beräkningsexempel-för-resistans-och-ström">Beräkningsexempel för resistans och ström:</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 

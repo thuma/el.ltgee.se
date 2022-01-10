@@ -54,8 +54,7 @@ När + och - kopplas ihop utan en belastning/resistans så kallas det för korts
       <description>Ohms lag#Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste. Denna formel används för att kunna räkna ut spänning, strömm och resistans i kretsar.
 Formel#\(U = I * R\)Den kan också omvandlas genom algebra till
 \(I = \frac{U}{R}\)eller
-\(R = \frac{U}{I}\)Exempel#Krets med beräkningsexemppel U
-   Data     I = 2A   R = 15Ω       Steg Exempel     Formel U = I * R   Uträkning U = 2A * 15Ω   Resultat U = 30V       Data     I = 2A   R = 15Ω   U = 30V    Krets med beräkningsexempel I</description>
+\(R = \frac{U}{I}\)Exempel#Beräkningsexemppel för spänningen:#   Data     I = 2A   R = 15Ω       Steg Exempel     Formel U = I * R   Uträkning U = 2A * 15Ω   Resultat U = 30V       Svar     I = 2A   R = 15Ω   U = 30V    Beräkningsexempel för strömmen:#   Data     U = 15V   R = 30Ω       Steg Exempel     Formel I = U/R   Uträkning U = 15V * 30Ω   Resultat I = 0,5A       Svar     U = 15V   R = 30Ω   I = 0,5A    Beräkningsecempel för resistansen:#   Data     U = 15V   I = 3A       Steg Exempel     Formel I = U/I   Uträkning U = 15V/3A   Resultat I = 5A       Svar     U = 15V   I = 3A   R = 5Ω    </description>
     </item>
     
     <item>
@@ -77,21 +76,22 @@ Formel#\(U = I * R\)Den kan också omvandlas genom algebra till
     </item>
     
     <item>
-      <title>6. Effektlagen</title>
+      <title>6. Kombinerad krets</title>
+      <link>https://el.ltgee.se/docs/kombinerad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/kombinerad/</guid>
+      <description>Kombinerad krets#I en kombinerad krets så finns det både serie och parallellkopplade delar. Det finns inga formler som gäller för kombinerade kretsar. Du måste själv räkna ut de olika delarna var för sig så att du får rena serie eller parallellberäkningar att lösa.
+För att lös ut och ersätta seriekopplingar/parallellkopplingar i kombinerade kretsa behöver du hitta en ren serie- eller en ren parallell-krets inne i den kombinerade kretsen.</description>
+    </item>
+    
+    <item>
+      <title>7. Effektlagen</title>
       <link>https://el.ltgee.se/docs/effekt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/effekt/</guid>
       <description>Effekt#Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till Ljus i en lampa. En lampa som har en hög effekt och allså omvandlar energin snabbt lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsamare. Elenergin kan omvandlas till rörelse i en motor tillexempel en motor med stor effekt är stark/snabb, en med liten effekt är svag/långsam.</description>
-    </item>
-    
-    <item>
-      <title>7. Kombinerad krets</title>
-      <link>https://el.ltgee.se/docs/kombinerad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://el.ltgee.se/docs/kombinerad/</guid>
-      <description>Kombinerad krets#</description>
     </item>
     
     <item>
