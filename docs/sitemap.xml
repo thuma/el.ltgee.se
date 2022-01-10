@@ -1,81 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://el.ltgee.se/docs/transformatorn/</loc>
-  </url>
-  
-  <url>
-    <loc>https://el.ltgee.se/docs/va%CC%88xelstro%CC%88m/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://el.ltgee.se/docs/v%C3%A4xelstr%C3%B6m/</loc>
+  </url><url>
     <loc>https://el.ltgee.se/docs/el/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/krets/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/ohmslag/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/serie/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/parallell/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/effekt/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/kombinerad/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/elsymboler/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/energi/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/koppla/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/ledningsresistans/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/matning/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://el.ltgee.se/docs/verkningsgrad/</loc>
   </url>
-  
 </urlset>

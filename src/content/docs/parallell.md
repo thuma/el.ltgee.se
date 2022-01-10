@@ -37,28 +37,85 @@ I en paralellkrets så minskar resistasen ju fler komponenter som kopplas in. De
 *Denna fungerar bara på två parallellkopplade motstånd.*
 
 ## Exempel
-I exemplet så är två resistanser parallellkopplade. Det syns för att strömmen kommer till en
-förgreningspunkt. Spänningen i uppgiften är 30 V.
-Resistanserna i uppgifterna är R 1 är 100 Ω och R 2 är 200 Ω
-Spänningen i uppgiften är 30 V. Den spänning som
-ligger över resistorn R 1 är också 30 V och det är även
-spänningen på R 2 . Spänningen delas alltså inte upp
-utan spänningen är samma på alla delar i en
-parallellkoppling.
 
-Tittar man på strömmen genom R 1 så blir den enligt
-Ohms lag 3 A.
+### Beräkmningsexempel för resistans
+| Data                                     |
+| ---------------------------------------- |
+| {{< katex >}} U = 30 V {{< /katex >}}    | 
+| {{< katex >}} I_1 = 2 A {{< /katex >}}   |
+| {{< katex >}} I_2 = 3 A {{< /katex >}}   |
 
-På samma sätt kan man räkna ut strömmen genom R 2 .
+![ Krets enlig datatabell ](/parallell1.png)
 
-Om det åker 0,3 A till R 1 och 0,15 A till R 2 så måste det
-komma 0,45 A från ström och spänningskällan. Detta
-samband kom Kirchhoff på och kallas Kirchhoffs
-strömlag.
+| Steg      | Uträkning av totala strömmen |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} I = I_1+I_2 {{< /katex >}}   |
+| Uträkning | {{< katex >}} I = 2 A + 3 A  {{< /katex >}} |
+| Resultat  | {{< katex >}} I = 5 A {{< /katex >}} |
 
-För att räkna ut den totala resistansen i kopplingen så används Ohms lag igen.
+| Steg      | Uträkning av totala resistansen allternativ 1 |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} R_{tot} = \frac{U}{I} {{< /katex >}}   |
+| Uträkning | {{< katex >}} R_{tot} = \frac{ 30 V }{ 5 A } {{< /katex >}} |
+| Resultat  | {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
 
-I exemplet är 10 Ω det minsta motståndet och 6,7 Ω är mindre.
-Ett sätt att räkna ut totalresistansen i en parallellkoppling är att använda formlerna:
+| Steg      | Uträkning av resistans 1 |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} R_1 = \frac{U}{I_1} {{< /katex >}}   |
+| Uträkning | {{< katex >}} R_1 = \frac{ 30 V }{ 2 A } {{< /katex >}} |
+| Resultat  | {{< katex >}} R_1 = 15 \Omega {{< /katex >}} |
 
-## Exempel lika stora
+| Steg      | Uträkning av resistans 2 |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} R_{tot} = \frac{U}{I_2} {{< /katex >}}   |
+| Uträkning | {{< katex >}} R_{tot} = \frac{ 30 V }{ 3 A } {{< /katex >}} |
+| Resultat  | {{< katex >}} R_{tot} = 10 \Omega {{< /katex >}} |
+
+| Steg      | Uträkning av totala resistansen allternativ 2 |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} \frac{1}{R_{tot}} = \frac{1}{R_1} + \frac{1}{R_2} {{< /katex >}}   |
+| Uträkning | {{< katex >}} \frac{1}{R_{tot}} = \frac{1}{ 15 \Omega } + \frac{1}{ 10 \Omega } {{< /katex >}} |
+| Uträkning | {{< katex >}} R_{tot} = \frac{1}{ 0.833333}  {{< /katex >}} |
+| Resultat  | {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
+
+
+### Beräkmningsexempel för spänmning och ström:
+| Data                                           |
+| ---------------------------------------------- |
+| {{< katex >}} I_1 = 5.25 A {{< /katex >}}         |
+| {{< katex >}} I_2 = 3 A {{< /katex >}}         | 
+| {{< katex >}} R_1 = 40 \Omega {{< /katex >}}   |
+| {{< katex >}} R_1 = 70 \Omega {{< /katex >}}   |
+
+![ Krets enlig datatabell ](/parallell2.png)
+
+| Steg      | Uträkning av totala strömmen |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} I = I_1+I_2 {{< /katex >}}   |
+| Uträkning | {{< katex >}} I = 5.25 A + 3 A  {{< /katex >}} |
+| Resultat  | {{< katex >}} I = 8.25 A {{< /katex >}} |
+
+| Steg      | Uträkning av spänning alternativ 1 |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} U = I_1 * R_1 {{< /katex >}}   |
+| Uträkning | {{< katex >}} U = 5 A * 45 \Omega {{< /katex >}} |
+| Resultat  | {{< katex >}} U = 225 V {{< /katex >}} |
+
+| Steg      | Uträkning av spänning alternativ 2 |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} U = I_1 * R_1 {{< /katex >}}   |
+| Uträkning | {{< katex >}} U = 3 A * 70 \Omega {{< /katex >}} |
+| Resultat  | {{< katex >}} U = 225 V {{< /katex >}} |
+
+| Steg      | Uträkning av totala resistansen allternativ 1 |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} R_{tot} = \frac{U}{I} {{< /katex >}}   |
+| Uträkning | {{< katex >}} R_{tot} = \frac{ 30 V }{ 5 A } {{< /katex >}} |
+| Resultat  | {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
+
+| Steg      | Uträkning av totala resistansen allternativ 2 |
+| --------- | ---------------------------- |
+| Formel    | {{< katex >}} \frac{1}{R_{tot}} = \frac{1}{R_1} + \frac{1}{R_2} {{< /katex >}}   |
+| Uträkning | {{< katex >}} \frac{1}{R_{tot}} = \frac{1}{ 15 \Omega } + \frac{1}{ 10 \Omega } {{< /katex >}} |
+| Uträkning | {{< katex >}} R_{tot} = \frac{1}{ 0.833333}  {{< /katex >}} |
+| Resultat  | {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |

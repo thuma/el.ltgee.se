@@ -28,38 +28,23 @@ Eftersom strömmen måste gå igenom alla belastningar den ena efter den andra b
 {{< katex >}}R_{tot} = R_1+R_2+R_3...{{< /katex >}}
 
 ## Exempel
-I exemplet bredvid är två motstånd seriekopplade och anslutna till en
-spänningskälla på 30 V.
 
-Låt oss säga att R 1 är 100 Ω och R 2 är
-200 Ω så kommer det totala motståndet i
-kopplingen bli 300 Ω. Formeln ser ut så
-här:
+Om du lägger till en belastning i serie så kommer den totala resistansen att öka eftersom strömmen får ytterligare ett hinder att passera.
 
-Spänningen i uppgiften är 30 V och då
-blir strömmen i kopplingen enligt Ohm´s
-lag 0,1 A.
+Om du tar bort en belastning som sitter i serie och kopplar ihop så att strömmen kan passera direkt minskar resistansen eftersom strömmen slipper går igenom den belastningen.
 
-Strömmen är lika stor i hela kopplingen,
-är det 0,1 ampere som kommer ut ur spänningskällan är det 0,1 ampere i R 1 och även 0,1
-ampere som åker tillbaka. Tänk vattenslangar och vatten, det vatten som åker in i slangen
-måste ut till slut.
+Om du har två resistorer i serie och en har stor resistans och en har liten så kommer den med stor resistans få en hög spänning och den med låg resistanss kommer att få en låg spänning. Detta beror på att båda kommer att få samma ström och strömmen gånger resistansen ger spänningen enligt Ohms-lag. Detta gör att spänningen blir hög med hög resistans och låg med låg resistans.
 
-Spänningen på resistor 1 blir då enligt ohms lag 10 V.
-Spänningen som finns på R 2 kan räknas ut med Ohms lag men man kan också använda
-Kirchhoffs spänningslag. Kirchhoff sa att delspänningarna är lika med totalspänningen eller:
-
-I uppgiften måste alltså U 2 bli 20 V eftersom
-
-
-Krets med beräkningsexemppel U
+### Beräkningsexempel för spänning:
 
 | Data       |
 | ---------- |
 | {{< katex >}} I = 2 A {{< /katex >}}     | 
 | {{< katex >}} R_1 = 150 \Omega {{< /katex >}}   |
 | {{< katex >}} R_2 = 250 \Omega {{< /katex >}}   | 
-| {{< katex >}} R_3 = 100 \Omega {{< /katex >}}   | 
+| {{< katex >}} R_3 = 100 \Omega {{< /katex >}}   |
+
+![ Krets enlig datatabell ](/serie1.png)
 
 | Steg      | Uträkning av totala resistansen |
 | --------- | ------------ |
@@ -97,7 +82,7 @@ Krets med beräkningsexemppel U
 | Uträkning | {{< katex >}} U = 300 V + 500 V + 200 V {{< /katex >}} |
 | Resultat  | {{< katex >}} U = 1000 V {{< /katex >}} |
 
-| Data       |
+| Svar       |
 | ---------- |
 | {{< katex >}} I = 2 A {{< /katex >}}     | 
 | {{< katex >}} R_1 = 150 \Omega {{< /katex >}}   |
@@ -109,7 +94,7 @@ Krets med beräkningsexemppel U
 | {{< katex >}} U_3 = 200 V {{< /katex >}} |
 | {{< katex >}} U = 1000 V {{< /katex >}} |
 
-Krets med beräkningsecempel R
+### Beräkningsexempel för resistans och ström:
 
 | Data       |
 | ---------- |
@@ -117,6 +102,8 @@ Krets med beräkningsecempel R
 | {{< katex >}} R_1 = 50 \Omega {{< /katex >}}   |
 | {{< katex >}} U_2 = 10 V {{< /katex >}}   | 
 | {{< katex >}} U_3 = 12 V {{< /katex >}}   | 
+
+![ Krets enlig datatabell ](/serie2.png)
 
 | Steg      | Uträkning av delspänning 1 |
 | --------- | ------------ |
@@ -144,8 +131,8 @@ Krets med beräkningsecempel R
 
 | Steg      | Uträkning av totala resistansen, alternativ 1 |
 | --------- | ------------ |
-| Formel    | {{< katex >}} R_{tot} = \frac{U}/{I} {{< /katex >}}   |
-| Uträkning | {{< katex >}} R_{tot} = \frac{30V}/{0.16A}{{< /katex >}} |
+| Formel    | {{< katex >}} R_{tot} = \frac{U}{I} {{< /katex >}}   |
+| Uträkning | {{< katex >}} R_{tot} = \frac{30V}{0.16A}{{< /katex >}} |
 | Resultat  | {{< katex >}} R_{tot} = 187,5 \Omega{{< /katex >}} |
 
 | Steg      | Uträkning av totala resistansen, alternativ 2 |
@@ -154,7 +141,7 @@ Krets med beräkningsecempel R
 | Uträkning | {{< katex >}} R_{tot} = 50 \Omega + 62.4 \Omega + 75 \Omega {{< /katex >}} |
 | Resultat  | {{< katex >}} R_{tot} = 187,5 \Omega{{< /katex >}} |
 
-| Data       |
+| Svar       |
 | ---------- |
 | {{< katex >}} U = 30 V {{< /katex >}}     | 
 | {{< katex >}} R_1 = 50 \Omega {{< /katex >}}   |

@@ -1,5 +1,5 @@
 ---
-title: "6. Effektlagen"
+title: "7. Effektlagen"
 ---
 # Effekt
 

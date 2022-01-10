@@ -18,12 +18,14 @@ eller
 
 ## Exempel
 
-Krets med beräkningsexemppel U
+### Beräkningsexemppel för spänningen:
 
 | Data       |
 | ---------- |
 | I = 2A     | 
 | R = 15Ω    | 
+
+![ Krets enlig datatabell ](/ohmslaw1.png)
 
 | Steg      | Exempel      |
 | --------- | ------------ |
@@ -31,18 +33,20 @@ Krets med beräkningsexemppel U
 | Uträkning | U = 2A * 15Ω |
 | Resultat  | U = 30V      |
 
-| Data       |
+| Svar       |
 | ---------- |
 | I = 2A     | 
 | R = 15Ω    | 
 | U = 30V    | 
 
-Krets med beräkningsexempel I
+### Beräkningsexempel för strömmen:
 
 | Data       |
 | ---------- |
 | U = 15V    | 
 | R = 30Ω    | 
+
+![ Krets enlig datatabell ](/ohmslaw2.png)
 
 | Steg       | Exempel       |
 | ---------- | ------------- |
@@ -50,18 +54,20 @@ Krets med beräkningsexempel I
 | Uträkning  | U = 15V * 30Ω |
 | Resultat   | I = 0,5A      |
 
-| Data       |
+| Svar       |
 | ---------- |
 | U = 15V    | 
 | R = 30Ω    | 
 | I = 0,5A   | 
 
-Krets med beräkningsecempel R
+### Beräkningsecempel för resistansen:
 
 | Data       |
 | ---------- |
 | U = 15V    | 
 | I = 3A     | 
+
+![ Krets enlig datatabell ](/ohmslaw2.png)
 
 | Steg      | Exempel      |
 | --------- | ------------ |
@@ -69,7 +75,7 @@ Krets med beräkningsecempel R
 | Uträkning | U = 15V/3A   |
 | Resultat  | I = 5A       |
 
-| Data       |
+| Svar      |
 | ---------- |
 | U = 15V    |
 | I = 3A     | 
