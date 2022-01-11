@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ellära 1</title>
+    <title>Ellära 1 - Faktasida on Ellära 1</title>
     <link>https://el.ltgee.se/</link>
-    <description>Recent content on Ellära 1</description>
+    <description>Recent content in Ellära 1 - Faktasida on Ellära 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language><atom:link href="https://el.ltgee.se/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/el/</guid>
-      <description>Electricitet #  Ström #  Ström är elektroner som rör sig i en ledare. Hur många elektroner som rör sig är ett mått på hur stor strömmen är. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i Ampere som förkortas A.
-Innom elläran så säger vi att strömmen åker från plus till minus. Plus och minus kallas också anod(+) och katod(-).</description>
+      <description>Electricitet #  Ström #  Ström är elektroner som rör sig i en ledare. Strömmen är ett mått på hur många elektroner som rör sig. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
+Innom elläran så säger vi att strömmen åker från plus till minus. Plus och minus kallas också anod(+) och katod(-).
+Exempel #  I = 5A</description>
     </item>
     
     <item>
@@ -41,7 +42,8 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/parallell/</guid>
-      <description>Parallellkrets #  I parallellkretser kopplas de komponenter som ska användas på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre. Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling.</description>
+      <description>Parallellkrets #  I parallellkretser kopplas de komponenter som ska användas på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
+Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling.</description>
     </item>
     
     <item>
