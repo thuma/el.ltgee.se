@@ -1,5 +1,5 @@
 ---
-title: "4. Seriekrets"
+title: "3. Seriekretsar"
 ---
 # Seriekretsar
 I seriekretsar kopplar man de komponenter i serie eller efter varandra, ungefär som ett

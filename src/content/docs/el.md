@@ -49,55 +49,11 @@ Betyder att Resistansen(R) är(=) 100 Ohm(Ω).
 ### Ordet Resistans
 Ordet resistans eller motstånd används i andara sammanghang tillexempel i Star Wars där "the resistance" (engelska) bromsar imperiets framfart. Motstånd kan vara att motstå något tillexempel att motstå att ringa sitt X som man fortfarande är kär i på fyllan.
 
-### Sorheter och enheter
+### Sorheter och enheter sammanfattning
 | Storhet     | Beteckning | Enhet       | Beteckning |
 | ----------- | ---------- | ----------- | ---------- |
 | Ström       | I          | Ampere      | A          |
 | Spänning    | U          | Volt        | V          |
 | Resistor    | R          | Ohm         | Ω          |
-
-## Exempel
-
-![ Strömmen pressas av Spänningen och bromsas av Resistansen ](/Ohms-law.jpeg)
-
-Om spänningen ökar i en krets så kommer strömmen att öka, 
-eftersom spänningen drar/trycker hårdare i elektronerna som då rör sig mer (fler).
-
-Om spänningen minskar i en krets så kommer strömmen att minska, 
-eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre (färre).
-
-Om resistansen minskar i en krets så kommer strömmen att öka, 
-eftersom resistansen bromsar elektronerna mindre, de rör sig då mer (fler).
-
-Om resistansen ökar i en krets så kommer strömmen att minska,
-eftersom resistansen bromsar elektronerna mer som, de rör sig då dåmindre (färre).
-
-Om strömmen har ökat i en krets så har spänningen ökat eller resistansen minskat,
-eftersom resistansen bromsar elektronerna mindre, de rör sig då mer (fler),
-eftersom spänningen drar/trycker hårdare i elektronerna som då rör sig mer (fler).
-
-Om strömmen har minskat i en krets så har spänningen minskat eller resistansen ökat,
-eftersom resistansen bromsar elektronerna mer som, de rör sig då dåmindre (färre).
-eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre (färre).
-
-## Frågor
-
-Vad gör spänningen?
-
-Vad gör resistansen?
-
-Vad är ström?
-
-Vad händer som spänningen ökar restiansen är den samma?
-
-Vad händer som resistansen ökar och spänningen är den samma?
-
-Vad händer som spänningen minskar restiansen är den samma?
-
-Vad händer som resistansen minskar och spänningen är den samma?
-
-Vad måste hända för att strömmen ska öka?
-
-Vad måste hända för att strömmen ska minska?
 
 

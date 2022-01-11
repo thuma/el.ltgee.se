@@ -1,5 +1,6 @@
 ---
 Title: Kretskoppling
+draft: true
 ---
 # Breadboard
 # Komponenter

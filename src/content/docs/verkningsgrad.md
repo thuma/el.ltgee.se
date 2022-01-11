@@ -1,5 +1,6 @@
 ---
 Title: Verkningsgrad
+draft: true
 ---
 ## Effektförluster
 

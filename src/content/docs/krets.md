@@ -1,8 +1,8 @@
 ---
-Title: 2. Elekrisk krets
+Title: 2. Krets
 ---
-# Elektrisk krets
-I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via tillexempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets.
+# Krets
+I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via tillexempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
 
 Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så slutar elektronerna att röra på sig, det kallas för en öppen krets.
 
@@ -15,21 +15,124 @@ På samma sett så kretsar strömmen/elektronerna runt i kretsen.
 ## Ordet kortslutning
 Order kortslutning är sammansatt av ordet kort och sluten. Kort för att vägen som strömmen går är så kort som det bara går. Ordet sluten för att kretsen är sluten alltså att strömmen kan komma hela vägen från + till -.
 
+## Beräkningar
+Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste.
+Denna formel används för att kunna räkna ut spänning, strömm och resistans 
+i kretsar.
 
-### Exempel
+### Ohms lag
+{{< katex >}}U = I * R{{< /katex >}} 
 
-Bild med schema
+Den kan också omvandlas genom algebra till  
+{{< katex >}}I = \frac{U}{R}{{< /katex >}}
 
-Serie lampa
+eller  
+{{< katex >}}R = \frac{U}{I}{{< /katex >}}
 
-Paralell lampa
+## Exempel
 
-Kombinerad lampor
+![ Strömmen pressas av Spänningen och bromsas av Resistansen ](/Ohms-law.jpeg)
 
-Serie resistorer
+Om spänningen ökar i en krets så kommer strömmen att öka, 
+eftersom spänningen drar/trycker hårdare i elektronerna som då rör sig mer (fler).
 
-Paralell resistorer
+Om spänningen minskar i en krets så kommer strömmen att minska, 
+eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre (färre).
 
-Kombinerad resistorer
+Om resistansen minskar i en krets så kommer strömmen att öka, 
+eftersom resistansen bromsar elektronerna mindre, de rör sig då mer (fler).
 
-Sluten / öppen
+Om resistansen ökar i en krets så kommer strömmen att minska,
+eftersom resistansen bromsar elektronerna mer som, de rör sig då dåmindre (färre).
+
+Om strömmen har ökat i en krets så har spänningen ökat eller resistansen minskat,
+eftersom resistansen bromsar elektronerna mindre, de rör sig då mer (fler),
+eftersom spänningen drar/trycker hårdare i elektronerna som då rör sig mer (fler).
+
+Om strömmen har minskat i en krets så har spänningen minskat eller resistansen ökat,
+eftersom resistansen bromsar elektronerna mer som, de rör sig då dåmindre (färre).
+eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre (färre).
+
+### Beräkningsexemppel för spänningen:
+
+| Data       |
+| ---------- |
+| I = 2A     | 
+| R = 15Ω    | 
+
+![ Krets enlig datatabell ](/ohmslaw1.png)
+
+| Steg      | Exempel      |
+| --------- | ------------ |
+| Formel    | U = I * R    |
+| Uträkning | U = 2A * 15Ω |
+| Resultat  | U = 30V      |
+
+| Svar       |
+| ---------- |
+| I = 2A     | 
+| R = 15Ω    | 
+| U = 30V    | 
+
+### Beräkningsexempel för strömmen:
+
+| Data       |
+| ---------- |
+| U = 15V    | 
+| R = 30Ω    | 
+
+![ Krets enlig datatabell ](/ohmslaw2.png)
+
+| Steg       | Exempel       |
+| ---------- | ------------- |
+| Formel     | I = U/R       |
+| Uträkning  | U = 15V * 30Ω |
+| Resultat   | I = 0,5A      |
+
+| Svar       |
+| ---------- |
+| U = 15V    | 
+| R = 30Ω    | 
+| I = 0,5A   | 
+
+### Beräkningsecempel för resistansen:
+
+| Data       |
+| ---------- |
+| U = 15V    | 
+| I = 3A     | 
+
+![ Krets enlig datatabell ](/ohmslaw2.png)
+
+| Steg      | Exempel      |
+| --------- | ------------ |
+| Formel    | I = U/I      |
+| Uträkning | U = 15V/3A   |
+| Resultat  | I = 5A       |
+
+| Svar      |
+| ---------- |
+| U = 15V    |
+| I = 3A     | 
+| R = 5Ω     |
+
+## Frågor
+
+Vad gör spänningen?
+
+Vad gör resistansen?
+
+Vad är ström?
+
+Vad händer som spänningen ökar restiansen är den samma?
+
+Vad händer som resistansen ökar och spänningen är den samma?
+
+Vad händer som spänningen minskar restiansen är den samma?
+
+Vad händer som resistansen minskar och spänningen är den samma?
+
+Vad måste hända för att strömmen ska öka?
+
+Vad måste hända för att strömmen ska minska?
+

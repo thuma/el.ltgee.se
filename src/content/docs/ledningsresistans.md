@@ -1,5 +1,6 @@
 ---
 Title: Ledningsresistans
+draft: true
 ---
 # Ledningsresistans
 {{< katex >}}R_l =  \frac{\rho*l}{A}{{< /katex >}}

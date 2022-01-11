@@ -1,5 +1,5 @@
 ---
-title: "6. Kombinerad krets"
+title: "5. Kombinerad krets"
 ---
 # Kombinerad krets
 

@@ -15,7 +15,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.3e6929ee0cc738494ec476eaa543eced24595603bdc205d79b485cd1e4ceac5b.js" integrity="sha256-Pmkp7gzHOElOxHbqpUPs7SRZVgO9wgXXm0hc0eTOrFs=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.f31f801688cad3abfdea2ec351de630c040f63266ea5670ed36de3eedfdda7dd.js" integrity="sha256-8x&#43;AFojK06v96i7DUd5jDAQPYyZupWcO023j7t/dp90=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://el.ltgee.se/tags/index.xml" title="Ellära 1" />
 <!--
 Made with Book Theme
@@ -62,10 +62,6 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     
       
-    
-      
-    
-      
         <li>
           
   
@@ -85,7 +81,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/krets/" class="">2. Elekrisk krets</a>
+    <a href="https://el.ltgee.se/docs/krets/" class="">2. Krets</a>
   
 
         </li>
@@ -98,7 +94,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/ohmslag/" class="">3. Ohms-lag</a>
+    <a href="https://el.ltgee.se/docs/serie/" class="">3. Seriekretsar</a>
   
 
         </li>
@@ -111,7 +107,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/serie/" class="">4. Seriekrets</a>
+    <a href="https://el.ltgee.se/docs/parallell/" class="">4. Parallellkrets</a>
   
 
         </li>
@@ -124,7 +120,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/parallell/" class="">5. Parallellkrets</a>
+    <a href="https://el.ltgee.se/docs/kombinerad/" class="">5. Kombinerad krets</a>
   
 
         </li>
@@ -137,98 +133,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/kombinerad/" class="">6. Kombinerad krets</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://el.ltgee.se/docs/effekt/" class="">7. Effektlagen</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://el.ltgee.se/docs/elsymboler/" class="">Ellärasymboler</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://el.ltgee.se/docs/energi/" class="">Energi</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://el.ltgee.se/docs/koppla/" class="">Kretskoppling</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://el.ltgee.se/docs/ledningsresistans/" class="">Ledningsresistans</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://el.ltgee.se/docs/matning/" class="">Mätning</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://el.ltgee.se/docs/verkningsgrad/" class="">Verkningsgrad</a>
+    <a href="https://el.ltgee.se/docs/effekt/" class="">6. Effekt</a>
   
 
         </li>
@@ -255,7 +160,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -318,6 +223,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
+
+
  
       
 
@@ -333,7 +240,8 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  

@@ -1,5 +1,5 @@
 ---
-title: "7. Effektlagen"
+title: "6. Effekt"
 ---
 # Effekt
 
@@ -11,29 +11,23 @@ Den elektriska effekten beror på ström och spänning. Ju fler elektroner som p
 
 Ordet effekt använda även utanför elvärden då betyder det nästan samma sak. Ett exempel är att säga ett effetken av att slå sig på tummern med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.
 
-### Effekten
+### Effektlagen
 {{< katex >}}P = U * I{{< /katex >}}
 
 
 ## Exempel
 
-### U
+Om srömmen ökar och spänningen är den samms så kommer effeketen att öka.
 
+Om strömmen minskar och spänningen är den sammaså kommer effekten att minska.
 
-### I
+Om spänningen ökar och strömmen är den samma så kommer effekten att öka.
 
+Om spänningen minskar och strömmen är den samma så kommer effekten att minska.
 
-### P
+Om resistansen minskar och spänningen är den samma så kommer strömmen att öka det kommer i sin tur leda till att effekten kommer att öka.
 
-
-### R
-
-
-### Serie
-
-
-### Paralell
-
+Om resistasen ökar och spänningen är den samma så kommer strömmen att minska och det kommer i sin tur leda till att effekten kommer att minska.
 
 ### Frågor
 
