@@ -5,11 +5,11 @@ Title: Ellärasymboler
 
 | Namn           | Symbol  | Bild |
 | -------------- | ------- | ---- |
-| Batteri        |         |      |
+| Batteri        | ![Batteri](/batteri.png)        |      |
 | Spänningskälla |         |      |
-| Resistor       |         |      |
+| Resistor       | ![Resistor](/resistor.png)        |      |
 | Ledare         |         |      |
-| Lampa          |         |      |
-| Voltmeter      |         |      |
+| Lampa          | ![(X)](/lampa.png)        |      |
+| Voltmeter      | ![(V)](/voltmeter.png)        |      |
 | Ohmmeeter      |         |      |
-| Amperemeter    |         |      |
+| Amperemeter    | ![(V)](/amperemeter.png)       |      |

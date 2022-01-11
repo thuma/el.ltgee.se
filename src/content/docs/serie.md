@@ -152,3 +152,17 @@ Om du har två resistorer i serie och en har stor resistans och en har liten så
 | {{< katex >}} R_2 = 62.5 \Omega {{< /katex >}} |
 | {{< katex >}} R_3 = 75 \Omega {{< /katex >}} |
 | {{< katex >}} R_{tot} = 187,5 \Omega{{< /katex >}}  |
+
+## Frågor
+
+Vad händer om du lägger till till en resistor i en seriekrets?
+
+Vad händer om du tar bort en resistor i en seriekrets?
+
+Vad händer med spänningen över resistorerna i en seriekrets om du lägger till en resistor?
+
+Vad händer med spänningen över resistorerna i en seriektres om du tar bort en resistor?
+
+Vad händer med strömmen i en seriekres om du lägger till en resistor?
+
+Vad händer med strömmen i en seriekrets om du tar bort en resisor?

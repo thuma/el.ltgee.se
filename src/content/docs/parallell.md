@@ -38,6 +38,16 @@ I en paralellkrets så minskar resistasen ju fler komponenter som kopplas in. De
 
 ## Exempel
 
+Om du lägger till en resistor i en parallellkrets så minskar resistansen eftersom strömmen får fler vägar att gå.
+
+Om du tar bort en resistor i en parallellkrets så ökar resistansen eftersom strömmen får färre väggar att gå.
+
+Om du lägger till eller tar bort en resistor i en paralellkrets så påverkas inte spänningen i kretsan.
+
+Om du lägger till en resistor i en parallellkrets så ökar strömmen eftersom det finns fler vägar för den att gå genom kretsen.
+
+Om du tar bort en resistor i en parallellkrets så minskar strömmen eftersom det finns färre vägar för strömmen att röra sig genomn kretsen.
+
 ### Beräkmningsexempel för resistans
 | Data                                     |
 | ---------------------------------------- |
@@ -119,3 +129,17 @@ I en paralellkrets så minskar resistasen ju fler komponenter som kopplas in. De
 | Uträkning | {{< katex >}} \frac{1}{R_{tot}} = \frac{1}{ 15 \Omega } + \frac{1}{ 10 \Omega } {{< /katex >}} |
 | Uträkning | {{< katex >}} R_{tot} = \frac{1}{ 0.833333}  {{< /katex >}} |
 | Resultat  | {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
+
+## Frågor
+
+Vad händer om du lägger till till en resistor i en parallellkrets?
+
+Vad händer om du tar bort en resistor i en parallellkrets?
+
+Vad händer med spänningen över resistorerna i en parallellkrets om du lägger till en resistor?
+
+Vad händer med spänningen över resistorerna i en parallellkrets om du tar bort en resistor?
+
+Vad händer med strömmen i en parallellkrets om du lägger till en resistor?
+
+Vad händer med strömmen i en parallellkrets om du tar bort en resisor?
