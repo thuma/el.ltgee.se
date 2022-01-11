@@ -4,10 +4,12 @@ title: "4. Parallellkrets"
 # Parallellkrets
 
 I parallellkretser kopplas de komponenter som ska användas på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
+
 Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling. En bra minnesregel är därför att totalresistansen alltid blir mindre än den minsta resistansen i en
 parallellkoppling.
 
 ## Ordet parallell
+
 För att komma ihåg ordet vad ordet parallell betyder så är det samma ord som du använder i andra lägen så som:
  * Parallella universum
  * Parallella linjer
@@ -15,6 +17,7 @@ För att komma ihåg ordet vad ordet parallell betyder så är det samma ord som
 Ordet paralell betyder alltså bara att något ligger vid sidan av varandra. Parallella saker korsar inte varandra, när du har dina skidor paralellt så går det bra men korsar du dem så ramlar du direkt.
 
 ## Samband
+
 ### Spänningen
 I en paralellkrets är alla komponeneter direkt kopplade till spänningskällan och har därför samma spänning. Så spänningn för komponent 1,2 och 3 har samma spänning i en parallellkrets.
 {{< katex >}}U = U_1 = U_2 = U_3...{{< /katex >}} 

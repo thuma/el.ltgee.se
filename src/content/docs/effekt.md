@@ -31,10 +31,13 @@ Om resistasen ökar och spänningen är den samma så kommer strömmen att minsk
 
 ### Frågor
 
- * Vad händer med effekten om spänningen ökar och strömmen är den samma?
- * Vad händer med effekten om strömmen ökar och spänning är den samma?
- * Vad händer med effekten om spänningen minskar och strömmen är den samma?
- * Vad händer med effekten om strömmen minskar och spänningen är den samma?
+Vad händer med effekten om spänningen ökar och strömmen är den samma?
+
+Vad händer med effekten om strömmen ökar och spänning är den samma?
+
+Vad händer med effekten om spänningen minskar och strömmen är den samma?
+
+Vad händer med effekten om strömmen minskar och spänningen är den samma?
 
 ### Sorheter och enheter
 | Storhet     | Beteckning | Enhet       | Beteckning |

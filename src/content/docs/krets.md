@@ -53,7 +53,7 @@ Om strömmen har minskat i en krets så har spänningen minskat eller resistanse
 eftersom resistansen bromsar elektronerna mer som, de rör sig då dåmindre (färre).
 eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre (färre).
 
-### Beräkningsexemppel för spänningen:
+### Beräkningsexempel för spänningen:
 
 | Data       |
 | ---------- |
@@ -95,7 +95,7 @@ eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre 
 | R = 30Ω    | 
 | I = 0,5A   | 
 
-### Beräkningsecempel för resistansen:
+### Beräkningsexempel för resistansen:
 
 | Data       |
 | ---------- |

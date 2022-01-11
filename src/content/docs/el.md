@@ -4,9 +4,7 @@ title: "1. Electricitet"
 # Electricitet
 
 ## Ström
-Ström är elektroner som rör sig i en ledare. Hur många elektroner som rör sig
-är ett mått på hur stor strömmen är. Många elektroner ger en stor ström få ger en låg ström.
-Strömmen som förkortas I, mäts i Ampere som förkortas A.
+Ström är elektroner som rör sig i en ledare. Strömmen är ett mått på hur många elektroner som rör sig. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
 
 Innom elläran så säger vi att strömmen åker från plus till minus.
 Plus och minus kallas också anod(+) och katod(-).
@@ -32,7 +30,7 @@ U = 12V
 Betyder att Spännigen(U) är(=) 12 Volt(V).
 
 ### Ordet Spänning
-Ordet spänning används i många andra sammanhang. Spänning finns tillexempel i spännande filmer eller spända pilbågar. På samma sätt em elektrisk spänning är det spänningen som kan göra att något händer tillexempel att pilen skjuts iväg.
+Ordet spänning används i många andra sammanhang. Spänning finns tillexempel i spännande filmer eller spända pilbågar. Det är på samma sätt med elektrisk spänning, det är spänningen som kan göra att något händer tillexempel att pilen skjuts iväg.
 
 ## Resistans
 En resistans (kallas också motstånd) hindrar/bromsar strömmen,
