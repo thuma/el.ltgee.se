@@ -2,7 +2,7 @@
 Title: 2. Krets
 ---
 # Krets
-I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via tillexempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
+I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
 
 Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så slutar elektronerna att röra på sig, det kallas för en öppen krets.
 
@@ -17,7 +17,7 @@ Order kortslutning är sammansatt av ordet kort och sluten. Kort för att vägen
 
 ## Beräkningar
 Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste.
-Denna formel används för att kunna räkna ut spänning, strömm och resistans 
+Denna formel används för att kunna räkna ut spänning, ström och resistans 
 i kretsar.
 
 ### Ohms lag
@@ -34,24 +34,26 @@ eller
 ![ Strömmen pressas av Spänningen och bromsas av Resistansen ](/Ohms-law.jpeg)
 
 Om spänningen ökar i en krets så kommer strömmen att öka, 
-eftersom spänningen drar/trycker hårdare i elektronerna som då rör sig mer (fler).
+eftersom spänningen drar eller trycker hårdare i elektronerna som får fler av dem att röra på sig.
 
 Om spänningen minskar i en krets så kommer strömmen att minska, 
-eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre (färre).
+eftersom spänningen drar eller trycker mindre i elektronerna som gör att färre av dem att rör på sig.
 
 Om resistansen minskar i en krets så kommer strömmen att öka, 
-eftersom resistansen bromsar elektronerna mindre, de rör sig då mer (fler).
+eftersom resistansen bromsar elektronerna mindre som gör att fler av dem rör på sig.
 
 Om resistansen ökar i en krets så kommer strömmen att minska,
-eftersom resistansen bromsar elektronerna mer som, de rör sig då dåmindre (färre).
+eftersom resistansen bromsar elektronerna mer som gör att färre av dem att rör på sig.
 
-Om strömmen har ökat i en krets så har spänningen ökat eller resistansen minskat,
-eftersom resistansen bromsar elektronerna mindre, de rör sig då mer (fler),
-eftersom spänningen drar/trycker hårdare i elektronerna som då rör sig mer (fler).
+Om strömmen har ökat i en krets så har spänningen ökat eller resistansen minskat.
 
-Om strömmen har minskat i en krets så har spänningen minskat eller resistansen ökat,
-eftersom resistansen bromsar elektronerna mer som, de rör sig då dåmindre (färre).
-eftersom spänningen drar/trycker mindre i elektronerna som då rör sig mindre (färre).
+ * eftersom resistansen bromsar elektronerna mindre.
+ * eftersom spänningen drar eller trycker hårdare i elektronerna.
+
+Om strömmen har minskat i en krets så har spänningen minskat eller resistansen ökat.
+
+ * eftersom resistansen bromsar elektronerna mer,
+ * eftersom spänningen drar eller trycker mindre i elektronerna.
 
 ### Beräkningsexempel för spänningen:
 
@@ -124,11 +126,11 @@ Vad gör resistansen?
 
 Vad är ström?
 
-Vad händer som spänningen ökar restiansen är den samma?
+Vad händer som spänningen ökar resistansen är densamma?
 
 Vad händer som resistansen ökar och spänningen är den samma?
 
-Vad händer som spänningen minskar restiansen är den samma?
+Vad händer som spänningen minskar resistansen är den samma?
 
 Vad händer som resistansen minskar och spänningen är den samma?
 
