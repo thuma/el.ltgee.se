@@ -3,6 +3,8 @@ title: "1. Elektricitet"
 ---
 # Elektricitet
 
+![Credit: Pixabay CC0 1.0](/electron.png)
+
 ## Ström
 Ström är elektroner som rör sig i en ledare. Strömmen är ett mått på hur många elektroner som rör sig. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
 

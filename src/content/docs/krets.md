@@ -2,6 +2,9 @@
 Title: 2. Krets
 ---
 # Krets
+
+![Credit:Wikimedia Commons](/electriccircuit.svg)
+
 I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
 
 Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så slutar elektronerna att röra på sig, det kallas för en öppen krets.
