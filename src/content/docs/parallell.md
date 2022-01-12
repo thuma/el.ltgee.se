@@ -3,7 +3,7 @@ title: "4. Parallellkrets"
 ---
 # Parallellkrets
 
-I parallellkretser kopplas de komponenter som ska användas på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
+I parallellkretser kopplas komponenterna på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
 
 Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling. En bra minnesregel är därför att totalresistansen alltid blir mindre än den minsta resistansen i en
 parallellkoppling.
@@ -14,12 +14,12 @@ För att komma ihåg ordet vad ordet parallell betyder så är det samma ord som
  * Parallella universum
  * Parallella linjer
  * Parallellslalom
-Ordet paralell betyder alltså bara att något ligger vid sidan av varandra. Parallella saker korsar inte varandra, när du har dina skidor paralellt så går det bra men korsar du dem så ramlar du direkt.
+Ordet parallell betyder alltså bara att något ligger vid sidan av varandra. Parallella saker korsar inte varandra, när du har dina skidor parallellt så går det bra men korsar du dem så ramlar du direkt.
 
 ## Samband
 
 ### Spänningen
-I en paralellkrets är alla komponeneter direkt kopplade till spänningskällan och har därför samma spänning. Så spänningn för komponent 1,2 och 3 har samma spänning i en parallellkrets.
+I en paralellkrets är alla komponeneter direkt kopplade till spänningskällan och har därför samma spänning. Så spänning för komponent 1,2 och 3 har samma spänning i en parallellkrets.
 {{< katex >}}U = U_1 = U_2 = U_3...{{< /katex >}} 
 
 ### Strömmen
@@ -27,7 +27,7 @@ I en parallellkrets så finns det flera olika strömmar eftersom strömmen kan t
 {{< katex >}}I = I_1 + 1_2 + I_3...{{< /katex >}}
 
 ### Resistansen
-I en paralellkrets så minskar resistasen ju fler komponenter som kopplas in. Detta beror på att att strömmen får flera vägar att gå. Eftersom strömmen har flera vägar att gå så kommer den totala strömmen att öka utan att spänningen ändras. Då säger Ohms lag att resistansen har minskat. Alltså fler komponenter innebär lägre resistans. Det finns olika sätt att räka ut resistansen antingen genom att räkna ut den totala strämmen och räkna ut resistansen med hjälp av Ohms-lag eller genom att använda någon av dessa formler:
+I en parallellkrets så minskar resistasen ju fler komponenter som kopplas in. Detta beror på att att strömmen får flera vägar att gå. Eftersom strömmen har flera vägar att gå så kommer den totala strömmen att öka utan att spänningen ändras. Då säger Ohms lag att resistansen har minskat. Alltså fler komponenter innebär lägre resistans. Det finns olika sätt att räkna ut resistansen antingen genom att räkna ut den totala strömmen och räkna ut resistansen med hjälp av Ohms lag eller genom att använda någon av dessa formler:
 
 #### Basform
 {{< katex >}}\frac{1}{R_{tot}} = \frac{1}{R_1} + \frac{1}{R_1} + \frac{1}{R_3} + ...{{< /katex >}}
@@ -45,13 +45,13 @@ Om du lägger till en resistor i en parallellkrets så minskar resistansen efter
 
 Om du tar bort en resistor i en parallellkrets så ökar resistansen eftersom strömmen får färre väggar att gå.
 
-Om du lägger till eller tar bort en resistor i en paralellkrets så påverkas inte spänningen i kretsan.
+Om du lägger till eller tar bort en resistor i en parallellkrets så påverkas inte spänningen i kretsen.
 
 Om du lägger till en resistor i en parallellkrets så ökar strömmen eftersom det finns fler vägar för den att gå genom kretsen.
 
-Om du tar bort en resistor i en parallellkrets så minskar strömmen eftersom det finns färre vägar för strömmen att röra sig genomn kretsen.
+Om du tar bort en resistor i en parallellkrets så minskar strömmen eftersom det finns färre vägar för strömmen att röra sig genom kretsen.
 
-### Beräkmningsexempel för resistans
+### Beräkningsexempel för resistans
 | Data                                     |
 | ---------------------------------------- |
 | {{< katex >}} U = 30 V {{< /katex >}}    | 
@@ -92,7 +92,7 @@ Om du tar bort en resistor i en parallellkrets så minskar strömmen eftersom de
 | Resultat  | {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
 
 
-### Beräkmningsexempel för spänmning och ström:
+### Beräkningsexempel för spänning och ström:
 | Data                                           |
 | ---------------------------------------------- |
 | {{< katex >}} I_1 = 5.25 A {{< /katex >}}         |
@@ -135,7 +135,7 @@ Om du tar bort en resistor i en parallellkrets så minskar strömmen eftersom de
 
 ## Frågor
 
-Vad händer om du lägger till till en resistor i en parallellkrets?
+Vad händer om du lägger till en resistor i en parallellkrets?
 
 Vad händer om du tar bort en resistor i en parallellkrets?
 
