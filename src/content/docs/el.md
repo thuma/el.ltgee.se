@@ -49,7 +49,7 @@ Betyder att Resistansen(R) är(=) 100 Ohm(Ω).
 ### Ordet Resistans
 Ordet resistans eller motstånd används i andara sammanghang tillexempel i Star Wars där "the resistance" (engelska) bromsar imperiets framfart. Motstånd kan vara att motstå något tillexempel att motstå att ringa sitt ex som man fortfarande är kär i på fyllan.
 
-### Sorheter och enheter sammanfattning
+## Sorheter och enheter sammanfattning
 | Storhet     | Beteckning | Enhet       | Beteckning |
 | ----------- | ---------- | ----------- | ---------- |
 | Ström       | I          | Ampere      | A          |

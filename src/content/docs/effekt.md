@@ -29,6 +29,110 @@ Om resistansen minskar och spänningen är densamma så kommer strömmen att ök
 
 Om resistansen ökar och spänningen är den samma så kommer strömmen att minska och det kommer i sin tur leda till att effekten kommer att minska.
 
+### Beräkningsexempel med ström och spänning:
+
+| Data       |
+| ---------- |
+| U = 15V    | 
+| I = 3A     | 
+
+| Steg      | Exempel      |
+| --------- | ------------ |
+| Formel    | P = U * I     |
+| Uträkning | U = 15V * 3A   |
+| Resultat  | I = 45W       |
+
+| Svar      |
+| ---------- |
+| U = 15V    |
+| I = 3A     | 
+| P = 45W     |
+
+### Beräkningsexempel med ström och resistans:
+
+| Data       |
+| ---------- |
+| I = 2A     | 
+| R = 15Ω    | 
+
+
+| Steg      | Räkna ut spänningen |
+| --------- | ------------ |
+| Formel    | U = I * R    |
+| Uträkning | U = 2A * 15Ω |
+| Resultat  | U = 30V      |
+
+
+| Steg      | Räkna ut effekten |
+| --------- | ------------ |
+| Formel    | P = I * U    |
+| Uträkning | U = 2A * 30V |
+| Resultat  | U = 60W     |
+
+| Svar       |
+| ---------- |
+| I = 2A     | 
+| R = 15Ω    | 
+| U = 30V    | 
+| U = 60W    | 
+
+
+### Beräkningsexempel med spänning och resistans:
+
+| Data       |
+| ---------- |
+| U = 15V    | 
+| R = 30Ω    | 
+
+| Steg       | Räkna ut strömmen |
+| ---------- | ------------- |
+| Formel     | I = U/R       |
+| Uträkning  | U = 15V * 30Ω |
+| Resultat   | I = 0,5A      |
+
+| Steg      | Räkna ut effekten |
+| --------- | ------------ |
+| Formel    | P = I * U    |
+| Uträkning | P = 0,5A * 15V |
+| Resultat  | P = 7,5W     |
+
+| Svar       |
+| ---------- |
+| U = 15V    | 
+| R = 30Ω    | 
+| I = 0,5A   |
+| P = 7,5W   |
+
+### Beräkningsexempel med effekt och resistans:
+
+| Data       |
+| ---------- |
+| R = 8Ω    | 
+| P = 72W     | 
+
+| Steg      | Exempel räkna ut strömmen |
+| --------- | ------------ |
+| Formel    | P = U * I & U = R * I    |
+| Formel    | P = R * I * I |
+| Formel    | P = R * I * I |
+| Uträkning | 72W = 8Ω * I² |
+| Uträkning | I² = 72W/8Ω   |
+| Uträkning | {{< katex >}}I = \sqrt{72W/8Ω}{{< /katex >}}  |
+| Resultat  | I = 3A        |
+
+| Steg      | Exempel räkna ut spänningen |
+| --------- | ------------ |
+| Formel    | U = P/I       |
+| Uträkning | U = 72W/3A    |
+| Resultat  | U = 24V        |
+
+| Svar      |
+| ---------- |
+| R = 15Ω    |
+| I = 3A     | 
+| U = 24V    |
+| P = 72W     | 
+
 ### Frågor
 
 Vad händer med effekten om spänningen ökar och strömmen är densamma?
@@ -39,7 +143,7 @@ Vad händer med effekten om spänningen minskar och strömmen är densamma?
 
 Vad händer med effekten om strömmen minskar och spänningen är densamma?
 
-### Sorheter och enheter
+## Sorheter och enheter
 | Storhet     | Beteckning | Enhet       | Beteckning |
 | ----------- | ---------- | ----------- | ---------- |
 | Ström       | I          | Ampere      | A          |

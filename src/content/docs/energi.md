@@ -6,7 +6,7 @@ draft: true
 ## Enrgi
 {{< katex >}}W =  P * t {{< /katex >}}
 
-### Sorheter och enheter
+## Sorheter och enheter
 | Storhet     | Beteckning | Enhet       | Beteckning |
 | ----------- | ---------- | ----------- | ---------- |
 | Ström       | I          | Ampere      | A          |
