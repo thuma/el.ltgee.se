@@ -2,11 +2,11 @@
 title: "3. Seriekretsar"
 ---
 # Seriekretsar
-I seriekretsar kopplar man de komponenter i serie eller efter varandra, ungefär som ett
-tåg. Detta kallas också för seriekopplingar. Det som händer seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd at ta sig förbi, och då minskar strömmen.
+I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett
+tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd at ta sig förbi, och då minskar strömmen.
 Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.
 
-## Order serie
+## Ordet serie
 Ordet serie i detta fall är samma princip som när man använder order i vanliga fall också så som:
  * Seriemördare
  * Serietidning
@@ -16,7 +16,7 @@ till skillnad från tillexempel en massmördare som mördar många samtidigt.
 
 ## Uträkningar i seriekretsen
 ### Spänningen
-Spänningn som kommer från spänningskällan kommmer att delas upp över de olika belastningar. Alla spänningarna övre belastningarna kommer tillsammans bli den spänning som spänningskällan ger.  
+Spänningn som kommer från spänningskällan kommer att delas upp över de olika belastningar. Alla spänningarna över belastningarna kommer tillsammans bli den spänning som spänningskällan ger.  
 {{< katex >}}U = U_1+U_2+U_3...{{< /katex >}} 
 
 ### Strömmen
@@ -33,7 +33,7 @@ Om du lägger till en belastning i serie så kommer den totala resistansen att �
 
 Om du tar bort en belastning som sitter i serie och kopplar ihop så att strömmen kan passera direkt minskar resistansen eftersom strömmen slipper går igenom den belastningen.
 
-Om du har två resistorer i serie och en har stor resistans och en har liten så kommer den med stor resistans få en hög spänning och den med låg resistanss kommer att få en låg spänning. Detta beror på att båda kommer att få samma ström och strömmen gånger resistansen ger spänningen enligt Ohms-lag. Detta gör att spänningen blir hög med hög resistans och låg med låg resistans.
+Om du har två resistorer i serie och en har stor resistans och en har liten så kommer den med stor resistans få en hög spänning och den med låg resistans kommer att få en låg spänning. Detta beror på att båda kommer att få samma ström och strömmen gånger resistansen ger spänningen enligt Ohms-lag. Detta gör att spänningen blir hög med hög resistans och låg med låg resistans.
 
 ### Beräkningsexempel för spänning:
 
@@ -161,8 +161,8 @@ Vad händer om du tar bort en resistor i en seriekrets?
 
 Vad händer med spänningen över resistorerna i en seriekrets om du lägger till en resistor?
 
-Vad händer med spänningen över resistorerna i en seriektres om du tar bort en resistor?
+Vad händer med spänningen över resistorerna i en seriekrets om du tar bort en resistor?
 
-Vad händer med strömmen i en seriekres om du lägger till en resistor?
+Vad händer med strömmen i en seriekrets om du lägger till en resistor?
 
-Vad händer med strömmen i en seriekrets om du tar bort en resisor?
+Vad händer med strömmen i en seriekrets om du tar bort en resistor?
