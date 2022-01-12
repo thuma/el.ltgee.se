@@ -33,7 +33,7 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/serie/</guid>
-      <description>Seriekretsar #  I seriekretsar kopplar man de komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd at ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
+      <description>Seriekretsar #  I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd at ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/parallell/</guid>
-      <description>Parallellkrets #  I parallellkretser kopplas de komponenter som ska användas på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
+      <description>Parallellkrets #  I parallellkretser kopplas komponenterna på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
 Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling.</description>
     </item>
     
@@ -53,7 +53,7 @@ Den totala resistansen blir alltså mindre än de olika delresistanserna i en pa
       
       <guid>https://el.ltgee.se/docs/kombinerad/</guid>
       <description>Kombinerad krets #  I en kombinerad krets så finns det både serie och parallellkopplade delar. Det finns inga formler som gäller för kombinerade kretsar. Du måste själv räkna ut de olika delarna var för sig så att du får rena serie eller parallellberäkningar att lösa.
-För att lös ut och ersätta seriekopplingar/parallellkopplingar i kombinerade kretsa behöver du hitta en ren serie- eller en ren parallell-krets inne i den kombinerade kretsen.</description>
+För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade kretsar behöver du hitta en ren seriekrest eller en ren parallellkrets inne i den kombinerade kretsen.</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@ För att lös ut och ersätta seriekopplingar/parallellkopplingar i kombinerade 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/effekt/</guid>
-      <description>Effekt #  Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till Ljus i en lampa. En lampa som har en hög effekt och allså omvandlar energin snabbt lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsamare. Elenergin kan omvandlas till rörelse i en motor tillexempel en motor med stor effekt är stark/snabb, en med liten effekt är svag/långsam.</description>
+      <description>Effekt #  Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam.</description>
     </item>
     
   </channel>
