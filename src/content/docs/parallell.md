@@ -3,6 +3,8 @@ title: "4. Parallellkrets"
 ---
 # Parallellkrets
 
+![Parallellkrets](/parallell.png)
+
 I parallellkretser kopplas komponenterna på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
 
 Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling. En bra minnesregel är därför att totalresistansen alltid blir mindre än den minsta resistansen i en

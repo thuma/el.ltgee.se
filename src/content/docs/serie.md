@@ -1,7 +1,10 @@
 ---
-title: "3. Seriekretsar"
+title: "3. Seriekrets"
 ---
-# Seriekretsar
+# Seriekrets
+
+![Seriekrets](/serie.png)
+
 I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett
 tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd at ta sig förbi, och då minskar strömmen.
 Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.

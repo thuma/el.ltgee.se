@@ -3,6 +3,8 @@ title: "5. Kombinerad krets"
 ---
 # Kombinerad krets
 
+![Kombinerad krets](/kombinerad.png)
+
 I en kombinerad krets så finns det både serie och parallellkopplade delar. Det finns inga formler som gäller för kombinerade kretsar. Du måste själv räkna ut de olika delarna var för sig så att du får rena serie eller parallellberäkningar att lösa.
 
 För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade kretsar behöver du hitta en ren seriekrest eller en ren parallellkrets inne i den kombinerade kretsen. När du hittat två eller fler resistorer som är kopplade i serie eller parallellt med varandra kan du på vanligt sätt räkna ut vad resistansen är för dem tillsammans.

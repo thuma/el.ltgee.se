@@ -3,6 +3,8 @@ title: "6. Effekt"
 ---
 # Effekt
 
+![Effekt](/effekt.jpeg)
+
 Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam. En elvärmare ellet ett elelement har hög effekt så kommer det mycket värme från den om den har låg effekt så kommer det lite värme från den.
 
 Den elektriska effekten beror på ström och spänning. Ju fler elektroner som pressas igenom tillexempel en lamapa desto mer lyser den. Ju hårdare elektronerna pressas igenom desto högre effekt blir det. Detta innebär alltså att en ökad ström leder till ökad effekt. En högre spänning leder också till en ökad effekt.

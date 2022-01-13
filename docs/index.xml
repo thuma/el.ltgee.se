@@ -32,12 +32,12 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
     </item>
     
     <item>
-      <title>3. Seriekretsar</title>
+      <title>3. Seriekrets</title>
       <link>https://el.ltgee.se/docs/serie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/serie/</guid>
-      <description>Seriekretsar #  I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd at ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
+      <description>Seriekrets #  I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd at ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
     </item>
     
     <item>
