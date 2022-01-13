@@ -91,6 +91,16 @@ Om du tar bort en resistor i en parallellkrets så minskar strömmen eftersom de
 | Uträkning | {{< katex >}} R_{tot} = \frac{1}{ 0.833333}  {{< /katex >}} |
 | Resultat  | {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
 
+| Svar                 |
+| -------------------- |
+| {{< katex >}} U = 30 V {{< /katex >}}    | 
+| {{< katex >}} I_1 = 2 A {{< /katex >}}   |
+| {{< katex >}} I_2 = 3 A {{< /katex >}}   |
+| {{< katex >}} I = 5 A {{< /katex >}} |
+| {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
+| {{< katex >}} R_1 = 15 \Omega {{< /katex >}} |
+| {{< katex >}} R_{tot} = 10 \Omega {{< /katex >}} |
+| {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
 
 ### Beräkningsexempel för spänning och ström:
 | Data                                           |
@@ -132,6 +142,18 @@ Om du tar bort en resistor i en parallellkrets så minskar strömmen eftersom de
 | Uträkning | {{< katex >}} \frac{1}{R_{tot}} = \frac{1}{ 15 \Omega } + \frac{1}{ 10 \Omega } {{< /katex >}} |
 | Uträkning | {{< katex >}} R_{tot} = \frac{1}{ 0.833333}  {{< /katex >}} |
 | Resultat  | {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
+
+
+| Svar                 |
+| -------------------- |
+| {{< katex >}} I_1 = 5.25 A {{< /katex >}}         |
+| {{< katex >}} I_2 = 3 A {{< /katex >}}         | 
+| {{< katex >}} R_1 = 40 \Omega {{< /katex >}}   |
+| {{< katex >}} R_1 = 70 \Omega {{< /katex >}}   |
+| {{< katex >}} R_{tot} = 6 \Omega {{< /katex >}} |
+| {{< katex >}} U = 225 V {{< /katex >}} |
+| {{< katex >}} I = 8.25 A {{< /katex >}} |
+
 
 ## Frågor
 
