@@ -135,7 +135,7 @@ Om resistansen ökar och spänningen är den samma så kommer strömmen att mins
 | U = 24V    |
 | P = 72W    | 
 
-### Frågor
+## Frågor
 
 Vad händer med effekten om spänningen ökar och strömmen är densamma?
 
