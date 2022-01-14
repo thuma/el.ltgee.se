@@ -7,10 +7,11 @@ draft: true
 | Namn           | Symbol  | Bild |
 | -------------- | ------- | ---- |
 | Batteri        | ![Batteri](/batteri.png)        |      |
-| Spänningskälla |         |      |
+| Spänningskälla |  ![Batteri](/spänningskälla.png)       |      |
+| Likspänningskälla |  ![Batteri](/likspänningskälla.png)       |      |
 | Resistor       | ![Resistor](/resistor.png)        |      |
-| Ledare         |         |      |
+| Ledare         | ![Ledare](/ledare.png)        |      |
 | Lampa          | ![(X)](/lampa.png)        |      |
 | Voltmeter      | ![(V)](/voltmeter.png)        |      |
-| Ohmmeeter      |         |      |
+| Ohmmeeter      | ![(Ω)](/ohmmeter.png)      |      |
 | Amperemeter    | ![(V)](/amperemeter.png)       |      |

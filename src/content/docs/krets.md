@@ -18,6 +18,9 @@ På samma sett så kretsar strömmen/elektronerna runt i kretsen.
 ## Ordet kortslutning
 Order kortslutning är sammansatt av ordet kort och sluten. Kort för att vägen som strömmen går är så kort som det bara går. Ordet sluten för att kretsen är sluten alltså att strömmen kan komma hela vägen från + till -.
 
+## Kretsschema
+För att veta hur olika kretsar ska kopplas anväds kretscehma. I ett kretsschema så är alla komponenter ritade efter hur de ska kopplas. Det är inte alls ritat efter hur de sitter rent fysiskt. Olika kompontner beskrivs med [kretsschemasybmoler](/posts/kretsschemasymboler) som beskriver villken komponent som är vilken. [kretsschemasybmoler](/posts/kretsschemasymboler) är inte bilder på hur komponenterna ser ut i verkligheten utan är ritade efter funktionen som de har. 
+
 ## Beräkningar
 Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste.
 Denna formel används för att kunna räkna ut spänning, ström och resistans 

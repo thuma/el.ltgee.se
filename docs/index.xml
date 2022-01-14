@@ -71,7 +71,7 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/posts/kretsschemasymboler/</guid>
-      <description>Kretsschemasymboler #     Namn Symbol Bild     Batteri     Spänningskälla     Resistor     Ledare     Lampa     Voltmeter     Ohmmeeter     Amperemeter      </description>
+      <description>Kretsschemasymboler #     Namn Symbol Bild Funktion     Batteri   Skapar en elektrisk spänning.   Spänningskälla   Ger en elektrisk spänning tillexempel ett eluttag.   Likspänningskälla   Omvandlar från en spänning till en annan spänning.   Resistor   Bromsar strömmen och blir varm när den gör det.   Ledare   Leder ström   Lampa   Omvandlar elektricitet till ljus &amp;amp; värme   Voltmeter   Mäter spänning.</description>
     </item>
     
   </channel>
