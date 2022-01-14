@@ -5,11 +5,7 @@
     <link>https://el.ltgee.se/</link>
     <description>Recent content in Ellära 1 - Faktasida on Ellära 1</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>sv-SE</language>
-    
-	<atom:link href="https://el.ltgee.se/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>sv-SE</language><atom:link href="https://el.ltgee.se/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Elektricitet</title>
       <link>https://el.ltgee.se/docs/el/</link>
@@ -67,6 +63,15 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       
       <guid>https://el.ltgee.se/docs/effekt/</guid>
       <description>Effekt #  Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam.</description>
+    </item>
+    
+    <item>
+      <title>Kretsschemasymboler</title>
+      <link>https://el.ltgee.se/posts/kretsschemasymboler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/posts/kretsschemasymboler/</guid>
+      <description>Kretsschemasymboler #     Namn Symbol Bild     Batteri     Spänningskälla     Resistor     Ledare     Lampa     Voltmeter     Ohmmeeter     Amperemeter      </description>
     </item>
     
   </channel>

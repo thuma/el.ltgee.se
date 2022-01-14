@@ -89,7 +89,7 @@ Om resistansen ökar och spänningen är den samma så kommer strömmen att mins
 | Steg       | Räkna ut strömmen |
 | ---------- | ------------- |
 | Formel     | I = U/R       |
-| Uträkning  | U = 15V * 30Ω |
+| Uträkning  | I = 15V/30Ω |
 | Resultat   | I = 0,5A      |
 
 | Steg      | Räkna ut effekten |
@@ -116,7 +116,7 @@ Om resistansen ökar och spänningen är den samma så kommer strömmen att mins
 | --------- | ------------ |
 | Formel    | P = U * I & U = R * I    |
 | Formel    | P = R * I * I |
-| Formel    | P = R * I * I |
+| Formel    | P = R * I² |
 | Uträkning | 72W = 8Ω * I² |
 | Uträkning | I² = 72W/8Ω   |
 | Uträkning | {{< katex >}}I = \sqrt{72W/8Ω}{{< /katex >}}  |
@@ -128,12 +128,12 @@ Om resistansen ökar och spänningen är den samma så kommer strömmen att mins
 | Uträkning | U = 72W/3A    |
 | Resultat  | U = 24V        |
 
-| Svar      |
+| Svar       |
 | ---------- |
 | R = 15Ω    |
 | I = 3A     | 
 | U = 24V    |
-| P = 72W     | 
+| P = 72W    | 
 
 ### Frågor
 

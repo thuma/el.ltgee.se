@@ -23,7 +23,7 @@ Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste
 Denna formel används för att kunna räkna ut spänning, ström och resistans 
 i kretsar.
 
-### Ohms lag
+### Ohms lag  
 {{< katex >}}U = I * R{{< /katex >}} 
 
 Den kan också omvandlas genom algebra till  
