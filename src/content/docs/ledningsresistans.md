@@ -1,6 +1,5 @@
 ---
 Title: 7. Ledningsresistans
-
 ---
 # Ledningsresistans
 
