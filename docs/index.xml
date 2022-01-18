@@ -66,6 +66,16 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
     </item>
     
     <item>
+      <title>7. Ledningsresistans</title>
+      <link>https://el.ltgee.se/docs/ledningsresistans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/ledningsresistans/</guid>
+      <description>Ledningsresistans #  Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
+ Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Längd #  Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.</description>
+    </item>
+    
+    <item>
       <title>Kretsschemasymboler</title>
       <link>https://el.ltgee.se/posts/kretsschemasymboler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

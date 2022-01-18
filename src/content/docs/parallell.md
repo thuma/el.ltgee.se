@@ -16,6 +16,7 @@ För att komma ihåg ordet vad ordet parallell betyder så är det samma ord som
  * Parallella universum
  * Parallella linjer
  * Parallellslalom
+ 
 Ordet parallell betyder alltså bara att något ligger vid sidan av varandra. Parallella saker korsar inte varandra, när du har dina skidor parallellt så går det bra men korsar du dem så ramlar du direkt.
 
 ## Samband
