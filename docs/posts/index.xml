@@ -15,5 +15,18 @@
       <description>Kretsschemasymboler #     Namn Symbol Bild Funktion     Batteri   Skapar en elektrisk spänning.   Spänningskälla   Ger en elektrisk spänning tillexempel ett eluttag.   Likspänningskälla   Omvandlar från en spänning till en annan spänning.   Resistor   Bromsar strömmen och blir varm när den gör det.   Ledare   Leder ström   Lampa   Omvandlar elektricitet till ljus &amp;amp; värme   Voltmeter   Mäter spänning.</description>
     </item>
     
+    <item>
+      <title>Mätning - Periodtid och frekvens</title>
+      <link>https://el.ltgee.se/posts/labbperiodtidfrekvens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/posts/labbperiodtidfrekvens/</guid>
+      <description>Koppla in &amp;hellip; saad
+Fyll i dina mätvärden nedan:
+Period tid: ms.
+Frekvens: Hz.
+Kontrollera  function kontrollera(){ var a = Number.parseFloat(document.getElementsByName(&#34;periodtid&#34;)[0].value); var svar = Number.parseFloat(document.getElementsByName(&#34;frekvens&#34;)[0].value); if(Math.abs(svar- eval(&#34;1000/a&#34;)) </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,19 @@
+<button onclick="kontrollera()">Kontrollera</button>
+<script>
+function kontrollera(){
+
+  {{ with .Get "a" }} var a = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
+  {{ with .Get "b" }} var b = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
+  {{ with .Get "c" }} var c = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
+  {{ with .Get "d" }} var d = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
+  {{ with .Get "e" }} var e = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
+  {{ with .Get "f" }} var f = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
+  var svar = Number.parseFloat(document.getElementsByName({{ .Get "svar" }})[0].value);
+  if(Math.abs(svar- eval({{ .Get "calc" }})) < Number.parseFloat({{ .Get "diff"  }})){
+    window.alert("Rätt");
+  }
+  else {
+    window.alert("Något stämmer inte");
+  }
+}
+</script>

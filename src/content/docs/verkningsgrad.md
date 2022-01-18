@@ -36,8 +36,7 @@ En hög ström ger en hög ledningsförlust.
 {{< katex >}}P_{ut} = P_{in} * \eta{{< /katex >}} 
 
 ### Ledningsförlust
-{{< katex >}}P_{lf} = I * R_l{{< /katex >}} 
-
+{{< katex >}}P_{lf} = I² * R_l{{< /katex >}} 
 
 ## Sorheter och enheter
 | Storhet      | Beteckning | Enhet       | Beteckning |

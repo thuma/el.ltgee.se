@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.80.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ellära 1 #  Kaptiel 1 - 6 handlar om likström.
-Kaptiel 9 - 14 handlar om växelström.">
+<meta name="description" content="Koppla in &hellip; saad
+Fyll i dina mätvärden nedan:
+Period tid: ms.
+Frekvens: Hz.
+Kontrollera  function kontrollera(){ var a = Number.parseFloat(document.getElementsByName(&#34;periodtid&#34;)[0].value); var svar = Number.parseFloat(document.getElementsByName(&#34;frekvens&#34;)[0].value); if(Math.abs(svar- eval(&#34;1000/a&#34;)) ">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Ellära 1 - Faktasida" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://el.ltgee.se/" />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Mätning - Periodtid och frekvens" />
+<meta property="og:description" content="Koppla in &hellip; saad
+Fyll i dina mätvärden nedan:
+Period tid: ms.
+Frekvens: Hz.
+Kontrollera  function kontrollera(){ var a = Number.parseFloat(document.getElementsByName(&#34;periodtid&#34;)[0].value); var svar = Number.parseFloat(document.getElementsByName(&#34;frekvens&#34;)[0].value); if(Math.abs(svar- eval(&#34;1000/a&#34;)) " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://el.ltgee.se/posts/labbperiodtidfrekvens/" />
 
-<title>Ellära 1 - Faktasida | Ellära 1</title>
+<title>Mätning - Periodtid och frekvens | Ellära 1</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
   <script defer src="/en.search.min.b5a96fc6670c33174bb2da7f95d34b12f3a219a62ce8ebc1061af3b0c702ee8a.js" integrity="sha256-talvxmcMMxdLstp/ldNLEvOiGaYs6OvBBhrzsMcC7oo=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://el.ltgee.se/index.xml" title="Ellära 1" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -203,7 +208,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Ellära 1 - Faktasida</strong>
+  <strong>Mätning - Periodtid och frekvens</strong>
 
   <label for="toc-control">
     
@@ -228,12 +233,46 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="ellära-1">
-  Ellära 1
-  <a class="anchor" href="#ell%c3%a4ra-1">#</a>
-</h1>
-<p>Kaptiel 1 - 6 handlar om likström.</p>
-<p>Kaptiel 9 - 14 handlar om växelström.</p>
+<article class="markdown">
+  <h1>
+    <a href="/posts/labbperiodtidfrekvens/">Mätning - Periodtid och frekvens</a>
+  </h1>
+  
+
+
+  
+
+  
+
+
+
+<p>Koppla in  &hellip;
+saad</p>
+<p>Fyll i dina mätvärden nedan:</p>
+<p>Period tid: <input name="periodtid" />
+ ms.</p>
+<p>Frekvens: <input name="frekvens" />
+ Hz.</p>
+<button onclick="kontrollera()">Kontrollera</button>
+<script>
+function kontrollera(){
+
+   var a = Number.parseFloat(document.getElementsByName("periodtid")[0].value); 
+  
+  
+  
+  
+  
+  var svar = Number.parseFloat(document.getElementsByName("frekvens")[0].value);
+  if(Math.abs(svar- eval("1000/a")) < Number.parseFloat("5")){
+    window.alert("Rätt");
+  }
+  else {
+    window.alert("Något stämmer inte");
+  }
+}
+</script>
+
 </article>
  
       
