@@ -5,5 +5,5 @@ Title: Ellära 1 - Faktasida
 
 Kaptiel 1 - 6 handlar om likström.
 
-Kaptiel 7 - handlar om växelström.
+Kaptiel 9 - 14 handlar om växelström.
 
