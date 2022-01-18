@@ -136,3 +136,16 @@ Vad har högst resistans av en koppar och en silver ledare?
 
 Vad har lägst ressistans av en varm och en kall ledare?
 
+
+## Sorheter och enheter
+| Storhet      | Beteckning | Enhet       | Beteckning |
+| ------------ | ------------------ | ----------- | ---------------- |
+| Ström        | I                  | Ampere      | A                |
+| Spänning     | U                  | Volt        | V                |
+| Resistor     | R                  | Ohm         | Ω                |
+| Effekt       | P                  | Watt        | W                |
+| Längd        | l                  | Meter       | m                |
+| Tvärsnittsarea | A                | Kvadratmillimeter | mm²| 
+| Resistivitet | {{< katex >}}\rho{{< /katex >}} | Ohm per meter per kvadratmillimeter | Ohm/m/mm² | 
+
+
