@@ -1,0 +1,7 @@
+<h1 id="Rubrik"></h1>
+<pre id="data"></pre>
+<script>
+var data = JSON.parse(atob(window.location.hash.replace("#","")));
+document.getElementById("Rubrik").innerHTML = data.namn;
+document.getElementById("data").innerHTML = JSON.stringify(data, null, 2);
+</script>

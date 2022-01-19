@@ -7,14 +7,14 @@
 Fyll i dina mätvärden nedan:
 Period tid: ms.
 Frekvens: Hz.
-Kontrollera  function kontrollera(){ var a = Number.parseFloat(document.getElementsByName(&#34;periodtid&#34;)[0].value); var svar = Number.parseFloat(document.getElementsByName(&#34;frekvens&#34;)[0].value); if(Math.abs(svar- eval(&#34;1000/a&#34;)) ">
+Ditt namn: Kontrollera   function kontrollera(){ var namn = document.getElementById(&#34;namn&#34;).value; if(namn.length Kopiera länk&#34;; } else { window.alert(&#34;Något stämmer inte&#34;); } } function kopiera() { var inputElement = document.getElementById(&#34;svarkod&#34;); inputElement.select(); inputElement.setSelectionRange(0, 99999); navigator.clipboard.writeText(inputElement.value); }  ">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Mätning - Periodtid och frekvens" />
 <meta property="og:description" content="Koppla in &hellip; saad
 Fyll i dina mätvärden nedan:
 Period tid: ms.
 Frekvens: Hz.
-Kontrollera  function kontrollera(){ var a = Number.parseFloat(document.getElementsByName(&#34;periodtid&#34;)[0].value); var svar = Number.parseFloat(document.getElementsByName(&#34;frekvens&#34;)[0].value); if(Math.abs(svar- eval(&#34;1000/a&#34;)) " />
+Ditt namn: Kontrollera   function kontrollera(){ var namn = document.getElementById(&#34;namn&#34;).value; if(namn.length Kopiera länk&#34;; } else { window.alert(&#34;Något stämmer inte&#34;); } } function kopiera() { var inputElement = document.getElementById(&#34;svarkod&#34;); inputElement.select(); inputElement.setSelectionRange(0, 99999); navigator.clipboard.writeText(inputElement.value); }  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://el.ltgee.se/posts/labbperiodtidfrekvens/" />
 
@@ -23,7 +23,7 @@ Kontrollera  function kontrollera(){ var a = Number.parseFloat(document.getEleme
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.b5a96fc6670c33174bb2da7f95d34b12f3a219a62ce8ebc1061af3b0c702ee8a.js" integrity="sha256-talvxmcMMxdLstp/ldNLEvOiGaYs6OvBBhrzsMcC7oo=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.4a0bb0ef03d95cb90ea8cc149324f0aa98191a4983a4c39a73b9a2c463417cbf.js" integrity="sha256-Sguw7wPZXLkOqMwUkyTwqpgZGkmDpMOac7mixGNBfL8=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -249,27 +249,49 @@ https://github.com/alex-shpak/hugo-book
 <p>Koppla in  &hellip;
 saad</p>
 <p>Fyll i dina mätvärden nedan:</p>
-<p>Period tid: <input name="periodtid" />
+<p>Period tid: <input id="periodtid" />
  ms.</p>
-<p>Frekvens: <input name="frekvens" />
+<p>Frekvens: <input id="frekvens" />
  Hz.</p>
-<button onclick="kontrollera()">Kontrollera</button>
+<div id="testsvar">
+  Ditt namn: <input id="namn">
+  <button onclick="kontrollera()">Kontrollera</button> <br>
+</div>
 <script>
 function kontrollera(){
-
-   var a = Number.parseFloat(document.getElementsByName("periodtid")[0].value); 
+  var namn = document.getElementById("namn").value;
+  if(namn.length < 3){
+    window.alert("Du måste skriva ditt namn.");
+    return
+  }
+  var alladata = {"namn":namn}
+   
+  	var a = Number.parseFloat(document.getElementById("periodtid").value);
+  	alladata["periodtid"] = a;
   
   
   
   
   
-  var svar = Number.parseFloat(document.getElementsByName("frekvens")[0].value);
-  if(Math.abs(svar- eval("1000/a")) < Number.parseFloat("5")){
-    window.alert("Rätt");
+  
+  
+  var svar = Number.parseFloat(document.getElementById("frekvens").value);
+  alladata["frekvens"] = svar;
+  
+  if(Math.abs(svar - eval("1000/a")) < Number.parseFloat("5")){
+    var link = btoa(JSON.stringify(alladata));
+    document.getElementById("testsvar").innerHTML = "Rätt! Din länk är: <input value='https://el.ltgee.se/posts/test/#"+link+"' id='svarkod' readonly><button type='button' onclick='kopiera()'>Kopiera länk</button>";
   }
   else {
     window.alert("Något stämmer inte");
   }
+}
+
+function kopiera() {
+  var inputElement = document.getElementById("svarkod");
+  inputElement.select();
+  inputElement.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(inputElement.value);
 }
 </script>
 

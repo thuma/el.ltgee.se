@@ -1,19 +1,56 @@
-<button onclick="kontrollera()">Kontrollera</button>
+<div id="testsvar">
+  Ditt namn: <input id="namn">
+  <button onclick="kontrollera()">Kontrollera</button> <br>
+</div>
 <script>
 function kontrollera(){
-
-  {{ with .Get "a" }} var a = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
-  {{ with .Get "b" }} var b = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
-  {{ with .Get "c" }} var c = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
-  {{ with .Get "d" }} var d = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
-  {{ with .Get "e" }} var e = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
-  {{ with .Get "f" }} var f = Number.parseFloat(document.getElementsByName({{ . }})[0].value); {{ end }}
-  var svar = Number.parseFloat(document.getElementsByName({{ .Get "svar" }})[0].value);
-  if(Math.abs(svar- eval({{ .Get "calc" }})) < Number.parseFloat({{ .Get "diff"  }})){
-    window.alert("Rätt");
+  var namn = document.getElementById("namn").value;
+  if(namn.length < 3){
+    window.alert("Du måste skriva ditt namn.");
+    return
+  }
+  var alladata = {"namn":namn}
+  {{ with .Get "a" }} 
+  	var a = Number.parseFloat(document.getElementById({{ . }}).value);
+  	alladata[{{ . }}] = a;
+  {{ end }}
+  {{ with .Get "b" }} 
+  	var b = Number.parseFloat(document.getElementById({{ . }}).value);
+  	alladata[{{ . }}] = b;
+  {{ end }}
+  {{ with .Get "c" }} 
+  	var c = Number.parseFloat(document.getElementById({{ . }}).value);
+  	alladata[{{ . }}] = c;
+  {{ end }}
+  {{ with .Get "d" }} 
+  	var d = Number.parseFloat(document.getElementById({{ . }}).value);
+  	alladata[{{ . }}] = d;
+  {{ end }}
+  {{ with .Get "e" }} 
+        var e = Number.parseFloat(document.getElementById({{ . }}).value);
+        alladata[{{ . }}] = e;
+  {{ end }}
+  {{ with .Get "f" }} 
+        var f = Number.parseFloat(document.getElementById({{ . }}).value);
+        alladata[{{ . }}] = f;
+  {{ end }}
+  
+  var svar = Number.parseFloat(document.getElementById({{ .Get "svar" }}).value);
+  alladata[{{ .Get "svar" }}] = svar;
+  
+  if(Math.abs(svar - eval({{ .Get "calc" }})) < Number.parseFloat({{ .Get "diff"  }})){
+    var link = btoa(JSON.stringify(alladata));
+    document.getElementById("testsvar").innerHTML = "Rätt! Din länk är: <input value='https://el.ltgee.se/posts/test/#"+link+"' id='svarkod' readonly><button type='button' onclick='kopiera()'>Kopiera länk</button>";
   }
   else {
     window.alert("Något stämmer inte");
   }
+}
+
+function kopiera() {
+  var inputElement = document.getElementById("svarkod");
+  inputElement.select();
+  inputElement.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(inputElement.value);
 }
 </script>
