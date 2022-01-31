@@ -5,7 +5,11 @@
     <link>https://el.ltgee.se/</link>
     <description>Recent content in Ellära 1 - Faktasida on Ellära 1</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>sv-SE</language><atom:link href="https://el.ltgee.se/index.xml" rel="self" type="application/rss+xml" />
+    <language>sv-SE</language>
+    
+	<atom:link href="https://el.ltgee.se/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>1. Elektricitet</title>
       <link>https://el.ltgee.se/docs/el/</link>
@@ -96,10 +100,10 @@ En glödlampa använder 5% av effekten som den får till att göra ljus. Övrig 
     
     <item>
       <title>Mätning - Effektivvärde och Toppvärde</title>
-      <link>https://el.ltgee.se/posts/labbtoppeffektivv%C3%A4rde/</link>
+      <link>https://el.ltgee.se/posts/labbtoppeffektivva%CC%88rde/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://el.ltgee.se/posts/labbtoppeffektivv%C3%A4rde/</guid>
+      <guid>https://el.ltgee.se/posts/labbtoppeffektivva%CC%88rde/</guid>
       <description>Koppla in &amp;hellip; saad
 Fyll i dina mätvärden nedan:
 Spänningens effektivvärde: V.

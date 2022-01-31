@@ -17,7 +17,7 @@ En glödlampa använder 5% av effekten som den får till att göra ljus. Övrig 
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.4a0bb0ef03d95cb90ea8cc149324f0aa98191a4983a4c39a73b9a2c463417cbf.js" integrity="sha256-Sguw7wPZXLkOqMwUkyTwqpgZGkmDpMOac7mixGNBfL8=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.216d1bb5e5cc83577e50cc8c6b350e98feb388ba4cf800143501c0ab9d783d5a.js" integrity="sha256-IW0bteXMg1d&#43;UMyMazUOmP6ziLpM&#43;AAUNQHAq514PVo=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -219,13 +219,19 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#effektförluster">Effektförluster</a></li>
-    <li><a href="#exempel">Exempel</a></li>
-    <li><a href="#beräknigar">Beräknigar</a>
+    <li><a href="#formel">Formel</a>
       <ul>
         <li><a href="#verkningsgrad-1">Verkningsgrad</a></li>
-        <li><a href="#ledningsförlust">Ledningsförlust</a></li>
       </ul>
     </li>
+    <li><a href="#exempel">Exempel</a>
+      <ul>
+        <li><a href="#beräkningsexempel-med-verkningsgrad">Beräkningsexempel med verkningsgrad</a></li>
+        <li><a href="#beräkningsexempel-för-verkningsgrad">Beräkningsexempel för verkningsgrad</a></li>
+        <li><a href="#beräkningsexempel-med-uteffekt">Beräkningsexempel med uteffekt</a></li>
+      </ul>
+    </li>
+    <li><a href="#frågor">Frågor</a></li>
     <li><a href="#sorheter-och-enheter">Sorheter och enheter</a></li>
   </ul>
 </nav>
@@ -244,7 +250,7 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#verkningsgrad">#</a>
 </h1>
 <p>Verkninsgraden är hur stor del av effeten som gör det man vill att en ska göra. Verkan är samma ord som i påverkar om du gapar och skriker hemma för att få en ny telefon men du inte får någon trotts en massa skrik. Då kunde du inte påverkan din verkningrad var då 0.</p>
-<p>En glödlampa använder 5% av effekten som den får till att göra ljus. Övrig 95% blir värme. Det innebär att det bara blir 5% i verkningsgrad eftersom det är ljud du vill ha från en glödlampa.</p>
+<p>En glödlampa använder 5% av effekten som den får till att göra ljus. Övrig 95% blir värme. Det innebär att det bara blir 5% i verkningsgrad eftersom det är ljus du vill ha från en glödlampa.</p>
 <p>Om du har en glödlampa i en bastu för att få ljus och värme så kommer det däremot att blir 100% verkninsgrad eftersom du vill ha det varmt och bastun och vill ha ljus för att se.</p>
 <h2 id="effektförluster">
   Effektförluster
@@ -253,6 +259,29 @@ https://github.com/alex-shpak/hugo-book
 <p>När effekt överförs eller omvandlas så kommer det alltid att bli förluster.
 Det blir alltid värme när en lampa lyser tillexempel trotts att vi bara vill ha ljus. Effekten som blir till värme kallas effektförlust.</p>
 <p>När effekt ska överföras i ledningar så blir det också förluster. Detta kallas för ledningsförluster. Eftersom långa ledningar har högre resistans så blir lesningsförlusten högre i långa ledningar.</p>
+<h2 id="formel">
+  Formel
+  <a class="anchor" href="#formel">#</a>
+</h2>
+<h3 id="verkningsgrad-1">
+  Verkningsgrad
+  <a class="anchor" href="#verkningsgrad-1">#</a>
+</h3>
+<p>
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \(P_2 = P_1 * \eta\)
+</span>
+<br>
+<span>
+  \(P_1 =\)
+</span>
+  Tillförd effekt<br>
+<span>
+  \(P_2 =\)
+</span>
+  Avgiven effekt (nyttig)</p>
 <h2 id="exempel">
   Exempel
   <a class="anchor" href="#exempel">#</a>
@@ -262,31 +291,270 @@ Det blir alltid värme när en lampa lyser tillexempel trotts att vi bara vill h
 <p>En kort ledare med liten ström resulterar i liten ledningsförlust.</p>
 <p>En tunn ledare med stor ström resulterar i en stor ledsningsförlust.</p>
 <p>En tjock ledare med liten ström resulterar i liten ledningsförlust.</p>
-<p>Låg ström ger låg ledninsförlust.</p>
-<p>En hög ström ger en hög ledningsförlust.</p>
-<h2 id="beräknigar">
-  Beräknigar
-  <a class="anchor" href="#ber%c3%a4knigar">#</a>
+<p>Låg ström ger låg ledninsförlust. Eftersom det då blir mindre effekt i ledaren.</p>
+<p>En hög ström ger en hög ledningsförlust. Eftersom det det blir en hög effekt i ledaren.</p>
+<h3 id="beräkningsexempel-med-verkningsgrad">
+  Beräkningsexempel med verkningsgrad
+  <a class="anchor" href="#ber%c3%a4kningsexempel-med-verkningsgrad">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \(\eta = 90\% \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \(P_1 = 100W \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \(P_2 = P_1 * \eta\)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \(P_2 = 100W * 90\% \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \(P_2 = 90W  \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Svar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \(\eta = 90\% \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \(P_1 = 100W \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \(P_2 = 90W \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="beräkningsexempel-för-verkningsgrad">
+  Beräkningsexempel för verkningsgrad
+  <a class="anchor" href="#ber%c3%a4kningsexempel-f%c3%b6r-verkningsgrad">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \(P_1 = 200W \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \(P_2 = 100W \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \(\eta = \frac{P_2}{P_1}\)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \(\eta = \frac{100W}{200W}\)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \(\eta = 50\% \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Svar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \(P_1 = 200W \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \(P_2 = 100W \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \(\eta = 50\% \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="beräkningsexempel-med-uteffekt">
+  Beräkningsexempel med uteffekt
+  <a class="anchor" href="#ber%c3%a4kningsexempel-med-uteffekt">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \(\eta = 90\% \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \(P_2 = 180W \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \(P_1 = \frac{P_2}{\eta}\)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \(P_1 = \frac{180W}{90\%} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \(P_1 = 200W  \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Svar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \(\eta = 90\% \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \(P_2 = 180W \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \(P_1 = 200W \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="frågor">
+  Frågor
+  <a class="anchor" href="#fr%c3%a5gor">#</a>
 </h2>
-<h3 id="verkningsgrad-1">
-  Verkningsgrad
-  <a class="anchor" href="#verkningsgrad-1">#</a>
-</h3>
-
-<link rel="stylesheet" href="/katex/katex.min.css" />
-<script defer src="/katex/katex.min.js"></script>
-<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
-  \(P_{ut} = P_{in} * \eta\)
-</span>
-
-<h3 id="ledningsförlust">
-  Ledningsförlust
-  <a class="anchor" href="#ledningsf%c3%b6rlust">#</a>
-</h3>
-<span>
-  \(P_{lf} = I² * R_l\)
-</span>
-
+<p>Vad är alltid störst tillförd eller avgiven effekt?</p>
+<p>Vad kommer alla elektriska apparater skapa när dom är på?</p>
+<p>Vad är nyttig effekt i en glödlampa?</p>
+<p>Hur blir effektförlusten i en lång ledare med en stor ström?</p>
+<p>Hur blir effektförlusten i en kort ledare med liten ström?</p>
+<p>Hur blir effektförlusten i en tunn ledare med stor ström?</p>
+<p>Hur blir effektförlusten i en tjock ledare med liten ström?</p>
+<p>Hur blir effektförlusten om en låg ström går i en ledare?</p>
+<p>Hur blir effektförlusten om en hög ström ger i en ledare?</p>
 <h2 id="sorheter-och-enheter">
   Sorheter och enheter
   <a class="anchor" href="#sorheter-och-enheter">#</a>
@@ -397,13 +665,19 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
 <nav id="TableOfContents">
   <ul>
     <li><a href="#effektförluster">Effektförluster</a></li>
-    <li><a href="#exempel">Exempel</a></li>
-    <li><a href="#beräknigar">Beräknigar</a>
+    <li><a href="#formel">Formel</a>
       <ul>
         <li><a href="#verkningsgrad-1">Verkningsgrad</a></li>
-        <li><a href="#ledningsförlust">Ledningsförlust</a></li>
       </ul>
     </li>
+    <li><a href="#exempel">Exempel</a>
+      <ul>
+        <li><a href="#beräkningsexempel-med-verkningsgrad">Beräkningsexempel med verkningsgrad</a></li>
+        <li><a href="#beräkningsexempel-för-verkningsgrad">Beräkningsexempel för verkningsgrad</a></li>
+        <li><a href="#beräkningsexempel-med-uteffekt">Beräkningsexempel med uteffekt</a></li>
+      </ul>
+    </li>
+    <li><a href="#frågor">Frågor</a></li>
     <li><a href="#sorheter-och-enheter">Sorheter och enheter</a></li>
   </ul>
 </nav>
