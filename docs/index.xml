@@ -90,6 +90,18 @@ En glödlampa använder 5% av effekten som den får till att göra ljus. Övrig 
     </item>
     
     <item>
+      <title>9. Växelspänning</title>
+      <link>https://el.ltgee.se/docs/va%CC%88xelstro%CC%88m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/va%CC%88xelstro%CC%88m/</guid>
+      <description>Växelspänning #  Ändrar riktning och storlek.
+Används p.g.a. att det är lätta att ändra spänningen med en transformator.
+Toppvärde &amp;amp; Effektivvärde #  Formel #    \( û = U * \sqrt[]{2} \)  Periodtid &amp;amp; Frekvens #  Period är som i hockey, innebandy, m.fl. Rond i boxning i ringen runt. En period är ett var i en enkellindad generator.
+Formel #   \( f = \frac{1}{t} \)     Storhet Beteckning Enhet Beteckning     Ström I Ampere A   Spänning (Effektivvärde) U Volt V   Resistor R Ohm Ω   Längd l Meter m   Tvärsnittsarea A Kvadratmillimeter mm²   Resistivitet  \(\rho\)   Ohm per meter per kvadratmillimeter Ohm/m/mm²   Effekt P Watt W   Verkninsgrad 𝝶 Procent / Faktor % / ingen   Spänning (Toppvärde) û Volt V   Periodtid  \( t \)   Sekunder s   Frekvens  \( f \)   Hertz Hz    </description>
+    </item>
+    
+    <item>
       <title>Kretsschemasymboler</title>
       <link>https://el.ltgee.se/posts/kretsschemasymboler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
