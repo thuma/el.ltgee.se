@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Växelspänning#Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till &#43; och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte &#43; och - på samma ställe hela tiden. &#43; och - byter hela tiden platts det kallas att polariteten ändras.
+Toppvärde &amp; Effektivvärde#Toppvärdet är det som är högst upp på sinuskurvan.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="9. Växelspänning" />
+<meta property="og:description" content="Växelspänning#Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till &#43; och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte &#43; och - på samma ställe hela tiden. &#43; och - byter hela tiden platts det kallas att polariteten ändras.
+Toppvärde &amp; Effektivvärde#Toppvärdet är det som är högst upp på sinuskurvan." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://el.ltgee.se/docs/ac/" /><meta property="article:section" content="docs" />
+
+
+
+<title>9. Växelspänning | Ellära 1</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.983122fb6f3b2cee8cf1954c814863fb72063ac0f3a91185dce4808d1828730d.js" integrity="sha256-mDEi&#43;287LO6M8ZVMgUhj&#43;3IGOsDzqRGF3OSAjRgocw0=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Ellära 1</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/el/" class="">1. Elektricitet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/krets/" class="">2. Krets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/serie/" class="">3. Seriekrets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/parallell/" class="">4. Parallellkrets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/kombinerad/" class="">5. Kombinerad krets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/effekt/" class="">6. Effekt</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/ledningsresistans/" class="">7. Ledningsresistans</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/verkningsgrad/" class="">8. Verkningsgrad</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://el.ltgee.se/docs/ac/" class=" active">9. Växelspänning</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>9. Växelspänning</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#toppvärde--effektivvärde">Toppvärde &amp; Effektivvärde</a>
+      <ul>
+        <li><a href="#formel">Formel</a></li>
+        <li><a href="#exempelberäkningar">Exempelberäkningar</a></li>
+      </ul>
+    </li>
+    <li><a href="#periodtid--frekvens">Periodtid &amp; Frekvens</a>
+      <ul>
+        <li><a href="#formel-1">Formel</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="växelspänning">
+  Växelspänning
+  <a class="anchor" href="#v%c3%a4xelsp%c3%a4nning">#</a>
+</h1>
+<p><img src="/sinus.png" alt="Sinuskurva" /></p>
+<p>Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till + och sedan tillbaka ner till 0V och till -.
+Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte + och - på samma ställe hela tiden. + och - byter hela tiden platts det kallas att polariteten ändras.</p>
+<h2 id="toppvärde--effektivvärde">
+  Toppvärde &amp; Effektivvärde
+  <a class="anchor" href="#toppv%c3%a4rde--effektivv%c3%a4rde">#</a>
+</h2>
+<p><img src="/sinustop.png" alt="Sinuskurvamedtippvärde" /></p>
+<p>Toppvärdet är det som är högst upp på sinuskurvan.
+
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \( û \)
+</span>
+ = Toppvärde</p>
+<p>Spänningen U som är den spänning som en DC krets har, där det är samma spänningn hela tiden. Det är alltså samma effekt hela tiden därför kallas detta värde Effektivvärde.</p>
+<h3 id="formel">
+  Formel
+  <a class="anchor" href="#formel">#</a>
+</h3>
+<p>För att räkna ut toppvärdet när du har effektivvärdet använder du följande formel.
+<span>
+  \( û = U * \sqrt[]{2} \)
+</span>
+</p>
+<h3 id="exempelberäkningar">
+  Exempelberäkningar
+  <a class="anchor" href="#exempelber%c3%a4kningar">#</a>
+</h3>
+<h2 id="periodtid--frekvens">
+  Periodtid &amp; Frekvens
+  <a class="anchor" href="#periodtid--frekvens">#</a>
+</h2>
+<p><img src="/sinusperiod.png" alt="Sinuskurvamedperiodtid" /></p>
+<p>Period är som i hockey, innebandy, m.fl. 
+Rond i boxning i ringen runt. En period är ett var i en enkellindad generator.</p>
+<h3 id="formel-1">
+  Formel
+  <a class="anchor" href="#formel-1">#</a>
+</h3>
+<span>
+  \( f = \frac{1}{t} \)
+</span>
+
+<table>
+<thead>
+<tr>
+<th>Storhet</th>
+<th>Beteckning</th>
+<th>Enhet</th>
+<th>Beteckning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ström</td>
+<td>I</td>
+<td>Ampere</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Spänning (Effektivvärde)</td>
+<td>U</td>
+<td>Volt</td>
+<td>V</td>
+</tr>
+<tr>
+<td>Resistor</td>
+<td>R</td>
+<td>Ohm</td>
+<td>Ω</td>
+</tr>
+<tr>
+<td>Längd</td>
+<td>l</td>
+<td>Meter</td>
+<td>m</td>
+</tr>
+<tr>
+<td>Tvärsnittsarea</td>
+<td>A</td>
+<td>Kvadratmillimeter</td>
+<td>mm²</td>
+</tr>
+<tr>
+<td>Resistivitet</td>
+<td><span>
+  \(\rho\)
+</span>
+</td>
+<td>Ohm per meter per kvadratmillimeter</td>
+<td>Ohm/m/mm²</td>
+</tr>
+<tr>
+<td>Effekt</td>
+<td>P</td>
+<td>Watt</td>
+<td>W</td>
+</tr>
+<tr>
+<td>Verkninsgrad</td>
+<td>𝝶</td>
+<td>Procent / Faktor</td>
+<td>% / ingen</td>
+</tr>
+<tr>
+<td>Spänning (Toppvärde)</td>
+<td>û</td>
+<td>Volt</td>
+<td>V</td>
+</tr>
+<tr>
+<td>Periodtid</td>
+<td><span>
+  \( t \)
+</span>
+</td>
+<td>Sekunder</td>
+<td>s</td>
+</tr>
+<tr>
+<td>Frekvens</td>
+<td><span>
+  \( f \)
+</span>
+</td>
+<td>Hertz</td>
+<td>Hz</td>
+</tr>
+</tbody>
+</table>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#toppvärde--effektivvärde">Toppvärde &amp; Effektivvärde</a>
+      <ul>
+        <li><a href="#formel">Formel</a></li>
+        <li><a href="#exempelberäkningar">Exempelberäkningar</a></li>
+      </ul>
+    </li>
+    <li><a href="#periodtid--frekvens">Periodtid &amp; Frekvens</a>
+      <ul>
+        <li><a href="#formel-1">Formel</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
