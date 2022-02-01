@@ -5,20 +5,16 @@
     <link>https://el.ltgee.se/</link>
     <description>Recent content in Ellära 1 - Faktasida on Ellära 1</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>sv-SE</language>
-    
-	<atom:link href="https://el.ltgee.se/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>sv-SE</language><atom:link href="https://el.ltgee.se/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Elektricitet</title>
       <link>https://el.ltgee.se/docs/el/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/el/</guid>
-      <description>Elektricitet #  Ström #  Ström är elektroner som rör sig i en ledare. Strömmen är ett mått på hur många elektroner som rör sig. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
+      <description>Elektricitet#Ström#Ström är elektroner som rör sig i en ledare. Strömmen är ett mått på hur många elektroner som rör sig. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
 Innom elläran så säger vi att strömmen åker från plus till minus. Plus och minus kallas också anod(+) och katod(-).
-Exempel #  I = 5A</description>
+Exempel#I = 5A</description>
     </item>
     
     <item>
@@ -27,7 +23,7 @@ Exempel #  I = 5A</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/krets/</guid>
-      <description>Krets #  I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
+      <description>Krets#I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
 Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så slutar elektronerna att röra på sig, det kallas för en öppen krets.</description>
     </item>
     
@@ -37,7 +33,7 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/serie/</guid>
-      <description>Seriekrets #  I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd att ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
+      <description>Seriekrets#I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd att ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
     </item>
     
     <item>
@@ -46,7 +42,7 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/parallell/</guid>
-      <description>Parallellkrets #  I parallellkretser kopplas komponenterna på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
+      <description>Parallellkrets#I parallellkretser kopplas komponenterna på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
 Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling.</description>
     </item>
     
@@ -56,7 +52,7 @@ Den totala resistansen blir alltså mindre än de olika delresistanserna i en pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/kombinerad/</guid>
-      <description>Kombinerad krets #  I en kombinerad krets så finns det både serie och parallellkopplade delar. Det finns inga formler som gäller för kombinerade kretsar. Du måste själv räkna ut de olika delarna var för sig så att du får rena serie eller parallellberäkningar att lösa.
+      <description>Kombinerad krets#I en kombinerad krets så finns det både serie och parallellkopplade delar. Det finns inga formler som gäller för kombinerade kretsar. Du måste själv räkna ut de olika delarna var för sig så att du får rena serie eller parallellberäkningar att lösa.
 För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade kretsar behöver du hitta en ren seriekrest eller en ren parallellkrets inne i den kombinerade kretsen.</description>
     </item>
     
@@ -66,7 +62,7 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/effekt/</guid>
-      <description>Effekt #  Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam.</description>
+      <description>Effekt#Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam.</description>
     </item>
     
     <item>
@@ -75,8 +71,8 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/ledningsresistans/</guid>
-      <description>Ledningsresistans #  Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
- Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Längd #  Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.</description>
+      <description>Ledningsresistans#Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
+ Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Längd#Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.</description>
     </item>
     
     <item>
@@ -85,20 +81,20 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/verkningsgrad/</guid>
-      <description>Verkningsgrad #  Verkninsgraden är hur stor del av effeten som gör det man vill att en ska göra. Verkan är samma ord som i påverkar om du gapar och skriker hemma för att få en ny telefon men du inte får någon trotts en massa skrik. Då kunde du inte påverkan din verkningrad var då 0.
+      <description>Verkningsgrad#Verkninsgraden är hur stor del av effeten som gör det man vill att en ska göra. Verkan är samma ord som i påverkar om du gapar och skriker hemma för att få en ny telefon men du inte får någon trotts en massa skrik. Då kunde du inte påverkan din verkningrad var då 0.
 En glödlampa använder 5% av effekten som den får till att göra ljus. Övrig 95% blir värme.</description>
     </item>
     
     <item>
       <title>9. Växelspänning</title>
-      <link>https://el.ltgee.se/docs/va%CC%88xelstro%CC%88m/</link>
+      <link>https://el.ltgee.se/docs/v%C3%A4xelstr%C3%B6m/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://el.ltgee.se/docs/va%CC%88xelstro%CC%88m/</guid>
-      <description>Växelspänning #  Ändrar riktning och storlek.
+      <guid>https://el.ltgee.se/docs/v%C3%A4xelstr%C3%B6m/</guid>
+      <description>Växelspänning#Ändrar riktning och storlek.
 Används p.g.a. att det är lätta att ändra spänningen med en transformator.
-Toppvärde &amp;amp; Effektivvärde #  Formel #    \( û = U * \sqrt[]{2} \)  Periodtid &amp;amp; Frekvens #  Period är som i hockey, innebandy, m.fl. Rond i boxning i ringen runt. En period är ett var i en enkellindad generator.
-Formel #   \( f = \frac{1}{t} \)     Storhet Beteckning Enhet Beteckning     Ström I Ampere A   Spänning (Effektivvärde) U Volt V   Resistor R Ohm Ω   Längd l Meter m   Tvärsnittsarea A Kvadratmillimeter mm²   Resistivitet  \(\rho\)   Ohm per meter per kvadratmillimeter Ohm/m/mm²   Effekt P Watt W   Verkninsgrad 𝝶 Procent / Faktor % / ingen   Spänning (Toppvärde) û Volt V   Periodtid  \( t \)   Sekunder s   Frekvens  \( f \)   Hertz Hz    </description>
+Toppvärde &amp;amp; Effektivvärde#Formel#\( û = U * \sqrt[]{2} \)Periodtid &amp;amp; Frekvens#Period är som i hockey, innebandy, m.fl. Rond i boxning i ringen runt. En period är ett var i en enkellindad generator.
+Formel#\( f = \frac{1}{t} \)   Storhet Beteckning Enhet Beteckning     Ström I Ampere A   Spänning (Effektivvärde) U Volt V   Resistor R Ohm Ω   Längd l Meter m   Tvärsnittsarea A Kvadratmillimeter mm²   Resistivitet \(\rho\) Ohm per meter per kvadratmillimeter Ohm/m/mm²   Effekt P Watt W   Verkninsgrad 𝝶 Procent / Faktor % / ingen   Spänning (Toppvärde) û Volt V   Periodtid \( t \) Sekunder s   Frekvens \( f \) Hertz Hz    </description>
     </item>
     
     <item>
@@ -107,20 +103,20 @@ Formel #   \( f = \frac{1}{t} \)     Storhet Beteckning Enhet Beteckning     Str
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/posts/kretsschemasymboler/</guid>
-      <description>Kretsschemasymboler #     Namn Symbol Bild Funktion     Batteri   Skapar en elektrisk spänning.   Spänningskälla   Ger en elektrisk spänning tillexempel ett eluttag.   Likspänningskälla   Omvandlar från en spänning till en annan spänning.   Resistor   Bromsar strömmen och blir varm när den gör det.   Ledare   Leder ström   Lampa   Omvandlar elektricitet till ljus &amp;amp; värme   Voltmeter   Mäter spänning.</description>
+      <description>Kretsschemasymboler#   Namn Symbol Bild Funktion     Batteri   Skapar en elektrisk spänning.   Spänningskälla   Ger en elektrisk spänning tillexempel ett eluttag.   Likspänningskälla   Omvandlar från en spänning till en annan spänning.   Resistor   Bromsar strömmen och blir varm när den gör det.   Ledare   Leder ström   Lampa   Omvandlar elektricitet till ljus &amp;amp; värme   Voltmeter   Mäter spänning.</description>
     </item>
     
     <item>
       <title>Mätning - Effektivvärde och Toppvärde</title>
-      <link>https://el.ltgee.se/posts/labbtoppeffektivva%CC%88rde/</link>
+      <link>https://el.ltgee.se/posts/labbtoppeffektivv%C3%A4rde/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://el.ltgee.se/posts/labbtoppeffektivva%CC%88rde/</guid>
+      <guid>https://el.ltgee.se/posts/labbtoppeffektivv%C3%A4rde/</guid>
       <description>Koppla in &amp;hellip; saad
 Fyll i dina mätvärden nedan:
 Spänningens effektivvärde: V.
 Spänningens toppvärde: V.
-Ditt namn: Kontrollera   function kontrollera(){ var namn = document.getElementById(&#34;namn&#34;).value; if(namn.length Kopiera länk&#34;; } else { window.alert(&#34;Något stämmer inte&#34;); } } function kopiera() { var inputElement = document.getElementById(&#34;svarkod&#34;); inputElement.select(); inputElement.setSelectionRange(0, 99999); navigator.clipboard.writeText(inputElement.value); }  </description>
+Ditt namn: Kontrollera function kontrollera(){var namn = document.getElementById(&#34;namn&#34;).value;if(namn.length Kopiera länk&#34;;}else {window.alert(&#34;Något stämmer inte&#34;);}}function kopiera() {var inputElement = document.getElementById(&#34;svarkod&#34;);inputElement.select();inputElement.setSelectionRange(0, 99999);navigator.clipboard.writeText(inputElement.value);}</description>
     </item>
     
     <item>
@@ -133,7 +129,7 @@ Ditt namn: Kontrollera   function kontrollera(){ var namn = document.getElementB
 Fyll i dina mätvärden nedan:
 Period tid: ms.
 Frekvens: Hz.
-Ditt namn: Kontrollera   function kontrollera(){ var namn = document.getElementById(&#34;namn&#34;).value; if(namn.length Kopiera länk&#34;; } else { window.alert(&#34;Något stämmer inte&#34;); } } function kopiera() { var inputElement = document.getElementById(&#34;svarkod&#34;); inputElement.select(); inputElement.setSelectionRange(0, 99999); navigator.clipboard.writeText(inputElement.value); }  </description>
+Ditt namn: Kontrollera function kontrollera(){var namn = document.getElementById(&#34;namn&#34;).value;if(namn.length Kopiera länk&#34;;}else {window.alert(&#34;Något stämmer inte&#34;);}}function kopiera() {var inputElement = document.getElementById(&#34;svarkod&#34;);inputElement.select();inputElement.setSelectionRange(0, 99999);navigator.clipboard.writeText(inputElement.value);}</description>
     </item>
     
     <item>
@@ -142,7 +138,7 @@ Ditt namn: Kontrollera   function kontrollera(){ var namn = document.getElementB
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/posts/test/</guid>
-      <description>   var data = JSON.parse(atob(window.location.hash.replace(&#34;#&#34;,&#34;&#34;))); document.getElementById(&#34;Rubrik&#34;).innerHTML = data.namn; document.getElementById(&#34;data&#34;).innerHTML = JSON.stringify(data, null, 2);  </description>
+      <description>var data = JSON.parse(atob(window.location.hash.replace(&#34;#&#34;,&#34;&#34;)));document.getElementById(&#34;Rubrik&#34;).innerHTML = data.namn;document.getElementById(&#34;data&#34;).innerHTML = JSON.stringify(data, null, 2);</description>
     </item>
     
   </channel>
