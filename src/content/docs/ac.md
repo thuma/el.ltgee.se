@@ -6,15 +6,22 @@ Title: 9. Växelspänning
 
 ![Sinuskurva](/sinus.png)
 
-Ändrar riktning och storlek.
-
-Används p.g.a. att det är lätta att ändra spänningen med en transformator.
+Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till + och sedan tillbaka ner till 0V och till -.
+Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte + och - på samma ställe hela tiden. + och - byter hela tiden platts det kallas att polariteten ändras.
 
 ## Toppvärde & Effektivvärde
 ![Sinuskurvamedtippvärde](/sinustop.png)
 
+Toppvärdet är det som är högst upp på sinuskurvan.
+{{< katex >}} û {{< /katex >}} = Toppvärde  
+
+Spänningen U som är den spänning som en DC krets har, där det är samma spänningn hela tiden. Det är alltså samma effekt hela tiden därför kallas detta värde Effektivvärde.
+
 ### Formel
+För att räkna ut toppvärdet när du har effektivvärdet använder du följande formel.
 {{< katex >}} û = U * \sqrt[]{2} {{< /katex >}}
+
+### Exempelberäkningar
 
 ## Periodtid & Frekvens
 ![Sinuskurvamedperiodtid](/sinusperiod.png)
