@@ -3,22 +3,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Transformator#Används p.g.a. att det är lätta att ändra spänningen med en transformator.
-Bara AC
-Magmeetfällt från ström
-Magnetfällt till ström
-Samma effekt (alldri mindre på primärsidan) på båda sidorna.
-40/5V
-Exempel#Formel#\( \frac{n_1}{n_2} = \frac{U_1}{U_2} \)Beräkningar#Primär hög sekundär låg lidningar#Pirmär låg sekundär hög lindingar#Ström före och efter#Frågor#">
+<meta name="description" content="Transformator#I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
+Det är bara när magnetfältet rör sig fram och tillbaka som det blir en spänning på den andra spolen.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="10. Transformator" />
-<meta property="og:description" content="Transformator#Används p.g.a. att det är lätta att ändra spänningen med en transformator.
-Bara AC
-Magmeetfällt från ström
-Magnetfällt till ström
-Samma effekt (alldri mindre på primärsidan) på båda sidorna.
-40/5V
-Exempel#Formel#\( \frac{n_1}{n_2} = \frac{U_1}{U_2} \)Beräkningar#Primär hög sekundär låg lidningar#Pirmär låg sekundär hög lindingar#Ström före och efter#Frågor#" />
+<meta property="og:description" content="Transformator#I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
+Det är bara när magnetfältet rör sig fram och tillbaka som det blir en spänning på den andra spolen." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://el.ltgee.se/docs/transformatorn/" /><meta property="article:section" content="docs" />
 
@@ -29,7 +19,7 @@ Exempel#Formel#\( \frac{n_1}{n_2} = \frac{U_1}{U_2} \)Beräkningar#
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.dc2bd1d17adbc421b7fdb0de274956f4427ebd4f9dcdc029d15a8b95ec2f8f93.js" integrity="sha256-3CvR0XrbxCG3/bDeJ0lW9EJ&#43;vU&#43;dzcAp0VqLlewvj5M=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.48e021fe8d4923defa0f05bb1ccc5089bc9f080146fb4e7a18d883589ae49e91.js" integrity="sha256-SOAh/o1JI976DwW7HMxQibyfCAFG&#43;056GNiDWJrknpE=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -256,6 +246,7 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
+    <li><a href="#magnetfällt">Magnetfällt</a></li>
     <li><a href="#exempel">Exempel</a></li>
     <li><a href="#formel">Formel</a>
       <ul>
@@ -280,17 +271,31 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#transformator">#</a>
 </h1>
 <p><img src="/trafo.png" alt="Transformator" /></p>
-<p>Används p.g.a. att det är lätta att ändra spänningen med en transformator.</p>
-<p>Bara AC</p>
-<p>Magmeetfällt från ström</p>
-<p>Magnetfällt till ström</p>
-<p>Samma effekt (alldri mindre på primärsidan) på båda sidorna.</p>
-<p>40/5V</p>
+<p>I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole.
+Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.</p>
+<p>Det är bara när magnetfältet rör sig fram och tillbaka som det blir en spänning på den andra spolen. Därför måste man använda växelspänning för att den ska fungera för att få magnetfälltet att röra sig fram och tillbaka. Om en transformator ansluts till likspänning så kommer det ingen spänning från den andra spolen.</p>
+<h2 id="magnetfällt">
+  Magnetfällt
+  <a class="anchor" href="#magnetf%c3%a4llt">#</a>
+</h2>
+<p>Magnetfällt är det som finns runt en magnet som går från N till S på magneten. När en ledare korsar ett mangetfällt eller ett magnetfällt korsar en ledare så kommer det att skapas en spänning i ledare. Det är också så att om det går en ström i en ledare så skapas det ett magnetfällt runt den. Det är hur både el-motorer/generatorer och transformatorer fungerar, alltså med hjälp av mangetfällt som rör sig och/eller ledare med ström i.</p>
 <p><img src="/trafops.png" alt="Transformator Primärsida och Sekundärsida" /></p>
+<p>Den sida på transformatorn som får spännigen från  till exempel eluttaget eller en generator kallas för primärsida.
+Den sida på transformatorn som är kopplad till belastningen till exempel en lampa kallas för sekundärsida.
+Primärsida kan också kallas för primärspole, primärlindning.
+Sekundärsida kan också kallas för sekundärspole, sekundärlinding.</p>
+<p>Det är föhållander mellan antalet varv på primärsidan och sekundärsidan som bestämmer om spänningen ska öka eller minska. Den sidan med flest varv har den högsta spänningen.</p>
+<p>En transformator har alltid samma effekt på båda sidorna. I praktiken så är effekten lite högre på primärsidan eftersom det finns lite förluster på olika ställen. Effekten är alltid minst lika stor på primärsidan som sekundärsidan.</p>
+<p>När du köper en transformator så kan den vara märkt med tillexempel 40/5V det betyder att den ska ha 40V på primärsidan och 5V på sekundärsidan.</p>
 <h2 id="exempel">
   Exempel
   <a class="anchor" href="#exempel">#</a>
 </h2>
+<p>En transoformator med märkningen 50/45V ska ha spänningen 50V på primärsidan och får då 45V på sekundärsidan.</p>
+<p>En transformator som belastas med en effekt på sekundärsidan kommer att belasta primärsidan med lika mycket plus eventuella förluster på vägen.</p>
+<p>En transformator med många varm på primärsidan och få på sekundärsidan sänker spänningen.</p>
+<p>En transformator med få varv på primärsidan och många på sekundärsidan höjer spänningen.</p>
+<p>En transformator med lika många varm på sekundärsidan och primärsidan ändrar inte på spänningen.</p>
 <h2 id="formel">
   Formel
   <a class="anchor" href="#formel">#</a>
@@ -322,6 +327,12 @@ https://github.com/alex-shpak/hugo-book
   Frågor
   <a class="anchor" href="#fr%c3%a5gor">#</a>
 </h2>
+<p>Vilken spänning har en transoformator med märkningen 50/45V på primärsidan?</p>
+<p>Vilken spänning har en transoformator med märkningen 50/45V på sekundärsidan?</p>
+<p>Hur stor blir effekten på primärsidan på en transformator som belastas med en effekt på sekundärsidan?</p>
+<p>Vad händer med spänningen på sekundärsidan i en transformator med många varm på primärsidan och få på sekundärsidan?</p>
+<p>Vad händer med spänningen på sekundärsidan i en transformator med få varv på primärsidan och många på sekundärsidan?</p>
+<p>Vad händer med spänningen på sekundärsidan i en transformator med lika många varm på sekundärsidan och primärsidan?</p>
 </article>
  
       
@@ -363,6 +374,7 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
+    <li><a href="#magnetfällt">Magnetfällt</a></li>
     <li><a href="#exempel">Exempel</a></li>
     <li><a href="#formel">Formel</a>
       <ul>

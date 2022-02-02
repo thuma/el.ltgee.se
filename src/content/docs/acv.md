@@ -142,15 +142,16 @@ Vad händer med periodtiden om frekvensen minskar?
 
 | Storhet      | Beteckning | Enhet       | Beteckning |
 | ------------ | ------------------ | ----------- | ---------------- |
-| Ström        | I                  | Ampere      | A                |
+| Ström (Effektivvärde) | I                  | Ampere      | A                |
+| Ström (Toppvärde)       | î               | Ampere      | A                |
 | Spänning (Effektivvärde)     | U                  | Volt        | V                |
+| Spänning (Toppvärde) | û | Volt     | V                | 
 | Resistor     | R                  | Ohm         | Ω                |
 | Längd        | l                  | Meter       | m                |
 | Tvärsnittsarea | A                | Kvadratmillimeter | mm²| 
 | Resistivitet | {{< katex >}}\rho{{< /katex >}} | Ohm per meter per kvadratmillimeter | Ohm/m/mm² | 
 | Effekt       | P                  | Watt        | W                |
 | Verkninsgrad | 𝝶                  | Procent / Faktor     | % / ingen                | 
-| Spänning (Toppvärde) | û | Volt     | V                | 
 | Periodtid | {{< katex >}} t {{< /katex >}}  | Sekunder     | s                | 
 | Frekvens | {{< katex >}} f {{< /katex >}}                  | Hertz     | Hz                | 
 
