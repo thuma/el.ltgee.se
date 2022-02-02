@@ -1,5 +1,6 @@
 ---
 title: "5. Kombinerad krets"
+weight: 5
 ---
 # Kombinerad krets
 

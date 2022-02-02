@@ -95,5 +95,20 @@ En glödlampa använder 5% av effekten som den får till att göra ljus. Övrig 
 Toppvärde &amp;amp; Effektivvärde#Toppvärdet är det som är högst upp på sinuskurvan.</description>
     </item>
     
+    <item>
+      <title>10. Transformator</title>
+      <link>https://el.ltgee.se/docs/transformatorn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/transformatorn/</guid>
+      <description>Transformator#Används p.g.a. att det är lätta att ändra spänningen med en transformator.
+Bara AC
+Magmeetfällt från ström
+Magnetfällt till ström
+Samma effekt (alldri mindre på primärsidan) på båda sidorna.
+40/5V
+Exempel#Formel#\( \frac{n_1}{n_2} = \frac{U_1}{U_2} \)Beräkningar#Primär hög sekundär låg lidningar#Pirmär låg sekundär hög lindingar#Ström före och efter#Frågor#</description>
+    </item>
+    
   </channel>
 </rss>

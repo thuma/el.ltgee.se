@@ -1,5 +1,6 @@
 ---
 Title: 7. Ledningsresistans
+weight: 7
 ---
 # Ledningsresistans
 

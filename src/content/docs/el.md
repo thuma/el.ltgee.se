@@ -1,5 +1,6 @@
 ---
 title: "1. Elektricitet"
+weight: 1
 ---
 # Elektricitet
 

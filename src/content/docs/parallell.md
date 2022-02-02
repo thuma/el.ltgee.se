@@ -1,5 +1,6 @@
 ---
 title: "4. Parallellkrets"
+weight: 4
 ---
 # Parallellkrets
 

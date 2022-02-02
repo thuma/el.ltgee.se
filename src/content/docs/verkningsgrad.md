@@ -1,5 +1,6 @@
 ---
 Title: 8. Verkningsgrad
+weight: 8
 ---
 # Verkningsgrad
 
