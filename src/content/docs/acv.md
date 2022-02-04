@@ -60,7 +60,7 @@ För att räkna ut toppvärdet när du har effektivvärdet använder du följand
 | Svar      |
 | ---------- |
 |{{< katex >}} U = 230V {{< /katex >}}   |
-|{{< katex >}} û = 15V  {{< /katex >}}    | 
+|{{< katex >}} û = 325V  {{< /katex >}}    | 
 
 ## Periodtid & Frekvens
 ![Sinuskurvamedperiodtid](/sinusperiod.png)
