@@ -3,23 +3,21 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Växelspänning#Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till &#43; och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte &#43; och - på samma ställe hela tiden. &#43; och - byter hela tiden platts det kallas att polariteten ändras.
-Toppvärde &amp; Effektivvärde#Toppvärdet är det som är högst upp på sinuskurvan.">
+<meta name="description" content="Växelspänning #  Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till &#43; och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte &#43; och - på samma ställe hela tiden. &#43; och - byter hela tiden platts det kallas att polariteten ändras.
+Toppvärde &amp; Effektivvärde #  Toppvärdet är det som är högst upp på sinuskurvan.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="9. Växelspänning" />
-<meta property="og:description" content="Växelspänning#Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till &#43; och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte &#43; och - på samma ställe hela tiden. &#43; och - byter hela tiden platts det kallas att polariteten ändras.
-Toppvärde &amp; Effektivvärde#Toppvärdet är det som är högst upp på sinuskurvan." />
+<meta property="og:description" content="Växelspänning #  Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till &#43; och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte &#43; och - på samma ställe hela tiden. &#43; och - byter hela tiden platts det kallas att polariteten ändras.
+Toppvärde &amp; Effektivvärde #  Toppvärdet är det som är högst upp på sinuskurvan." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://el.ltgee.se/docs/acv/" /><meta property="article:section" content="docs" />
-
-
+<meta property="og:url" content="https://el.ltgee.se/docs/acv/" />
 
 <title>9. Växelspänning | Ellära 1</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.daa9700e54b684365ab1a78ffa24fe35da54a0ea7a1ee00ac882ba8270fcbbf4.js" integrity="sha256-2qlwDlS2hDZasaeP&#43;iT&#43;NdpUoOp6HuAKyIK6gnD8u/Q=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.8147a00d0fe7f70bad561412fce8a31b91675994338b33a360a9a9544219a58f.js" integrity="sha256-gUegDQ/n9wutVhQS/OijG5FnWZQzizOjYKmpVEIZpY8=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -194,6 +192,10 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
+      
+    
+      
+    
   </ul>
 
 
@@ -215,7 +217,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -460,8 +462,8 @@ Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte + och
   <a class="anchor" href="#periodtid--frekvens">#</a>
 </h2>
 <p><img src="/sinusperiod.png" alt="Sinuskurvamedperiodtid" /></p>
-<p>En period växelspänning är från att spänningen börjar öka från 0V och går till sitt max värde, som kallas för toppvärde, 
-till sitt minnsta värde, som kallas för bottenvärde, och upp till 0V igen. 
+<p>En period växelspänning är från att spänningen börjar öka från 0V och går till sitt max värde, som kallas för toppvärde,
+till sitt minnsta värde, som kallas för bottenvärde, och upp till 0V igen.
 Periodtid är hur lång tid det tar för spänningen att gå hela vägen upp ner och upp igen.</p>
 <p>Frekvens är hur många gånger något händer per sekund. Det mäts i enheten Hertz(Hz).</p>
 <h3 id="ordet-period">
@@ -752,7 +754,8 @@ I boxning heter det rond alltså rund/varv en elektrisk peroiod är också ett v
 
 
 
-  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  

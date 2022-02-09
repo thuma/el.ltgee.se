@@ -3,23 +3,21 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Transformator#I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
+<meta name="description" content="Transformator #  I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
 Det är bara när magnetfältet rör sig fram och tillbaka som det blir en spänning på den andra spolen.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="10. Transformator" />
-<meta property="og:description" content="Transformator#I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
+<meta property="og:description" content="Transformator #  I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
 Det är bara när magnetfältet rör sig fram och tillbaka som det blir en spänning på den andra spolen." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://el.ltgee.se/docs/transformatorn/" /><meta property="article:section" content="docs" />
-
-
+<meta property="og:url" content="https://el.ltgee.se/docs/transformatorn/" />
 
 <title>10. Transformator | Ellära 1</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.daa9700e54b684365ab1a78ffa24fe35da54a0ea7a1ee00ac882ba8270fcbbf4.js" integrity="sha256-2qlwDlS2hDZasaeP&#43;iT&#43;NdpUoOp6HuAKyIK6gnD8u/Q=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.8147a00d0fe7f70bad561412fce8a31b91675994338b33a360a9a9544219a58f.js" integrity="sha256-gUegDQ/n9wutVhQS/OijG5FnWZQzizOjYKmpVEIZpY8=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -194,6 +192,10 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
+      
+    
+      
+    
   </ul>
 
 
@@ -215,7 +217,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -247,6 +249,7 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#magnetfällt">Magnetfällt</a></li>
+    <li><a href="#primär-och-sekundärsida">Primär och sekundärsida</a></li>
     <li><a href="#exempel">Exempel</a></li>
     <li><a href="#formel">Formel</a>
       <ul>
@@ -279,6 +282,10 @@ Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i
   <a class="anchor" href="#magnetf%c3%a4llt">#</a>
 </h2>
 <p>Magnetfällt är det som finns runt en magnet som går från N till S på magneten. När en ledare korsar ett mangetfällt eller ett magnetfällt korsar en ledare så kommer det att skapas en spänning i ledare. Det är också så att om det går en ström i en ledare så skapas det ett magnetfällt runt den. Det är hur både el-motorer/generatorer och transformatorer fungerar, alltså med hjälp av mangetfällt som rör sig och/eller ledare med ström i.</p>
+<h2 id="primär-och-sekundärsida">
+  Primär och sekundärsida
+  <a class="anchor" href="#prim%c3%a4r-och-sekund%c3%a4rsida">#</a>
+</h2>
 <p><img src="/trafops.png" alt="Transformator Primärsida och Sekundärsida" /></p>
 <p>Den sida på transformatorn som får spännigen från  till exempel eluttaget eller en generator kallas för primärsida.
 Den sida på transformatorn som är kopplad till belastningen till exempel en lampa kallas för sekundärsida.
@@ -286,7 +293,7 @@ Primärsida kan också kallas för primärspole, primärlindning.
 Sekundärsida kan också kallas för sekundärspole, sekundärlinding.</p>
 <p>Det är föhållander mellan antalet varv på primärsidan och sekundärsidan som bestämmer om spänningen ska öka eller minska. Den sidan med flest varv har den högsta spänningen.</p>
 <p>En transformator har alltid samma effekt på båda sidorna. I praktiken så är effekten lite högre på primärsidan eftersom det finns lite förluster på olika ställen. Effekten är alltid minst lika stor på primärsidan som sekundärsidan.</p>
-<p>När du köper en transformator så kan den vara märkt med tillexempel 40/5V det betyder att den ska ha 40V på primärsidan och 5V på sekundärsidan.</p>
+<p>När du köper en transformator så kan den vara märkt med tillexempel 40/5V det betyder att den ska ha 40V på primärsidan och ger 5V på sekundärsidan.</p>
 <h2 id="exempel">
   Exempel
   <a class="anchor" href="#exempel">#</a>
@@ -311,18 +318,356 @@ Sekundärsida kan också kallas för sekundärspole, sekundärlinding.</p>
   Beräkningar
   <a class="anchor" href="#ber%c3%a4kningar">#</a>
 </h3>
-<h4 id="primär-hög-sekundär-låg-lidningar">
-  Primär hög sekundär låg lidningar
-  <a class="anchor" href="#prim%c3%a4r-h%c3%b6g-sekund%c3%a4r-l%c3%a5g-lidningar">#</a>
+<h4 id="primär-många-varv-sekundär-få-varv">
+  Primär många varv sekundär få varv
+  <a class="anchor" href="#prim%c3%a4r-m%c3%a5nga-varv-sekund%c3%a4r-f%c3%a5-varv">#</a>
 </h4>
-<h4 id="pirmär-låg-sekundär-hög-lindingar">
-  Pirmär låg sekundär hög lindingar
-  <a class="anchor" href="#pirm%c3%a4r-l%c3%a5g-sekund%c3%a4r-h%c3%b6g-lindingar">#</a>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( n_1 = 2000 \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( n_2 = 1000 \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_1 = 230V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( \frac{n_1}{n_2} = \frac{U_1}{U_2} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning steg 1</td>
+<td><span>
+  \( \frac{2000}{1000} = \frac{230V}{U_2} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning steg 2</td>
+<td><span>
+  \( 2 = \frac{230V}{U_2} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning steg 3</td>
+<td><span>
+  \( U_2 = \frac{230V}{2} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( U_2 = 115V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Svar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( n_1 = 2000 Varv  \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( n_2 = 1000 Varv  \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_1 = 230V \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_2 = 115V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<h4 id="primär-få-varv-sekundär-många-varv">
+  Primär få varv sekundär många varv
+  <a class="anchor" href="#prim%c3%a4r-f%c3%a5-varv-sekund%c3%a4r-m%c3%a5nga-varv">#</a>
 </h4>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( n_1 = 1500 \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( n_2 = 3000 \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_2 = 30V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( \frac{n_1}{n_2} = \frac{U_1}{U_2} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning steg 1</td>
+<td><span>
+  \( \frac{1500}{3000} = \frac{U_1}{30V} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning steg 2</td>
+<td><span>
+  \( 0.5 = \frac{U_1}{30V} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning steg 3</td>
+<td><span>
+  \( U_1 = 30V * 0.5 \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( U_1 = 15V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Svar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( n_1 = 2000 Varv  \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( n_2 = 1000 Varv  \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_2 = 30V \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_1 = 15V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
 <h4 id="ström-före-och-efter">
   Ström före och efter
   <a class="anchor" href="#str%c3%b6m-f%c3%b6re-och-efter">#</a>
 </h4>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( U_1 = 230V \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_2 = 48V  \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( I_2 = 2.3 A \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( P = U_2 * I_2  \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( P = 48V * 2.3A \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( P = 110.4 W \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( I_1 = \frac{P}{U} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( I_1 = \frac{110.4W}{230V}\)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( I_1 = 0.48A \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Svar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( U_1 = 230V \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_2 = 48V  \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( I_2 = 2.3A \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( P = 110.4W \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( I_1 = 0.48A \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
 <h2 id="frågor">
   Frågor
   <a class="anchor" href="#fr%c3%a5gor">#</a>
@@ -349,7 +694,8 @@ Sekundärsida kan också kallas för sekundärspole, sekundärlinding.</p>
 
 
 
-  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  
@@ -375,6 +721,7 @@ Sekundärsida kan också kallas för sekundärspole, sekundärlinding.</p>
 <nav id="TableOfContents">
   <ul>
     <li><a href="#magnetfällt">Magnetfällt</a></li>
+    <li><a href="#primär-och-sekundärsida">Primär och sekundärsida</a></li>
     <li><a href="#exempel">Exempel</a></li>
     <li><a href="#formel">Formel</a>
       <ul>

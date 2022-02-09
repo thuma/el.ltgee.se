@@ -3,22 +3,14 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Koppla in &hellip; saad
-Fyll i dina mätvärden nedan:
-Spänningens effektivvärde: V.
-Spänningens toppvärde: V.
-Ditt namn: Kontrollera   function kontrollera(){ var namn = document.getElementById(&#34;namn&#34;).value; if(namn.length Kopiera länk&#34;; } else { window.alert(&#34;Något stämmer inte&#34;); } } function kopiera() { var inputElement = document.getElementById(&#34;svarkod&#34;); inputElement.select(); inputElement.setSelectionRange(0, 99999); navigator.clipboard.writeText(inputElement.value); }  ">
+<meta name="description" content="">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Mätning - Effektivvärde och Toppvärde" />
-<meta property="og:description" content="Koppla in &hellip; saad
-Fyll i dina mätvärden nedan:
-Spänningens effektivvärde: V.
-Spänningens toppvärde: V.
-Ditt namn: Kontrollera   function kontrollera(){ var namn = document.getElementById(&#34;namn&#34;).value; if(namn.length Kopiera länk&#34;; } else { window.alert(&#34;Något stämmer inte&#34;); } } function kopiera() { var inputElement = document.getElementById(&#34;svarkod&#34;); inputElement.select(); inputElement.setSelectionRange(0, 99999); navigator.clipboard.writeText(inputElement.value); }  " />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://el.ltgee.se/posts/labbtoppeffektivv%C3%A4rde/" />
+<meta property="og:url" content="https://el.ltgee.se/docs/v%C3%A4xelsp%C3%A4nning/" />
 
-<title>Mätning - Effektivvärde och Toppvärde | Ellära 1</title>
+<title>Växelspänning | Ellära 1</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
@@ -238,7 +230,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Mätning - Effektivvärde och Toppvärde</strong>
+  <strong>Växelspänning</strong>
 
   <label for="toc-control">
     
@@ -263,69 +255,7 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-<article class="markdown">
-  <h1>
-    <a href="/posts/labbtoppeffektivv%C3%A4rde/">Mätning - Effektivvärde och Toppvärde</a>
-  </h1>
-  
-
-
-  
-
-  
-
-
-
-<p>Koppla in  &hellip;
-saad</p>
-<p>Fyll i dina mätvärden nedan:</p>
-<p>Spänningens effektivvärde: <input id="effektivvärde" />
- V.</p>
-<p>Spänningens toppvärde: <input id="toppvärde" />
- V.</p>
-<div id="testsvar">
-  Ditt namn: <input id="namn">
-  <button onclick="kontrollera()">Kontrollera</button> <br>
-</div>
-<script>
-function kontrollera(){
-  var namn = document.getElementById("namn").value;
-  if(namn.length < 3){
-    window.alert("Du måste skriva ditt namn.");
-    return
-  }
-  var alladata = {"namn":namn}
-   
-  	var a = Number.parseFloat(document.getElementById("effektivvärde").value);
-  	alladata["effektivvärde"] = a;
-  
-  
-  
-  
-  
-  
-  
-  var svar = Number.parseFloat(document.getElementById("toppvärde").value);
-  alladata["toppvärde"] = svar;
-  
-  if(Math.abs(svar - eval("a*1.4142135624")) < Number.parseFloat("5")){
-    var link = btoa(JSON.stringify(alladata));
-    document.getElementById("testsvar").innerHTML = "Rätt! Din länk är: <input value='https://el.ltgee.se/posts/test/#"+link+"' id='svarkod' readonly><button type='button' onclick='kopiera()'>Kopiera länk</button>";
-  }
-  else {
-    window.alert("Något stämmer inte");
-  }
-}
-
-function kopiera() {
-  var inputElement = document.getElementById("svarkod");
-  inputElement.select();
-  inputElement.setSelectionRange(0, 99999);
-  navigator.clipboard.writeText(inputElement.value);
-}
-</script>
-
-</article>
+  <article class="markdown"></article>
  
       
 
@@ -350,10 +280,6 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
       </footer>
 
       
-  
-  <div class="book-comments">
-
-</div>
   
  
 
