@@ -17,7 +17,7 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.8147a00d0fe7f70bad561412fce8a31b91675994338b33a360a9a9544219a58f.js" integrity="sha256-gUegDQ/n9wutVhQS/OijG5FnWZQzizOjYKmpVEIZpY8=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.19e3fa7789b9178e8d753160e99aab46400a3f2e3baf6cbfcd69bf00c457c7f0.js" integrity="sha256-GeP6d4m5F46NdTFg6ZqrRkAKPy47r2y/zWm/AMRXx/A=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -253,7 +253,9 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#parallellkoppling-i-en-seriekoppling">Parallellkoppling i en seriekoppling</a></li>
         <li><a href="#seriekoppling-i-en-parallellkoppling">Seriekoppling i en parallellkoppling</a></li>
         <li><a href="#ändring-av-parallellkrets-i-seriekrets">Ändring av parallellkrets i seriekrets</a></li>
-        <li><a href="#ändring-av-krets-seriekrets-i-parallellkrets">Ändring av krets seriekrets i parallellkrets</a></li>
+        <li><a href="#ändring-av-krets-ytterigare-en-parallell-resistor">Ändring av krets ytterigare en parallell resistor.</a></li>
+        <li><a href="#ändring-av-krets-ytterigare-en-parallell-resistor-1">Ändring av krets ytterigare en parallell resistor.</a></li>
+        <li><a href="#ändring-av-krets-ytterligare-en-reistor-i-serie">Ändring av krets ytterligare en reistor i serie.</a></li>
       </ul>
     </li>
     <li><a href="#frågor">Frågor</a></li>
@@ -284,34 +286,45 @@ https://github.com/alex-shpak/hugo-book
   Parallellkoppling i en seriekoppling
   <a class="anchor" href="#parallellkoppling-i-en-seriekoppling">#</a>
 </h3>
-<p><img src="/kombinerad1.png" alt="Krets där en parallell koppling ersätts av en ersättnings resistans" /></p>
+<p><img src="/kombinerad1.png" alt="Krets där en parallell koppling ersätts av en ersättnings resistans" />
+I kretsen ovan så behöver du räkna ut ersättningsresistansen för R2 och R3 tillsammans. För att sedan få en ren seriekrets att räkna på.</p>
 <h3 id="seriekoppling-i-en-parallellkoppling">
   Seriekoppling i en parallellkoppling
   <a class="anchor" href="#seriekoppling-i-en-parallellkoppling">#</a>
 </h3>
-<p><img src="/kombinerad2.png" alt="Krets där en parallell koppling ersätts av en ersättnings resistans" /></p>
+<p><img src="/kombinerad2.png" alt="Krets där en parallell koppling ersätts av en ersättnings resistans" />
+I kretsen ovan så behöver du räkna ut ersättningsresistansen för R1 och R1 tillsammans. För att sedan få en ren parallellkrets att räkna på.</p>
 <h3 id="ändring-av-parallellkrets-i-seriekrets">
   Ändring av parallellkrets i seriekrets
   <a class="anchor" href="#%c3%a4ndring-av-parallellkrets-i-seriekrets">#</a>
 </h3>
-<p><img src="/kombineradex1.png" alt="Krets där en parallell koppling ersätts av en ersättnings resistans" /></p>
-<p>Om du lägger till en resistor parallellt med R1 och R2 i i kretsen ovan så kommer den totala resistansen att minska eftersom strömmen får fler vägar att gå.
-Då kommer strömmen att öka i kretsen, strömmen genom R3 blir därför högre. En högre ström leder till ett större spänningsfall över R3. Detta gör att spänningen över R1 minskar. Detta gör att strömmen genom R1 och R2 minskar när resistorn kopplas in paralellt med R1 och R2.</p>
-<h3 id="ändring-av-krets-seriekrets-i-parallellkrets">
-  Ändring av krets seriekrets i parallellkrets
-  <a class="anchor" href="#%c3%a4ndring-av-krets-seriekrets-i-parallellkrets">#</a>
+<p><img src="/kombineradex1.png" alt="Krets där en resistor läggs till" /></p>
+<p>Om du lägger till en resistor (R4) parallellt med R2 och R3 i i kretsen ovan så kommer den totala resistansen att minska eftersom strömmen får fler vägar att gå.
+Då kommer strömmen att öka i kretsen, strömmen genom R1 blir därför högre. En högre ström leder till ett större spänningsfall över R1. Detta gör att spänningen över R2 &amp; R3 minskar. Detta gör att strömmen genom R2 och R3 minskar när resistorn kopplas in paralellt med R2 och R3.</p>
+<h3 id="ändring-av-krets-ytterigare-en-parallell-resistor">
+  Ändring av krets ytterigare en parallell resistor.
+  <a class="anchor" href="#%c3%a4ndring-av-krets-ytterigare-en-parallell-resistor">#</a>
 </h3>
-<p><img src="/kombineradex2.png" alt="Krets där en parallell koppling ersätts av en ersättnings resistans" /></p>
-<p>Om du lägger till en resistor i serie med R3 och R2 i i kretsen ovan så kommer den totala resistansen att öka eftersom strömmen får fler hinder att ta sig förbi.
-Då kommer strömmen att minska i kretsen. Strömmen genom R1 blir däremot oförändrad eftersom den har samma spänning hela tiden. Spänningen över R2 och R3 kommer minska eftersom strömmen genom dem minskar.</p>
+<p><img src="/kombineradex2.png" alt="Krets där en resistor läggs till" />
+Om du lägger till en resistor (R4) paralellt med R1 i kretsen så kommer den toala resistansen att minska eftersom strömmen får fler vägar att gå. Det kommer att innebära en större ström genom R2 och R3 som ger ett större spänningsfall över R2 och R3 detta gör att R1 får en längre spänning och en mindre ström.</p>
+<h3 id="ändring-av-krets-ytterigare-en-parallell-resistor-1">
+  Ändring av krets ytterigare en parallell resistor.
+  <a class="anchor" href="#%c3%a4ndring-av-krets-ytterigare-en-parallell-resistor-1">#</a>
+</h3>
+<p><img src="/kombineradex3.png" alt="Krets där en resistor läggs till" />
+Om du lägger till en resistor (R4) paralellt med R3 i kretsen så kommer den toala resistansen att minska eftersom strömmen får fler vägar att gå. Eftersom det är samma spänning över R1, R2 och R3 efter detta också så kommer spänningarna och strömmarna genom dem att vara samma som innan.</p>
+<h3 id="ändring-av-krets-ytterligare-en-reistor-i-serie">
+  Ändring av krets ytterligare en reistor i serie.
+  <a class="anchor" href="#%c3%a4ndring-av-krets-ytterligare-en-reistor-i-serie">#</a>
+</h3>
+<p><img src="/kombineradex4.png" alt="Krets där en resistor läggs till" /></p>
+<p>Om du lägger till en resistor (R4) i serie med R3 i kretsen så kommer den toala resistansen att öka eftersom strömmen måste ta sig igenom fler motstånd. Eftersom det är samma spänning över R1, R2 så kommer inget att hända med spänningen över R1 och R2. Strömmen genom R1 och R2 kommer inte heller att förändras. Spänningn över R3 kommer att minska eftersom det också kommer att bli ett spänningsfall över R4.</p>
 <h2 id="frågor">
   Frågor
   <a class="anchor" href="#fr%c3%a5gor">#</a>
 </h2>
-<p><img src="/kombineradex1.png" alt="Krets där en parallell koppling ersätts av en ersättnings resistans" /></p>
-<p>Vad händer i kretsen om du lägger in en resistor parallellt med R3?</p>
-<p><img src="/kombineradex2.png" alt="Krets där en parallell koppling ersätts av en ersättnings resistans" /></p>
-<p>Vad händer i kretsen om du lägger in en resistor i serie med R1?</p>
+<p>Vad händer i kretsen om du lägger in en resistor parallellt med övriga belastningar?
+Vad händer i kretsen om du lägger in en resistor i serie med övriga belastningar?</p>
 </article>
  
       
@@ -359,7 +372,9 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
         <li><a href="#parallellkoppling-i-en-seriekoppling">Parallellkoppling i en seriekoppling</a></li>
         <li><a href="#seriekoppling-i-en-parallellkoppling">Seriekoppling i en parallellkoppling</a></li>
         <li><a href="#ändring-av-parallellkrets-i-seriekrets">Ändring av parallellkrets i seriekrets</a></li>
-        <li><a href="#ändring-av-krets-seriekrets-i-parallellkrets">Ändring av krets seriekrets i parallellkrets</a></li>
+        <li><a href="#ändring-av-krets-ytterigare-en-parallell-resistor">Ändring av krets ytterigare en parallell resistor.</a></li>
+        <li><a href="#ändring-av-krets-ytterigare-en-parallell-resistor-1">Ändring av krets ytterigare en parallell resistor.</a></li>
+        <li><a href="#ändring-av-krets-ytterligare-en-reistor-i-serie">Ändring av krets ytterligare en reistor i serie.</a></li>
       </ul>
     </li>
     <li><a href="#frågor">Frågor</a></li>
