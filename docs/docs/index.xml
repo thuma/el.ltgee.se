@@ -12,9 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/el/</guid>
-      <description>Elektricitet #  Ström #  Ström är elektroner som rör sig i en ledare. Strömmen är ett mått på hur många elektroner som rör sig. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
+      <description>Elektricitet#Ström#Ström är elektroner som rör sig i en ledare. Strömmen är ett mått på hur många elektroner som rör sig. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
 Innom elläran så säger vi att strömmen åker från plus till minus. Plus och minus kallas också anod(+) och katod(-).
-Exempel #  I = 5A</description>
+Exempel#I = 5A</description>
     </item>
     
     <item>
@@ -23,7 +23,7 @@ Exempel #  I = 5A</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/krets/</guid>
-      <description>Krets #  I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
+      <description>Krets#I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
 Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så slutar elektronerna att röra på sig, det kallas för en öppen krets.</description>
     </item>
     
@@ -33,7 +33,7 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/serie/</guid>
-      <description>Seriekrets #  I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd att ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
+      <description>Seriekrets#I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd att ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/parallell/</guid>
-      <description>Parallellkrets #  I parallellkretser kopplas komponenterna på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
+      <description>Parallellkrets#I parallellkretser kopplas komponenterna på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
 Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling.</description>
     </item>
     
@@ -52,7 +52,7 @@ Den totala resistansen blir alltså mindre än de olika delresistanserna i en pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/kombinerad/</guid>
-      <description>Kombinerad krets #  I en kombinerad krets så finns det både serie och parallellkopplade delar. Det finns inga formler som gäller för kombinerade kretsar. Du måste själv räkna ut de olika delarna var för sig så att du får rena serie eller parallellberäkningar att lösa.
+      <description>Kombinerad krets#I en kombinerad krets så finns det både serie och parallellkopplade delar. Det finns inga formler som gäller för kombinerade kretsar. Du måste själv räkna ut de olika delarna var för sig så att du får rena serie eller parallellberäkningar att lösa.
 För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade kretsar behöver du hitta en ren seriekrest eller en ren parallellkrets inne i den kombinerade kretsen.</description>
     </item>
     
@@ -62,7 +62,7 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/effekt/</guid>
-      <description>Effekt #  Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam.</description>
+      <description>Effekt#Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam.</description>
     </item>
     
     <item>
@@ -71,8 +71,8 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/ledningsresistans/</guid>
-      <description>Ledningsresistans #  Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
- Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Längd #  Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.</description>
+      <description>Ledningsresistans#Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
+ Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Längd#Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/verkningsgrad/</guid>
-      <description>Verkningsgrad #  Verkninsgraden är hur stor del av effeten som gör det man vill att en ska göra. Verkan är samma ord som i påverkar om du gapar och skriker hemma för att få en ny telefon men du inte får någon trotts en massa skrik. Då kunde du inte påverkan din verkningrad var då 0.
+      <description>Verkningsgrad#Verkninsgraden är hur stor del av effeten som gör det man vill att en ska göra. Verkan är samma ord som i påverkar om du gapar och skriker hemma för att få en ny telefon men du inte får någon trotts en massa skrik. Då kunde du inte påverkan din verkningrad var då 0.
 En glödlampa använder 5% av effekten som den får till att göra ljus. Övrig 95% blir värme.</description>
     </item>
     
@@ -91,8 +91,8 @@ En glödlampa använder 5% av effekten som den får till att göra ljus. Övrig 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/acv/</guid>
-      <description>Växelspänning #  Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till + och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte + och - på samma ställe hela tiden. + och - byter hela tiden platts det kallas att polariteten ändras.
-Toppvärde &amp;amp; Effektivvärde #  Toppvärdet är det som är högst upp på sinuskurvan.</description>
+      <description>Växelspänning#Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till + och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte + och - på samma ställe hela tiden. + och - byter hela tiden platts det kallas att polariteten ändras.
+Toppvärde &amp;amp; Effektivvärde#Toppvärdet är det som är högst upp på sinuskurvan.</description>
     </item>
     
     <item>
@@ -101,8 +101,19 @@ Toppvärde &amp;amp; Effektivvärde #  Toppvärdet är det som är högst upp p�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/transformatorn/</guid>
-      <description>Transformator #  I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
+      <description>Transformator#I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
 Det är bara när magnetfältet rör sig fram och tillbaka som det blir en spänning på den andra spolen.</description>
+    </item>
+    
+    <item>
+      <title>11. Fasförskjutning</title>
+      <link>https://el.ltgee.se/docs/fas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/fas/</guid>
+      <description>Fasförskjutning#Spole kommer strömmen efter. Induktiv
+Kondensator kommer strömmen före. Capasitiv
+Ordet fas#Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.</description>
     </item>
     
     <item>

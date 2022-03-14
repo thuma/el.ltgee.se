@@ -146,7 +146,7 @@ Vad händer med periodtiden om frekvensen minskar?
 | Ström (Toppvärde)       | î               | Ampere      | A                |
 | Spänning (Effektivvärde)     | U                  | Volt        | V                |
 | Spänning (Toppvärde) | û | Volt     | V                | 
-| Resistor     | R                  | Ohm         | Ω                |
+| Resistans     | R                  | Ohm         | Ω                |
 | Längd        | l                  | Meter       | m                |
 | Tvärsnittsarea | A                | Kvadratmillimeter | mm²| 
 | Resistivitet | {{< katex >}}\rho{{< /katex >}} | Ohm per meter per kvadratmillimeter | Ohm/m/mm² | 

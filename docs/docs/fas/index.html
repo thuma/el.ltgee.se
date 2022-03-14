@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Effekt#Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam.">
+<meta name="description" content="Fasförskjutning#Spole kommer strömmen efter. Induktiv
+Kondensator kommer strömmen före. Capasitiv
+Ordet fas#Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="6. Effekt" />
-<meta property="og:description" content="Effekt#Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam." />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="11. Fasförskjutning" />
+<meta property="og:description" content="Fasförskjutning#Spole kommer strömmen efter. Induktiv
+Kondensator kommer strömmen före. Capasitiv
+Ordet fas#Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://el.ltgee.se/docs/effekt/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://el.ltgee.se/docs/fas/" /><meta property="article:section" content="docs" />
 
 
 
-<title>6. Effekt | Ellära 1</title>
+<title>11. Fasförskjutning | Ellära 1</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
@@ -134,7 +138,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/effekt/" class=" active">6. Effekt</a>
+    <a href="https://el.ltgee.se/docs/effekt/" class="">6. Effekt</a>
   
 
         </li>
@@ -199,7 +203,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/fas/" class="">11. Fasförskjutning</a>
+    <a href="https://el.ltgee.se/docs/fas/" class=" active">11. Fasförskjutning</a>
   
 
         </li>
@@ -245,7 +249,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>6. Effekt</strong>
+  <strong>11. Fasförskjutning</strong>
 
   <label for="toc-control">
     
@@ -261,9 +265,30 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#ordet-effekt">Ordet effekt</a>
+    <li><a href="#ordet-fas">Ordet fas</a></li>
+    <li><a href="#ordet-förskjutning">Ordet förskjutning</a></li>
+    <li><a href="#faförskjutniung-och-effekt">Faförskjutniung och effekt</a>
       <ul>
-        <li><a href="#effektlagen">Effektlagen</a></li>
+        <li><a href="#skenbar-effekt">Skenbar effekt</a></li>
+        <li><a href="#effekt">Effekt</a></li>
+        <li><a href="#induktiv-reaktiv-effekt">Induktiv reaktiv effekt</a></li>
+        <li><a href="#kapasitiv-reaktiv-effekt">Kapasitiv reaktiv effekt</a></li>
+      </ul>
+    </li>
+    <li><a href="#fasförskjutet-motstånd">Fasförskjutet motstånd</a>
+      <ul>
+        <li><a href="#resistans">Resistans</a></li>
+        <li><a href="#impedans">Impedans</a></li>
+        <li><a href="#kapacitiv-reaktans">Kapacitiv Reaktans</a></li>
+        <li><a href="#induktiv-reaktans">Induktiv Reaktans</a></li>
+      </ul>
+    </li>
+    <li><a href="#fasförskjutna-spänningar">Fasförskjutna spänningar</a>
+      <ul>
+        <li><a href="#spänning-över-resistans">Spänning över resistans</a></li>
+        <li><a href="#huvudspänning">Huvudspänning</a></li>
+        <li><a href="#spänning-över-induktans">Spänning över induktans</a></li>
+        <li><a href="#spänning-över-kapasitans">Spänning över kapasitans</a></li>
       </ul>
     </li>
     <li><a href="#exempel">Exempel</a>
@@ -275,7 +300,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </li>
     <li><a href="#frågor">Frågor</a></li>
-    <li><a href="#sorheter-och-enheter">Sorheter och enheter</a></li>
+    <li><a href="#storheter-och-enheter">Storheter och enheter</a></li>
   </ul>
 </nav>
 
@@ -288,43 +313,152 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="effekt">
-  Effekt
-  <a class="anchor" href="#effekt">#</a>
+  <article class="markdown"><h1 id="fasförskjutning">
+  Fasförskjutning
+  <a class="anchor" href="#fasf%c3%b6rskjutning">#</a>
 </h1>
-<p><img src="/effekt.jpeg" alt="Effekt" /></p>
-<p>Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam. En elvärmare ellet ett elelement har hög effekt så kommer det mycket värme från den om den har låg effekt så kommer det lite värme från den.</p>
-<p>Den elektriska effekten beror på ström och spänning. Ju fler elektroner som pressas igenom tillexempel en lamapa desto mer lyser den. Ju hårdare elektronerna pressas igenom desto högre effekt blir det. Detta innebär alltså att en ökad ström leder till ökad effekt. En högre spänning leder också till en ökad effekt.</p>
-<h2 id="ordet-effekt">
-  Ordet effekt
-  <a class="anchor" href="#ordet-effekt">#</a>
+<p><img src="/fasf.png" alt="Fasförskjutning" /></p>
+<p>Spole kommer strömmen efter.
+Induktiv<br>
+<img src="/spole24AC.svg" alt="Spole med spänning" /><br>
+<img src="/lfi.png" alt="Strömmen efter" /></p>
+<p>Kondensator kommer strömmen före.
+Capasitiv<br>
+<img src="/24vcond.svg" alt="Spole med spänning" /><br>
+<img src="/cfi.png" alt="Ström före" /></p>
+<h2 id="ordet-fas">
+  Ordet fas
+  <a class="anchor" href="#ordet-fas">#</a>
 </h2>
 <p>Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.</p>
-<h3 id="effektlagen">
-  Effektlagen
-  <a class="anchor" href="#effektlagen">#</a>
+<h2 id="ordet-förskjutning">
+  Ordet förskjutning
+  <a class="anchor" href="#ordet-f%c3%b6rskjutning">#</a>
+</h2>
+<h2 id="faförskjutniung-och-effekt">
+  Faförskjutniung och effekt
+  <a class="anchor" href="#faf%c3%b6rskjutniung-och-effekt">#</a>
+</h2>
+<h3 id="skenbar-effekt">
+  Skenbar effekt
+  <a class="anchor" href="#skenbar-effekt">#</a>
 </h3>
 
 <link rel="stylesheet" href="/katex/katex.min.css" />
 <script defer src="/katex/katex.min.js"></script>
 <script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
-  \(P = U * I\)
+  \(S = U * I\)
+</span>
+
+<h3 id="effekt">
+  Effekt
+  <a class="anchor" href="#effekt">#</a>
+</h3>
+<span>
+  \(P = U * I * Cos\varphi\)
+</span>
+
+<h3 id="induktiv-reaktiv-effekt">
+  Induktiv reaktiv effekt
+  <a class="anchor" href="#induktiv-reaktiv-effekt">#</a>
+</h3>
+<span>
+  \(Q_l = U * I * Sin\varphi\)
+</span>
+
+<h3 id="kapasitiv-reaktiv-effekt">
+  Kapasitiv reaktiv effekt
+  <a class="anchor" href="#kapasitiv-reaktiv-effekt">#</a>
+</h3>
+<span>
+  \(Q_c = U * I * Sin\varphi\)
+</span>
+
+<h2 id="fasförskjutet-motstånd">
+  Fasförskjutet motstånd
+  <a class="anchor" href="#fasf%c3%b6rskjutet-motst%c3%a5nd">#</a>
+</h2>
+<h3 id="resistans">
+  Resistans
+  <a class="anchor" href="#resistans">#</a>
+</h3>
+<span>
+  \(R = Z * Cos\varphi\)
+</span>
+
+<h3 id="impedans">
+  Impedans
+  <a class="anchor" href="#impedans">#</a>
+</h3>
+<span>
+  \(Z = R / Cos\varphi\)
+</span>
+
+<h3 id="kapacitiv-reaktans">
+  Kapacitiv Reaktans
+  <a class="anchor" href="#kapacitiv-reaktans">#</a>
+</h3>
+<span>
+  \(Q_c = Z * Sin\varphi\)
+</span>
+
+<h3 id="induktiv-reaktans">
+  Induktiv Reaktans
+  <a class="anchor" href="#induktiv-reaktans">#</a>
+</h3>
+<span>
+  \(Q_l = Z * Sin\varphi\)
+</span>
+
+<h2 id="fasförskjutna-spänningar">
+  Fasförskjutna spänningar
+  <a class="anchor" href="#fasf%c3%b6rskjutna-sp%c3%a4nningar">#</a>
+</h2>
+<h3 id="spänning-över-resistans">
+  Spänning över resistans
+  <a class="anchor" href="#sp%c3%a4nning-%c3%b6ver-resistans">#</a>
+</h3>
+<span>
+  \(U_r = U * Cos\varphi\)
+</span>
+
+<h3 id="huvudspänning">
+  Huvudspänning
+  <a class="anchor" href="#huvudsp%c3%a4nning">#</a>
+</h3>
+<span>
+  \(U = U_r / Cos\varphi\)
+</span>
+
+<h3 id="spänning-över-induktans">
+  Spänning över induktans
+  <a class="anchor" href="#sp%c3%a4nning-%c3%b6ver-induktans">#</a>
+</h3>
+<span>
+  \(U_l= U * Cos\varphi\)
+</span>
+
+<h3 id="spänning-över-kapasitans">
+  Spänning över kapasitans
+  <a class="anchor" href="#sp%c3%a4nning-%c3%b6ver-kapasitans">#</a>
+</h3>
+<span>
+  \(U_c= U * Cos\varphi\)
 </span>
 
 <h2 id="exempel">
   Exempel
   <a class="anchor" href="#exempel">#</a>
 </h2>
-<p>Om strömmen ökar och spänningen är densamma så kommer effekten att öka.</p>
-<p>Om strömmen minskar och spänningen är densamma så kommer effekten att minska.</p>
-<p>Om spänningen ökar och strömmen är densamma så kommer effekten att öka.</p>
-<p>Om spänningen minskar och strömmen är densamma så kommer effekten att minska.</p>
-<p>Om resistansen minskar och spänningen är densamma så kommer strömmen att öka. Det kommer i sin tur leda till att effekten kommer att öka.</p>
-<p>Om resistansen ökar och spänningen är den samma så kommer strömmen att minska och det kommer i sin tur leda till att effekten kommer att minska.</p>
+<p>Om en spole är inkopplad i kretsen så kommer strömmen att komma efter spänningen.</p>
+<p>Om en kondensator är inkopplad i kretsen så kommer strömmen att komma före spänningen.</p>
+<p>Om både en kondensator och en spole är inkopplad i en krets så kommer de att motverka varandra så fasförskjutningen kommer att minska.</p>
+<p>Om det är rätt storlek på kondesator och spole så kommer fasförskjutningen att försvinna helt.</p>
 <h3 id="beräkningsexempel-med-ström-och-spänning">
   Beräkningsexempel med ström och spänning:
   <a class="anchor" href="#ber%c3%a4kningsexempel-med-str%c3%b6m-och-sp%c3%a4nning">#</a>
 </h3>
+<p><img src="/3kant.svg" alt="Trianglar" /></p>
 <table>
 <thead>
 <tr>
@@ -512,21 +646,10 @@ https://github.com/alex-shpak/hugo-book
 <th>Räkna ut effekten</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td>Formel</td>
-<td>P = I * U</td>
-</tr>
-<tr>
-<td>Uträkning</td>
-<td>P = 0,5A * 15V</td>
-</tr>
-<tr>
-<td>Resultat</td>
-<td>P = 7,5W</td>
-</tr>
-</tbody>
 </table>
+<p>| Formel    | P = I * U    |
+| Uträkning | P = 0,5A * 15V |
+| Resultat  | P = 7,5W     |</p>
 <table>
 <thead>
 <tr>
@@ -655,13 +778,13 @@ https://github.com/alex-shpak/hugo-book
   Frågor
   <a class="anchor" href="#fr%c3%a5gor">#</a>
 </h2>
-<p>Vad händer med effekten om spänningen ökar och strömmen är densamma?</p>
-<p>Vad händer med effekten om strömmen ökar och spänning är densamma?</p>
-<p>Vad händer med effekten om spänningen minskar och strömmen är densamma?</p>
-<p>Vad händer med effekten om strömmen minskar och spänningen är densamma?</p>
-<h2 id="sorheter-och-enheter">
-  Sorheter och enheter
-  <a class="anchor" href="#sorheter-och-enheter">#</a>
+<p>Vad händer med strömmen om en spole är inkopplad i en krets?</p>
+<p>Vad händer med strömmen om en kondensator är inkopplad i en krets?</p>
+<p>Vad händer om du kopplar in både kondensator och en spole i en krets?</p>
+<p>Vad händer om du kopplar in en kondensator och en spole med lika stor reaktans?</p>
+<h2 id="storheter-och-enheter">
+  Storheter och enheter
+  <a class="anchor" href="#storheter-och-enheter">#</a>
 </h2>
 <table>
 <thead>
@@ -674,28 +797,205 @@ https://github.com/alex-shpak/hugo-book
 </thead>
 <tbody>
 <tr>
-<td>Ström</td>
-<td>I</td>
+<td>Ström (Toppvärde)</td>
+<td><span>
+  \(î   \)
+</span>
+</td>
 <td>Ampere</td>
 <td>A</td>
 </tr>
 <tr>
-<td>Spänning</td>
-<td>U</td>
+<td>Ström (Effektivvärde)</td>
+<td><span>
+  \(I    \)
+</span>
+</td>
+<td>Ampere</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Spänning (Toppvärde)</td>
+<td><span>
+  \(û\)
+</span>
+</td>
+<td>Volt</td>
+<td>V</td>
+</tr>
+<tr>
+<td>Spänning (Effektivvärde)</td>
+<td><span>
+  \(U\)
+</span>
+</td>
+<td>Volt</td>
+<td>V</td>
+</tr>
+<tr>
+<td>Spänning över reaktans</td>
+<td><span>
+  \(U_l\)
+</span>
+</td>
+<td>Volt</td>
+<td>V</td>
+</tr>
+<tr>
+<td>Spänning över kapacitans</td>
+<td><span>
+  \(U_c\)
+</span>
+</td>
 <td>Volt</td>
 <td>V</td>
 </tr>
 <tr>
 <td>Resistans</td>
-<td>R</td>
+<td><span>
+  \(R \)
+</span>
+</td>
+<td>Ohm</td>
+<td>Ω</td>
+</tr>
+<tr>
+<td>Kapacitiv reaktans</td>
+<td><span>
+  \(X_c\)
+</span>
+</td>
+<td>Ohm</td>
+<td>Ω</td>
+</tr>
+<tr>
+<td>Induktiv reaktans</td>
+<td><span>
+  \(X_l\)
+</span>
+</td>
+<td>Ohm</td>
+<td>Ω</td>
+</tr>
+<tr>
+<td>Impedans</td>
+<td><span>
+  \(Z\)
+</span>
+</td>
 <td>Ohm</td>
 <td>Ω</td>
 </tr>
 <tr>
 <td>Effekt</td>
-<td>P</td>
+<td><span>
+  \(P\)
+</span>
+</td>
 <td>Watt</td>
 <td>W</td>
+</tr>
+<tr>
+<td>Skenbar effekt</td>
+<td><span>
+  \(S\)
+</span>
+</td>
+<td>VoltAmpere</td>
+<td>VA</td>
+</tr>
+<tr>
+<td>Reaktiv effekt induktiv</td>
+<td><span>
+  \( Q_l \)
+</span>
+</td>
+<td>VoltAmpereReaktiv</td>
+<td>VAR</td>
+</tr>
+<tr>
+<td>Reaktiv effekt kapasitiv</td>
+<td><span>
+  \( Q_c \)
+</span>
+</td>
+<td>VoltAmpereReaktiv</td>
+<td>VAR</td>
+</tr>
+<tr>
+<td>Fasförskjutning</td>
+<td><span>
+  \( \varphi \)
+</span>
+</td>
+<td>Grader</td>
+<td><span>
+  \( \degree \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Effektfaktor</td>
+<td><span>
+  \( Cos\varphi \)
+</span>
+</td>
+<td>Faktor</td>
+<td>ingen</td>
+</tr>
+<tr>
+<td>Verkninsgrad</td>
+<td><span>
+  \( \eta \)
+</span>
+</td>
+<td>Procent / Faktor</td>
+<td>% / ingen</td>
+</tr>
+<tr>
+<td>Periodtid</td>
+<td><span>
+  \( t \)
+</span>
+</td>
+<td>Sekunder</td>
+<td>s</td>
+</tr>
+<tr>
+<td>Frekvens</td>
+<td><span>
+  \( f \)
+</span>
+</td>
+<td>Hertz</td>
+<td>Hz</td>
+</tr>
+<tr>
+<td>Resistivitet</td>
+<td><span>
+  \(\rho\)
+</span>
+</td>
+<td>Ohm per meter per kvadratmillimeter</td>
+<td>Ohm/m/mm²</td>
+</tr>
+<tr>
+<td>Längd</td>
+<td><span>
+  \(l \)
+</span>
+</td>
+<td>Meter</td>
+<td>m</td>
+</tr>
+<tr>
+<td>Tvärsnittsarea</td>
+<td><span>
+  \(A \)
+</span>
+</td>
+<td>Kvadratmillimeter</td>
+<td>mm²</td>
 </tr>
 </tbody>
 </table>
@@ -740,9 +1040,30 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#ordet-effekt">Ordet effekt</a>
+    <li><a href="#ordet-fas">Ordet fas</a></li>
+    <li><a href="#ordet-förskjutning">Ordet förskjutning</a></li>
+    <li><a href="#faförskjutniung-och-effekt">Faförskjutniung och effekt</a>
       <ul>
-        <li><a href="#effektlagen">Effektlagen</a></li>
+        <li><a href="#skenbar-effekt">Skenbar effekt</a></li>
+        <li><a href="#effekt">Effekt</a></li>
+        <li><a href="#induktiv-reaktiv-effekt">Induktiv reaktiv effekt</a></li>
+        <li><a href="#kapasitiv-reaktiv-effekt">Kapasitiv reaktiv effekt</a></li>
+      </ul>
+    </li>
+    <li><a href="#fasförskjutet-motstånd">Fasförskjutet motstånd</a>
+      <ul>
+        <li><a href="#resistans">Resistans</a></li>
+        <li><a href="#impedans">Impedans</a></li>
+        <li><a href="#kapacitiv-reaktans">Kapacitiv Reaktans</a></li>
+        <li><a href="#induktiv-reaktans">Induktiv Reaktans</a></li>
+      </ul>
+    </li>
+    <li><a href="#fasförskjutna-spänningar">Fasförskjutna spänningar</a>
+      <ul>
+        <li><a href="#spänning-över-resistans">Spänning över resistans</a></li>
+        <li><a href="#huvudspänning">Huvudspänning</a></li>
+        <li><a href="#spänning-över-induktans">Spänning över induktans</a></li>
+        <li><a href="#spänning-över-kapasitans">Spänning över kapasitans</a></li>
       </ul>
     </li>
     <li><a href="#exempel">Exempel</a>
@@ -754,7 +1075,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </li>
     <li><a href="#frågor">Frågor</a></li>
-    <li><a href="#sorheter-och-enheter">Sorheter och enheter</a></li>
+    <li><a href="#storheter-och-enheter">Storheter och enheter</a></li>
   </ul>
 </nav>
 

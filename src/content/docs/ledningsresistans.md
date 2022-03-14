@@ -143,7 +143,7 @@ Vad har lägst ressistans av en varm och en kall ledare?
 | ------------ | ------------------ | ----------- | ---------------- |
 | Ström        | I                  | Ampere      | A                |
 | Spänning     | U                  | Volt        | V                |
-| Resistor     | R                  | Ohm         | Ω                |
+| Resistans    | R                  | Ohm         | Ω                |
 | Effekt       | P                  | Watt        | W                |
 | Längd        | l                  | Meter       | m                |
 | Tvärsnittsarea | A                | Kvadratmillimeter | mm²| 

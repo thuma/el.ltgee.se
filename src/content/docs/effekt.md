@@ -151,5 +151,5 @@ Vad händer med effekten om strömmen minskar och spänningen är densamma?
 | ----------- | ---------- | ----------- | ---------- |
 | Ström       | I          | Ampere      | A          |
 | Spänning    | U          | Volt        | V          |
-| Resistor    | R          | Ohm         | Ω          |
+| Resistans    | R          | Ohm         | Ω          |
 | Effekt      | P          | Watt        | W          |

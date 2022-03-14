@@ -120,7 +120,7 @@ Hur blir effektförlusten om en hög ström ger i en ledare?
 | ------------ | ------------------ | ----------- | ---------------- |
 | Ström        | I                  | Ampere      | A                |
 | Spänning     | U                  | Volt        | V                |
-| Resistor     | R                  | Ohm         | Ω                |
+| Resistans    | R                  | Ohm         | Ω                |
 | Längd        | l                  | Meter       | m                |
 | Tvärsnittsarea | A                | Kvadratmillimeter | mm²| 
 | Resistivitet | {{< katex >}}\rho{{< /katex >}} | Ohm per meter per kvadratmillimeter | Ohm/m/mm² | 

@@ -11,7 +11,7 @@ draft: true
 | ----------- | ---------- | ----------- | ---------- |
 | Ström       | I          | Ampere      | A          |
 | Spänning    | U          | Volt        | V          |
-| Resistor    | R          | Ohm         | Ω          |
+| Resistans   | R          | Ohm         | Ω          |
 | Effekt      | P          | Watt        | W          |
 | Energi      | W          | Watttimmar  | Wh         |
 | Tid         | t          | Timmar      | h          |

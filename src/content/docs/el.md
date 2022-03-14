@@ -55,6 +55,6 @@ Ordet resistans eller motstånd används i andara sammanghang tillexempel i Star
 | ----------- | ---------- | ----------- | ---------- |
 | Ström       | I          | Ampere      | A          |
 | Spänning    | U          | Volt        | V          |
-| Resistor    | R          | Ohm         | Ω          |
+| Resistans    | R          | Ohm         | Ω          |
 
 
