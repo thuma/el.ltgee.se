@@ -21,7 +21,7 @@ Ordet fas#Ordet effekt används även utanför elvärlden då betyder det nä
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.7ceb17c436cf2acc3ce6c103791c71c3cb44cf906b6fe4871cdfad5f441085d6.js" integrity="sha256-fOsXxDbPKsw85sEDeRxxw8tEz5Brb&#43;SHHN&#43;tX0QQhdY=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.f0e557de3c647b9f4e3c6fcc5906bd4995aaf9808a490e49702868ea409f7b99.js" integrity="sha256-8OVX3jxke59OPG/MWQa9SZWq&#43;YCKSQ5JcCho6kCfe5k=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -293,10 +293,9 @@ https://github.com/alex-shpak/hugo-book
     </li>
     <li><a href="#exempel">Exempel</a>
       <ul>
-        <li><a href="#beräkningsexempel-med-ström-och-spänning">Beräkningsexempel med ström och spänning:</a></li>
-        <li><a href="#beräkningsexempel-med-ström-och-resistans">Beräkningsexempel med ström och resistans:</a></li>
-        <li><a href="#beräkningsexempel-med-spänning-och-resistans">Beräkningsexempel med spänning och resistans:</a></li>
-        <li><a href="#beräkningsexempel-med-effekt-och-resistans">Beräkningsexempel med effekt och resistans:</a></li>
+        <li><a href="#beräkningsexempel-fasförskjutning-resistans-och-impedans">Beräkningsexempel fasförskjutning resistans och impedans:</a></li>
+        <li><a href="#beräkningsexempel-fasförskjutning-skenbar-effekt-och-effekt">Beräkningsexempel fasförskjutning skenbar effekt och effekt:</a></li>
+        <li><a href="#beräkningsexempel-effekt-och-skenbar-effekt-med-fasförsjutning">Beräkningsexempel effekt och skenbar effekt med fasförsjutning:</a></li>
       </ul>
     </li>
     <li><a href="#frågor">Frågor</a></li>
@@ -454,69 +453,9 @@ Capasitiv<br>
 <p>Om en kondensator är inkopplad i kretsen så kommer strömmen att komma före spänningen.</p>
 <p>Om både en kondensator och en spole är inkopplad i en krets så kommer de att motverka varandra så fasförskjutningen kommer att minska.</p>
 <p>Om det är rätt storlek på kondesator och spole så kommer fasförskjutningen att försvinna helt.</p>
-<h3 id="beräkningsexempel-med-ström-och-spänning">
-  Beräkningsexempel med ström och spänning:
-  <a class="anchor" href="#ber%c3%a4kningsexempel-med-str%c3%b6m-och-sp%c3%a4nning">#</a>
-</h3>
-<p><img src="/3kant.svg" alt="Trianglar" /></p>
-<table>
-<thead>
-<tr>
-<th>Data</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>U = 15V</td>
-</tr>
-<tr>
-<td>I = 3A</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Steg</th>
-<th>Exempel</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Formel</td>
-<td>P = U * I</td>
-</tr>
-<tr>
-<td>Uträkning</td>
-<td>U = 15V * 3A</td>
-</tr>
-<tr>
-<td>Resultat</td>
-<td>I = 45W</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Svar</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>U = 15V</td>
-</tr>
-<tr>
-<td>I = 3A</td>
-</tr>
-<tr>
-<td>P = 45W</td>
-</tr>
-</tbody>
-</table>
-<h3 id="beräkningsexempel-med-ström-och-resistans">
-  Beräkningsexempel med ström och resistans:
-  <a class="anchor" href="#ber%c3%a4kningsexempel-med-str%c3%b6m-och-resistans">#</a>
+<h3 id="beräkningsexempel-fasförskjutning-resistans-och-impedans">
+  Beräkningsexempel fasförskjutning resistans och impedans:
+  <a class="anchor" href="#ber%c3%a4kningsexempel-fasf%c3%b6rskjutning-resistans-och-impedans">#</a>
 </h3>
 <table>
 <thead>
@@ -525,95 +464,11 @@ Capasitiv<br>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>I = 2A</td>
-</tr>
-<tr>
-<td>R = 15Ω</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Steg</th>
-<th>Räkna ut spänningen</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Formel</td>
-<td>U = I * R</td>
-</tr>
-<tr>
-<td>Uträkning</td>
-<td>U = 2A * 15Ω</td>
-</tr>
-<tr>
-<td>Resultat</td>
-<td>U = 30V</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Steg</th>
-<th>Räkna ut effekten</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Formel</td>
-<td>P = I * U</td>
-</tr>
-<tr>
-<td>Uträkning</td>
-<td>U = 2A * 30V</td>
-</tr>
-<tr>
-<td>Resultat</td>
-<td>U = 60W</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Svar</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>I = 2A</td>
-</tr>
 <tr>
 <td>R = 15Ω</td>
 </tr>
 <tr>
-<td>U = 30V</td>
-</tr>
-<tr>
-<td>U = 60W</td>
-</tr>
-</tbody>
-</table>
-<h3 id="beräkningsexempel-med-spänning-och-resistans">
-  Beräkningsexempel med spänning och resistans:
-  <a class="anchor" href="#ber%c3%a4kningsexempel-med-sp%c3%a4nning-och-resistans">#</a>
-</h3>
-<table>
-<thead>
-<tr>
-<th>Data</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>U = 15V</td>
-</tr>
-<tr>
-<td>R = 30Ω</td>
+<td>Z = 20Ω</td>
 </tr>
 </tbody>
 </table>
@@ -621,135 +476,189 @@ Capasitiv<br>
 <thead>
 <tr>
 <th>Steg</th>
-<th>Räkna ut strömmen</th>
+<th>Räkna ut fasförskjutning</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Formel</td>
-<td>I = U/R</td>
-</tr>
-<tr>
-<td>Uträkning</td>
-<td>I = 15V/30Ω</td>
-</tr>
-<tr>
-<td>Resultat</td>
-<td>I = 0,5A</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Steg</th>
-<th>Räkna ut effekten</th>
-</tr>
-</thead>
-</table>
-<p>| Formel    | P = I * U    |
-| Uträkning | P = 0,5A * 15V |
-| Resultat  | P = 7,5W     |</p>
-<table>
-<thead>
-<tr>
-<th>Svar</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>U = 15V</td>
-</tr>
-<tr>
-<td>R = 30Ω</td>
-</tr>
-<tr>
-<td>I = 0,5A</td>
-</tr>
-<tr>
-<td>P = 7,5W</td>
-</tr>
-</tbody>
-</table>
-<h3 id="beräkningsexempel-med-effekt-och-resistans">
-  Beräkningsexempel med effekt och resistans:
-  <a class="anchor" href="#ber%c3%a4kningsexempel-med-effekt-och-resistans">#</a>
-</h3>
-<table>
-<thead>
-<tr>
-<th>Data</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>R = 8Ω</td>
-</tr>
-<tr>
-<td>P = 72W</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Steg</th>
-<th>Exempel räkna ut strömmen</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Formel</td>
-<td>P = U * I &amp; U = R * I</td>
-</tr>
-<tr>
-<td>Formel</td>
-<td>P = R * I * I</td>
-</tr>
-<tr>
-<td>Formel</td>
-<td>P = R * I²</td>
-</tr>
-<tr>
-<td>Uträkning</td>
-<td>72W = 8Ω * I²</td>
-</tr>
-<tr>
-<td>Uträkning</td>
-<td>I² = 72W/8Ω</td>
+<td><span>
+  \( Cos\varphi = \frac{R}{Z} \)
+</span>
+</td>
 </tr>
 <tr>
 <td>Uträkning</td>
 <td><span>
-  \(I = \sqrt{72W/8Ω}\)
+  \( Cos\varphi = \frac{15Ω}{20Ω} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat faktor</td>
+<td><span>
+  \( Cos\varphi = 0.75 \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat i grader</td>
+<td><span>
+  \( Cos^{-1}\varphi(0.75) = 41.4\degree \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Svar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R = 15Ω</td>
+</tr>
+<tr>
+<td>Z = 20Ω</td>
+</tr>
+<tr>
+<td><span>
+  \( Cos\varphi = 0.75 \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="beräkningsexempel-fasförskjutning-skenbar-effekt-och-effekt">
+  Beräkningsexempel fasförskjutning skenbar effekt och effekt:
+  <a class="anchor" href="#ber%c3%a4kningsexempel-fasf%c3%b6rskjutning-skenbar-effekt-och-effekt">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P = 150W</td>
+</tr>
+<tr>
+<td>S = 200VA</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Räkna ut fasförskjutning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( Cos\varphi = \frac{P}{S} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( Cos\varphi = \frac{150W}{200VA} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat faktor</td>
+<td><span>
+  \( Cos\varphi = 0.75 \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat i grader</td>
+<td><span>
+  \( Cos^{-1}\varphi(0.75) = 41.4\degree \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Svar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P = 150W</td>
+</tr>
+<tr>
+<td>S = 200VA</td>
+</tr>
+<tr>
+<td><span>
+  \( Cos\varphi = 0.75 \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="beräkningsexempel-effekt-och-skenbar-effekt-med-fasförsjutning">
+  Beräkningsexempel effekt och skenbar effekt med fasförsjutning:
+  <a class="anchor" href="#ber%c3%a4kningsexempel-effekt-och-skenbar-effekt-med-fasf%c3%b6rsjutning">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P = 300W</td>
+</tr>
+<tr>
+<td><span>
+  \( Cos\varphi = 0.75 \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Räkna ut fasförskjutning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( S = \frac{P}{Cos\varphi} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( S = \frac{300W}{0.75} \)
 </span>
 </td>
 </tr>
 <tr>
 <td>Resultat</td>
-<td>I = 3A</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Steg</th>
-<th>Exempel räkna ut spänningen</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Formel</td>
-<td>U = P/I</td>
-</tr>
-<tr>
-<td>Uträkning</td>
-<td>U = 72W/3A</td>
-</tr>
-<tr>
-<td>Resultat</td>
-<td>U = 24V</td>
+<td><span>
+  \( S = 400VA \)
+</span>
+</td>
 </tr>
 </tbody>
 </table>
@@ -761,16 +670,16 @@ Capasitiv<br>
 </thead>
 <tbody>
 <tr>
-<td>R = 15Ω</td>
+<td>P = 150W</td>
 </tr>
 <tr>
-<td>I = 3A</td>
+<td><span>
+  \( Cos\varphi = 0.75 \)
+</span>
+</td>
 </tr>
 <tr>
-<td>U = 24V</td>
-</tr>
-<tr>
-<td>P = 72W</td>
+<td>S = 400VA</td>
 </tr>
 </tbody>
 </table>
@@ -1068,10 +977,9 @@ Capasitiv<br>
     </li>
     <li><a href="#exempel">Exempel</a>
       <ul>
-        <li><a href="#beräkningsexempel-med-ström-och-spänning">Beräkningsexempel med ström och spänning:</a></li>
-        <li><a href="#beräkningsexempel-med-ström-och-resistans">Beräkningsexempel med ström och resistans:</a></li>
-        <li><a href="#beräkningsexempel-med-spänning-och-resistans">Beräkningsexempel med spänning och resistans:</a></li>
-        <li><a href="#beräkningsexempel-med-effekt-och-resistans">Beräkningsexempel med effekt och resistans:</a></li>
+        <li><a href="#beräkningsexempel-fasförskjutning-resistans-och-impedans">Beräkningsexempel fasförskjutning resistans och impedans:</a></li>
+        <li><a href="#beräkningsexempel-fasförskjutning-skenbar-effekt-och-effekt">Beräkningsexempel fasförskjutning skenbar effekt och effekt:</a></li>
+        <li><a href="#beräkningsexempel-effekt-och-skenbar-effekt-med-fasförsjutning">Beräkningsexempel effekt och skenbar effekt med fasförsjutning:</a></li>
       </ul>
     </li>
     <li><a href="#frågor">Frågor</a></li>

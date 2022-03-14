@@ -74,112 +74,65 @@ Om både en kondensator och en spole är inkopplad i en krets så kommer de att 
 
 Om det är rätt storlek på kondesator och spole så kommer fasförskjutningen att försvinna helt.
 
-### Beräkningsexempel med ström och spänning:
-
-![Trianglar](/3kant.svg)
+### Beräkningsexempel fasförskjutning resistans och impedans:
 
 | Data       |
 | ---------- |
-| U = 15V    | 
-| I = 3A     | 
+| R = 15Ω    |
+| Z = 20Ω    |
 
-| Steg      | Exempel      |
+| Steg      | Räkna ut fasförskjutning |
 | --------- | ------------ |
-| Formel    | P = U * I     |
-| Uträkning | U = 15V * 3A   |
-| Resultat  | I = 45W       |
-
-| Svar      |
-| ---------- |
-| U = 15V    |
-| I = 3A     | 
-| P = 45W     |
-
-### Beräkningsexempel med ström och resistans:
-
-| Data       |
-| ---------- |
-| I = 2A     | 
-| R = 15Ω    | 
-
-
-| Steg      | Räkna ut spänningen |
-| --------- | ------------ |
-| Formel    | U = I * R    |
-| Uträkning | U = 2A * 15Ω |
-| Resultat  | U = 30V      |
-
-
-| Steg      | Räkna ut effekten |
-| --------- | ------------ |
-| Formel    | P = I * U    |
-| Uträkning | U = 2A * 30V |
-| Resultat  | U = 60W     |
-
-| Svar       |
-| ---------- |
-| I = 2A     | 
-| R = 15Ω    | 
-| U = 30V    | 
-| U = 60W    | 
-
-
-### Beräkningsexempel med spänning och resistans:
-
-| Data       |
-| ---------- |
-| U = 15V    | 
-| R = 30Ω    | 
-
-| Steg       | Räkna ut strömmen |
-| ---------- | ------------- |
-| Formel     | I = U/R       |
-| Uträkning  | I = 15V/30Ω |
-| Resultat   | I = 0,5A      |
-
-| Steg      | Räkna ut effekten |
-| --------- | ------------ |
-
-| Formel    | P = I * U    |
-| Uträkning | P = 0,5A * 15V |
-| Resultat  | P = 7,5W     |
-
-| Svar       |
-| ---------- |
-| U = 15V    | 
-| R = 30Ω    | 
-| I = 0,5A   |
-| P = 7,5W   |
-
-### Beräkningsexempel med effekt och resistans:
-
-| Data       |
-| ---------- |
-| R = 8Ω    | 
-| P = 72W     | 
-
-| Steg      | Exempel räkna ut strömmen |
-| --------- | ------------ |
-| Formel    | P = U * I & U = R * I    |
-| Formel    | P = R * I * I |
-| Formel    | P = R * I² |
-| Uträkning | 72W = 8Ω * I² |
-| Uträkning | I² = 72W/8Ω   |
-| Uträkning | {{< katex >}}I = \sqrt{72W/8Ω}{{< /katex >}}  |
-| Resultat  | I = 3A        |
-
-| Steg      | Exempel räkna ut spänningen |
-| --------- | ------------ |
-| Formel    | U = P/I       |
-| Uträkning | U = 72W/3A    |
-| Resultat  | U = 24V        |
+| Formel    | {{< katex >}} Cos\varphi = \frac{R}{Z} {{< /katex >}}         |
+| Uträkning | {{< katex >}} Cos\varphi = \frac{15Ω}{20Ω} {{< /katex >}}     |
+| Resultat faktor | {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}     |
+| Resultat i grader  | {{< katex >}} Cos^{-1}\varphi(0.75) = 41.4\degree {{< /katex >}}     |
 
 | Svar       |
 | ---------- |
 | R = 15Ω    |
-| I = 3A     | 
-| U = 24V    |
-| P = 72W    | 
+| Z = 20Ω    |
+| {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}  |
+
+### Beräkningsexempel fasförskjutning skenbar effekt och effekt:
+
+| Data       |
+| ---------- |
+| P = 150W    |
+| S = 200VA    |
+
+| Steg      | Räkna ut fasförskjutning |
+| --------- | ------------ |
+| Formel    | {{< katex >}} Cos\varphi = \frac{P}{S} {{< /katex >}}         |
+| Uträkning | {{< katex >}} Cos\varphi = \frac{150W}{200VA} {{< /katex >}}     |
+| Resultat faktor | {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}     |
+| Resultat i grader  | {{< katex >}} Cos^{-1}\varphi(0.75) = 41.4\degree {{< /katex >}}     |
+
+| Svar        |
+| ----------- |
+| P = 150W    |
+| S = 200VA   |
+| {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}  |
+
+### Beräkningsexempel effekt och skenbar effekt med fasförsjutning:
+
+| Data       |
+| ---------- |
+| P = 300W    |
+| {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}  |
+
+| Steg      | Räkna ut fasförskjutning |
+| --------- | ------------ |
+| Formel    | {{< katex >}} S = \frac{P}{Cos\varphi} {{< /katex >}}         |
+| Uträkning | {{< katex >}} S = \frac{300W}{0.75} {{< /katex >}}     |
+| Resultat  | {{< katex >}} S = 400VA {{< /katex >}}     |
+
+| Svar        |
+| ----------- |
+| P = 150W    |
+| {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}  |
+| S = 400VA   |
+
 
 ## Frågor
 
