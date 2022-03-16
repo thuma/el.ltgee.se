@@ -3,14 +3,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Fasförskjutning#Spole kommer strömmen efter. Induktiv
-Kondensator kommer strömmen före. Capasitiv
-Ordet fas#Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.">
+<meta name="description" content="Fasförskjutning#Fasförskjutning är när strömmen och spänningen inte går i takt. Som i bilen ovan så har ström och spänning sina topp och botten värden vid olika tidpunkter. När ström och spänningn inte går i takt så fungerar inte Effekt-formeln och Ohms lag som vanligt längre.
+Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komma efter spänningen. Det beror på att magnetfältet som skapas i spolen bromsar strömmen.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="11. Fasförskjutning" />
-<meta property="og:description" content="Fasförskjutning#Spole kommer strömmen efter. Induktiv
-Kondensator kommer strömmen före. Capasitiv
-Ordet fas#Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt." />
+<meta property="og:description" content="Fasförskjutning#Fasförskjutning är när strömmen och spänningen inte går i takt. Som i bilen ovan så har ström och spänning sina topp och botten värden vid olika tidpunkter. När ström och spänningn inte går i takt så fungerar inte Effekt-formeln och Ohms lag som vanligt längre.
+Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komma efter spänningen. Det beror på att magnetfältet som skapas i spolen bromsar strömmen." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://el.ltgee.se/docs/fas/" /><meta property="article:section" content="docs" />
 
@@ -21,7 +19,7 @@ Ordet fas#Ordet effekt används även utanför elvärlden då betyder det nä
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.f0e557de3c647b9f4e3c6fcc5906bd4995aaf9808a490e49702868ea409f7b99.js" integrity="sha256-8OVX3jxke59OPG/MWQa9SZWq&#43;YCKSQ5JcCho6kCfe5k=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.57792342adf0a412aad0c36d644d6309adb97123772e81a337cd7a4379a25e65.js" integrity="sha256-V3kjQq3wpBKq0MNtZE1jCa25cSN3LoGjN816Q3miXmU=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -265,8 +263,11 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
+    <li><a href="#induktiv">Induktiv</a></li>
+    <li><a href="#kapasitiv">Kapasitiv</a></li>
     <li><a href="#ordet-fas">Ordet fas</a></li>
     <li><a href="#ordet-förskjutning">Ordet förskjutning</a></li>
+    <li><a href="#trianglar">Trianglar</a></li>
     <li><a href="#faförskjutniung-och-effekt">Faförskjutniung och effekt</a>
       <ul>
         <li><a href="#skenbar-effekt">Skenbar effekt</a></li>
@@ -296,6 +297,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#beräkningsexempel-fasförskjutning-resistans-och-impedans">Beräkningsexempel fasförskjutning resistans och impedans:</a></li>
         <li><a href="#beräkningsexempel-fasförskjutning-skenbar-effekt-och-effekt">Beräkningsexempel fasförskjutning skenbar effekt och effekt:</a></li>
         <li><a href="#beräkningsexempel-effekt-och-skenbar-effekt-med-fasförsjutning">Beräkningsexempel effekt och skenbar effekt med fasförsjutning:</a></li>
+        <li><a href="#beräkningsexempel-impedans-och-ström-och-spänning">Beräkningsexempel impedans och ström och spänning:</a></li>
       </ul>
     </li>
     <li><a href="#frågor">Frågor</a></li>
@@ -317,12 +319,19 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#fasf%c3%b6rskjutning">#</a>
 </h1>
 <p><img src="/fasf.png" alt="Fasförskjutning" /></p>
-<p>Spole kommer strömmen efter.
-Induktiv<br>
+<p>Fasförskjutning är när strömmen och spänningen inte går i takt. Som i bilen ovan så har ström och spänning sina topp och botten värden vid olika tidpunkter. När ström och spänningn inte går i takt så fungerar inte Effekt-formeln och Ohms lag som vanligt längre.</p>
+<h2 id="induktiv">
+  Induktiv
+  <a class="anchor" href="#induktiv">#</a>
+</h2>
+<p>När du kopplar in en spole i en krets så kommer strömmen att komma efter spänningen. Det beror på att magnetfältet som skapas i spolen bromsar strömmen. På bilden så kan du se hur strömmen (blå) kommer efter spänningen (röd).
 <img src="/spole24AC.svg" alt="Spole med spänning" /><br>
 <img src="/lfi.png" alt="Strömmen efter" /></p>
-<p>Kondensator kommer strömmen före.
-Capasitiv<br>
+<h2 id="kapasitiv">
+  Kapasitiv
+  <a class="anchor" href="#kapasitiv">#</a>
+</h2>
+<p>När du kopplar in en kondensatorn i en krets så kommer strömmen att komma före spänningen. Det beror på att strömmen tidigare har blivit lagrad i kondensatorn och skickas ut redan innan spänningen kommer. På bilden så kan du se hur strömmen (blå) kommer före spänningen (röd).
 <img src="/24vcond.svg" alt="Spole med spänning" /><br>
 <img src="/cfi.png" alt="Ström före" /></p>
 <h2 id="ordet-fas">
@@ -334,6 +343,23 @@ Capasitiv<br>
   Ordet förskjutning
   <a class="anchor" href="#ordet-f%c3%b6rskjutning">#</a>
 </h2>
+<p>Försjutning betyder att något är flyttat, att något inte ligger tillsammans.</p>
+<h2 id="trianglar">
+  Trianglar
+  <a class="anchor" href="#trianglar">#</a>
+</h2>
+<p>När det finns fasförskjutning i en krets så kan du beskriva hur de olika delarna hänger samman med hjälp av trianglar. Grundtrianglarna i en enkel krets med fasförskjutning är dessa:
+<img src="/Fasf%c3%b6rskjutning.svg" alt="Impedeans,Spänning,Effekt" />
+
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \(\varphi\)
+</span>
+ är samma i alla trianglarna. Vet du vnikeln <span>
+  \(\varphi\)
+</span>
+ i en krets så vet du de andra också, eftersom det är samma.</p>
 <h2 id="faförskjutniung-och-effekt">
   Faförskjutniung och effekt
   <a class="anchor" href="#faf%c3%b6rskjutniung-och-effekt">#</a>
@@ -342,10 +368,7 @@ Capasitiv<br>
   Skenbar effekt
   <a class="anchor" href="#skenbar-effekt">#</a>
 </h3>
-
-<link rel="stylesheet" href="/katex/katex.min.css" />
-<script defer src="/katex/katex.min.js"></script>
-<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+<span>
   \(S = U * I\)
 </span>
 
@@ -501,10 +524,34 @@ Capasitiv<br>
 </span>
 </td>
 </tr>
+</tbody>
+</table>
+<table>
+<thead>
 <tr>
-<td>Resultat i grader</td>
+<th>Steg</th>
+<th>Räkna ut fasförskjutning i grader</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
 <td><span>
-  \( Cos^{-1}\varphi(0.75) = 41.4\degree \)
+  \( \varphi = Cos^{-1}(Cos\varphi) \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträknning</td>
+<td><span>
+  \( \varphi = Cos^{-1}(0.75) \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( \varphi  = 41.4\degree \)
 </span>
 </td>
 </tr>
@@ -526,6 +573,12 @@ Capasitiv<br>
 <tr>
 <td><span>
   \( Cos\varphi = 0.75 \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( \varphi  = 41.4\degree \)
 </span>
 </td>
 </tr>
@@ -579,10 +632,34 @@ Capasitiv<br>
 </span>
 </td>
 </tr>
+</tbody>
+</table>
+<table>
+<thead>
 <tr>
-<td>Resultat i grader</td>
+<th>Steg</th>
+<th>Räkna ut fasförskjutning i grader</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
 <td><span>
-  \( Cos^{-1}\varphi(0.75) = 41.4\degree \)
+  \( \varphi = Cos^{-1}(Cos\varphi) \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträknning</td>
+<td><span>
+  \( \varphi = Cos^{-1}(0.75) \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( \varphi  = 41.4\degree \)
 </span>
 </td>
 </tr>
@@ -604,6 +681,12 @@ Capasitiv<br>
 <tr>
 <td><span>
   \( Cos\varphi = 0.75 \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( \varphi  = 41.4\degree\)
 </span>
 </td>
 </tr>
@@ -680,6 +763,249 @@ Capasitiv<br>
 </tr>
 <tr>
 <td>S = 400VA</td>
+</tr>
+</tbody>
+</table>
+<h3 id="beräkningsexempel-impedans-och-ström-och-spänning">
+  Beräkningsexempel impedans och ström och spänning:
+  <a class="anchor" href="#ber%c3%a4kningsexempel-impedans-och-str%c3%b6m-och-sp%c3%a4nning">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( Z = 300 \Omega\)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( I = 0.32 A \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_R = 72 V  \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Räkna ut Spänningen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( U = I * Z \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( U = 0.31 A * 300 \Omega \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( U = 96V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Räkna ut spänningen över reaktiva lasten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( U_L^2 = U^2-U_R^2 \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( U_L = \sqrt{96V^2-72V^2} \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( U_L = 63.5V \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Räkna ut Skenbara effekten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( S = U * I \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( S = 96V * 0.32A \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( S = 30.72 \text{VA} \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Räkna ut reaktiva effekten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( Q_L = U_L * I \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( Q_L = 63.5V * 0.32A \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( Q_L = 20.32 \text{VAR} \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Räkna ut aktiva effekten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formel</td>
+<td><span>
+  \( P = U_R * I \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Uträkning</td>
+<td><span>
+  \( P = 72V * 0.32A \)
+</span>
+</td>
+</tr>
+<tr>
+<td>Resultat</td>
+<td><span>
+  \( P = 23,04W \)
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Svar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>
+  \( Z = 300 \Omega\)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( I = 0.32A \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_R = 72 V  \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U = 96VA \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( U_L = 63.5V \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( S = 30.72 \text{VA} \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( Q_L = 20.32 \text{VAR} \)
+</span>
+</td>
+</tr>
+<tr>
+<td><span>
+  \( P = 23,04W \)
+</span>
+</td>
 </tr>
 </tbody>
 </table>
@@ -949,8 +1275,11 @@ Capasitiv<br>
   
 <nav id="TableOfContents">
   <ul>
+    <li><a href="#induktiv">Induktiv</a></li>
+    <li><a href="#kapasitiv">Kapasitiv</a></li>
     <li><a href="#ordet-fas">Ordet fas</a></li>
     <li><a href="#ordet-förskjutning">Ordet förskjutning</a></li>
+    <li><a href="#trianglar">Trianglar</a></li>
     <li><a href="#faförskjutniung-och-effekt">Faförskjutniung och effekt</a>
       <ul>
         <li><a href="#skenbar-effekt">Skenbar effekt</a></li>
@@ -980,6 +1309,7 @@ Capasitiv<br>
         <li><a href="#beräkningsexempel-fasförskjutning-resistans-och-impedans">Beräkningsexempel fasförskjutning resistans och impedans:</a></li>
         <li><a href="#beräkningsexempel-fasförskjutning-skenbar-effekt-och-effekt">Beräkningsexempel fasförskjutning skenbar effekt och effekt:</a></li>
         <li><a href="#beräkningsexempel-effekt-och-skenbar-effekt-med-fasförsjutning">Beräkningsexempel effekt och skenbar effekt med fasförsjutning:</a></li>
+        <li><a href="#beräkningsexempel-impedans-och-ström-och-spänning">Beräkningsexempel impedans och ström och spänning:</a></li>
       </ul>
     </li>
     <li><a href="#frågor">Frågor</a></li>

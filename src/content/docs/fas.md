@@ -4,16 +4,17 @@ weight: 11
 ---
 
 # Fasförskjutning
-
 ![Fasförskjutning](/fasf.png)
 
-Spole kommer strömmen efter.
-Induktiv  
+Fasförskjutning är när strömmen och spänningen inte går i takt. Som i bilen ovan så har ström och spänning sina topp och botten värden vid olika tidpunkter. När ström och spänningn inte går i takt så fungerar inte Effekt-formeln och Ohms lag som vanligt längre.
+
+## Induktiv
+När du kopplar in en spole i en krets så kommer strömmen att komma efter spänningen. Det beror på att magnetfältet som skapas i spolen bromsar strömmen. På bilden så kan du se hur strömmen (blå) kommer efter spänningen (röd).
 ![Spole med spänning](/spole24AC.svg)  
 ![Strömmen efter](/lfi.png)
 
-Kondensator kommer strömmen före.
-Capasitiv  
+## Kapasitiv
+När du kopplar in en kondensatorn i en krets så kommer strömmen att komma före spänningen. Det beror på att strömmen tidigare har blivit lagrad i kondensatorn och skickas ut redan innan spänningen kommer. På bilden så kan du se hur strömmen (blå) kommer före spänningen (röd).
 ![Spole med spänning](/24vcond.svg)  
 ![Ström före](/cfi.png)
 
@@ -22,6 +23,13 @@ Capasitiv
 Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.
 
 ## Ordet förskjutning
+
+Försjutning betyder att något är flyttat, att något inte ligger tillsammans.
+
+## Trianglar
+När det finns fasförskjutning i en krets så kan du beskriva hur de olika delarna hänger samman med hjälp av trianglar. Grundtrianglarna i en enkel krets med fasförskjutning är dessa:
+![Impedeans,Spänning,Effekt](/Fasförskjutning.svg)
+{{< katex >}}\varphi{{< /katex >}} är samma i alla trianglarna. Vet du vnikeln {{< katex >}}\varphi{{< /katex >}} i en krets så vet du de andra också, eftersom det är samma.
 
 ## Faförskjutniung och effekt
 
@@ -86,13 +94,19 @@ Om det är rätt storlek på kondesator och spole så kommer fasförskjutningen 
 | Formel    | {{< katex >}} Cos\varphi = \frac{R}{Z} {{< /katex >}}         |
 | Uträkning | {{< katex >}} Cos\varphi = \frac{15Ω}{20Ω} {{< /katex >}}     |
 | Resultat faktor | {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}     |
-| Resultat i grader  | {{< katex >}} Cos^{-1}\varphi(0.75) = 41.4\degree {{< /katex >}}     |
+
+| Steg      | Räkna ut fasförskjutning i grader |
+| --------- | ------------ |
+| Formel   | {{< katex >}} \varphi = Cos^{-1}(Cos\varphi) {{< /katex >}}     |
+| Uträknning  | {{< katex >}} \varphi = Cos^{-1}(0.75) {{< /katex >}}     |
+| Resultat  | {{< katex >}} \varphi  = 41.4\degree {{< /katex >}}     |
 
 | Svar       |
 | ---------- |
 | R = 15Ω    |
 | Z = 20Ω    |
 | {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}  |
+| {{< katex >}} \varphi  = 41.4\degree {{< /katex >}}     |
 
 ### Beräkningsexempel fasförskjutning skenbar effekt och effekt:
 
@@ -106,13 +120,19 @@ Om det är rätt storlek på kondesator och spole så kommer fasförskjutningen 
 | Formel    | {{< katex >}} Cos\varphi = \frac{P}{S} {{< /katex >}}         |
 | Uträkning | {{< katex >}} Cos\varphi = \frac{150W}{200VA} {{< /katex >}}     |
 | Resultat faktor | {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}     |
-| Resultat i grader  | {{< katex >}} Cos^{-1}\varphi(0.75) = 41.4\degree {{< /katex >}}     |
+
+| Steg      | Räkna ut fasförskjutning i grader |
+| --------- | ------------ |
+| Formel   | {{< katex >}} \varphi = Cos^{-1}(Cos\varphi) {{< /katex >}}     |
+| Uträknning  | {{< katex >}} \varphi = Cos^{-1}(0.75) {{< /katex >}}     |
+| Resultat  | {{< katex >}} \varphi  = 41.4\degree {{< /katex >}}     |
 
 | Svar        |
 | ----------- |
 | P = 150W    |
 | S = 200VA   |
 | {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}  |
+| {{< katex >}} \varphi  = 41.4\degree{{< /katex >}}  |
 
 ### Beräkningsexempel effekt och skenbar effekt med fasförsjutning:
 
@@ -132,6 +152,56 @@ Om det är rätt storlek på kondesator och spole så kommer fasförskjutningen 
 | P = 150W    |
 | {{< katex >}} Cos\varphi = 0.75 {{< /katex >}}  |
 | S = 400VA   |
+
+### Beräkningsexempel impedans och ström och spänning:
+
+| Data       |
+| ---------- |
+| {{< katex >}} Z = 300 \Omega{{< /katex >}}    |
+| {{< katex >}} I = 0.32 A {{< /katex >}}  |
+| {{< katex >}} U_R = 72 V  {{< /katex >}}  |
+
+| Steg      | Räkna ut Spänningen |
+| --------- | ------------ |
+| Formel    | {{< katex >}} U = I * Z {{< /katex >}}         |
+| Uträkning | {{< katex >}} U = 0.31 A * 300 \Omega {{< /katex >}}     |
+| Resultat  | {{< katex >}} U = 96V {{< /katex >}}     |
+
+| Steg      | Räkna ut spänningen över reaktiva lasten |
+| --------- | ------------ |
+| Formel    | {{< katex >}} U_L^2 = U^2-U_R^2 {{< /katex >}}         |
+| Uträkning | {{< katex >}} U_L = \sqrt{96V^2-72V^2} {{< /katex >}}     |
+| Resultat  | {{< katex >}} U_L = 63.5V {{< /katex >}}     |
+
+| Steg      | Räkna ut Skenbara effekten |
+| --------- | ------------ |
+| Formel    | {{< katex >}} S = U * I {{< /katex >}}         |
+| Uträkning | {{< katex >}} S = 96V * 0.32A {{< /katex >}}     |
+| Resultat  | {{< katex >}} S = 30.72 \text{VA} {{< /katex >}}     |
+
+| Steg      | Räkna ut reaktiva effekten |
+| --------- | ------------ |
+| Formel    | {{< katex >}} Q_L = U_L * I {{< /katex >}}         |
+| Uträkning | {{< katex >}} Q_L = 63.5V * 0.32A {{< /katex >}}     |
+| Resultat  | {{< katex >}} Q_L = 20.32 \text{VAR} {{< /katex >}}     |
+
+| Steg      | Räkna ut aktiva effekten |
+| --------- | ------------ |
+| Formel    | {{< katex >}} P = U_R * I {{< /katex >}}         |
+| Uträkning | {{< katex >}} P = 72V * 0.32A {{< /katex >}}     |
+| Resultat  | {{< katex >}} P = 23,04W {{< /katex >}}     |
+
+| Svar        |
+| ----------- |
+| {{< katex >}} Z = 300 \Omega{{< /katex >}}    |
+| {{< katex >}} I = 0.32A {{< /katex >}}  |
+| {{< katex >}} U_R = 72 V  {{< /katex >}}  |
+| {{< katex >}} U = 96VA {{< /katex >}}  |
+| {{< katex >}} U_L = 63.5V {{< /katex >}}     |
+| {{< katex >}} S = 30.72 \text{VA} {{< /katex >}}   |
+| {{< katex >}} Q_L = 20.32 \text{VAR} {{< /katex >}}     |
+| {{< katex >}} P = 23,04W {{< /katex >}}     |
+
 
 
 ## Frågor

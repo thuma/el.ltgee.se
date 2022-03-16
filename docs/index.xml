@@ -111,9 +111,8 @@ Det är bara när magnetfältet rör sig fram och tillbaka som det blir en spän
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/fas/</guid>
-      <description>Fasförskjutning#Spole kommer strömmen efter. Induktiv
-Kondensator kommer strömmen före. Capasitiv
-Ordet fas#Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.</description>
+      <description>Fasförskjutning#Fasförskjutning är när strömmen och spänningen inte går i takt. Som i bilen ovan så har ström och spänning sina topp och botten värden vid olika tidpunkter. När ström och spänningn inte går i takt så fungerar inte Effekt-formeln och Ohms lag som vanligt längre.
+Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komma efter spänningen. Det beror på att magnetfältet som skapas i spolen bromsar strömmen.</description>
     </item>
     
     <item>
