@@ -1,6 +1,6 @@
 ---
-title: "4. Parallellkrets"
-weight: 4
+title: "5. Parallellkrets"
+weight: 5
 ---
 # Parallellkrets
 

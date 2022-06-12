@@ -1,6 +1,6 @@
 ---
-title: "3. Seriekrets"
-weight: 3
+title: "4. Seriekrets"
+weight: 4
 ---
 # Seriekrets
 

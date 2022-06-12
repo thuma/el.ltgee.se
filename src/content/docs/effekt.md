@@ -1,6 +1,6 @@
 ---
-title: "6. Effekt"
-weight: 6
+title: "3. Effekt"
+weight: 3
 ---
 # Effekt
 
