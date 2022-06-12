@@ -16,9 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/el/</guid>
-      <description>Elektricitet #  Ström #  Ström är elektroner som rör sig i en ledare. Strömmen är ett mått på hur många elektroner som rör sig. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
-Innom elläran så säger vi att strömmen åker från plus till minus. Plus och minus kallas också anod(+) och katod(-).
-Exempel #  I = 5A</description>
+      <description>Elektricitet #  Ström #  Ström är elektroner som passerar i en ledare. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A. Ampere är alltså en måttenhet som beskriver hur många elektroner som passerar per sekund.
+Innom elläran så säger vi att strömmen åker från plus till minus. Plus och minus kallas också anod(+) och katod(-).</description>
     </item>
     
     <item>
@@ -76,7 +75,7 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       
       <guid>https://el.ltgee.se/docs/ledningsresistans/</guid>
       <description>Ledningsresistans #  Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
- Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Längd #  Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.</description>
+ Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Samband #  Längd #  Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.</description>
     </item>
     
     <item>
@@ -97,7 +96,7 @@ Exempel #  En elmotor omvandlar elektrisk effekt till rörelse, den effekt som i
       
       <guid>https://el.ltgee.se/docs/acv/</guid>
       <description>Växelspänning #  Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till + och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte + och - på samma ställe hela tiden. + och - byter hela tiden platts det kallas att polariteten ändras.
-Toppvärde &amp;amp; Effektivvärde #  Toppvärdet är det som är högst upp på sinuskurvan.</description>
+AC #  Ofta kallas växelspänning/växelström för AC vilket betyder Alternating Current.</description>
     </item>
     
     <item>

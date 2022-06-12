@@ -11,21 +11,34 @@ Ledare leder ström bra, men alla ledare har lite [resistans](/docs/el/). När s
  3. Material
  4. Temperatur
 
-## Längd
+## Samband
+### Längd
 Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt. Det är lättare att gå en kort sträcka och jobbigare att gå en lång sträcka.
 
-## Tvärsnittsarean (Tjocklek)
+### Tvärsnittsarean (Tjocklek)
 Om kabeln är tjockare, har större tvärsnittsarea, så kommer resistansen att minska eftersom elektronerna har mer plats att rör sig och inte behöver träggas som i en smal ledare. Det är samma princip som när du står i kö och det bara finns en kassa på McDonalds. Då blir det en 
 lång kö som går sakta. Men om det är många kassor öppna så blir det många köer då får fler mat snabbare. Då kan det flöda igenom fler personer snabbare. På samma sätt så kan strömmen komma igenom snabbare när det är större tvärsnittsarea eftersom flera elektroner kan komma igenom brevid varandra i stället för att så i en lång kö.
 
-## Material
+### Material
 Olika meterial är olika bra på att leda koppar är bättre än guld t.ex. och Silver är bättre än koppar. Det beror på att atomerna i de olika materialen har olika antal elektroner runt sig som kan hoppa vidare till nästa atom olika lätt. I [tabellen](#beräkningar) längre ner kan du se olika ledares resistans per meter.
 
-## Temperatur
+### Temperatur
 Högre temperatur ger högre resistans och lägre temperatur ger lägre resistans. När ett material har högre temperatur så är atomerna längre ifrån varandra det gör att det är långt för elektroner att hoppa mellan atomerna. Dessa långa hopp gör att resistansen ökar när temperaturen ökar. 
+
+### Exempel
+
+ * En lång ledare har högre resistans än en kortare.
+ * En kort ledare har lägre resistans än en längre.
+ * En tjock ledare har en lägre resistans än en tunn ledare.
+ * En tunn ledare har en högre resistans än en tjock ledare.
+ * Ledare av koppar har lägre resistans än en ledare av stål.
+ * Ledare av bly har högre resistans än en ledare av koppar.
+ * En varm ledare har högre resistans än en kall ledare.
+ * En kall ledare har en längre resistans än en varm ledare.
 
 ## Ordförklaringar
 ### Tvärsnittsarea
+![Tvärsnittsarea](/area.jpg)
 Tvärsnittsarea på kablar är hur många mm² som ledaren har om du sågar av den och mäter den från kortsidan. Detta blir alltså ett mått på tjockleken på ledaren. En vanlig ledning i ett hus för lampor eller elluttag brukar vara 1,5 mm². Tvärsnitt betyder snitt på tvären. Ordet snitt är när du gör ett snitt med kniven i en kycklingfilé då kan du kolla på hur stor yta som det blir på tvären genom kycklingfilén. Även kycklingfilé med stor tvärsnittsarea har lägre resistans än en kycklingfié med liten area. 
 
 ### Ledning
@@ -41,17 +54,6 @@ Isolator betyder att den isolerar något. I elläran är isolatorn något som is
  * Värmeisolering - Att hålla isär värme och kyla inne och ute ur ett hus.
  * Isolercell - Att hålla en person isär från alla andra genom att sätta denna i en egen cell.
  * Social isolering - Att hållas isär från andra människor genom att inte prata med dem till exempel.
- 
-## Exempel
-
- * En lång ledare har högre resistans än en kortare.
- * En kort ledare har lägre resistans än en längre.
- * En tjock ledare, som alltså har stor tvärsnittsarea i mm², har en lägre resistans än en tunn ledare.
- * En tunn ledare, som alltså har liten tvärsnittsarea i mm², har en högre resistans än en tjock ledare.
- * Ledare av koppar har lägre resistans än en ledare av stål.
- * Ledare av bly har högre resistans än en ledare av koppar.
- * En varm ledare har högre resistans än en kall ledare.
- * En kall ledare har en längre resistans än en varm ledare.
 
 ## Beräkningar
 För att räkna ut ledningsressistansen i rumstemperatur så används följande formel:  

@@ -22,23 +22,22 @@ Order kortslutning är sammansatt av ordet kort och sluten. Kort för att vägen
 ## Kretsschema
 För att veta hur olika kretsar ska kopplas anväds kretscehma. I ett kretsschema så är alla komponenter ritade efter hur de ska kopplas. Det är inte alls ritat efter hur de sitter rent fysiskt. Olika kompontner beskrivs med [kretsschemasybmoler](/posts/kretsschemasymboler) som beskriver villken komponent som är vilken. [kretsschemasybmoler](/posts/kretsschemasymboler) är inte bilder på hur komponenterna ser ut i verkligheten utan är ritade efter funktionen som de har. 
 
-## Beräkningar
-Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste.
-Denna formel används för att kunna räkna ut spänning, ström och resistans 
-i kretsar.
-
-### Ohms lag  
-{{< katex >}}U = I * R{{< /katex >}} 
-
-Den kan också omvandlas genom algebra till  
-{{< katex >}}I = \frac{U}{R}{{< /katex >}}
-
-eller  
-{{< katex >}}R = \frac{U}{I}{{< /katex >}}
-
-## Exempel
+## Samband
 
 ![ Strömmen pressas av Spänningen och bromsas av Resistansen ](/Ohms-law.jpeg)
+
+### Spänningen
+  Spänningen är det som trycker elektronerna runt, högre spänning ger högre ström och tvärt om.
+
+### Resistansen
+  Resistansen är det som bromsar elektronerna, högre resistans ger längre ström och tvärt om.
+
+### Strömmen
+  Strömmen är alltså ett resultat av hur stor spänningen och resistansen är.
+  Om du vill öka strömmen behöver du alltså antingen minska resistansen eller öka spänningen.
+  Om du vill minska strömmen behöver du alltså öka resistansen eller minska spänningen.
+  
+### Exempel
 
 Om spänningen ökar i en krets så kommer strömmen att öka, 
 eftersom spänningen drar eller trycker hårdare i elektronerna som får fler av dem att röra på sig.
@@ -61,6 +60,22 @@ Om strömmen har minskat i en krets så har spänningen minskat eller resistanse
 
  * eftersom resistansen bromsar elektronerna mer,
  * eftersom spänningen drar eller trycker mindre i elektronerna.
+
+## Beräkningar
+Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste.
+Denna formel används för att kunna räkna ut spänning, ström och resistans 
+i kretsar.
+
+### Ohms lag  
+{{< katex >}}U = I * R{{< /katex >}} 
+
+Den kan också skrivas  
+{{< katex >}}I = \frac{U}{R}{{< /katex >}}
+
+eller som  
+{{< katex >}}R = \frac{U}{I}{{< /katex >}}
+
+
 
 ### Beräkningsexempel för spänningen:
 

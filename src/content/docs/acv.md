@@ -10,13 +10,30 @@ weight: 9
 Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till + och sedan tillbaka ner till 0V och till -.
 Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte + och - på samma ställe hela tiden. + och - byter hela tiden platts det kallas att polariteten ändras.
 
-## Toppvärde & Effektivvärde
+## AC
+Ofta kallas växelspänning/växelström för AC vilket betyder Alternating Current.
+
+## DC
+Ofta kallas likspänningen/likström (när det finns ett + och ett -) för DC vilket betyder Direct Current.
+
+## Toppvärde
+Toppvärdet är det som är högst upp på sinuskurvan.  
+{{< katex >}} û {{< /katex >}} = Toppvärde  
 ![Sinuskurvamedtippvärde](/sinustop.png)
 
-Toppvärdet är det som är högst upp på sinuskurvan.
-{{< katex >}} û {{< /katex >}} = Toppvärde  
+## Effektivvärde
+Effektivvärdet är hur stor spänningen är i medel.
+Näs polariteten är tvärt om så ändrar det inte riktningen på effektivvärdet.
+Detta beror på att effektivvärdet beskriver hur stor effekten är inte vilket håll den kommer från.
+I en DC krets så finns bara effektivärdet. Det är effektivvärdet vi använder när vi räknar med tillexmepel Ohms-lag.
+  
+{{< katex >}} U {{< /katex >}} = Effektivvärde  
+![Sinuskurvamedtippvärde](/sinuseffektiv.png)
 
-Spänningen U som är den spänning som en DC krets har, där det är samma spänningn hela tiden. Det är alltså samma effekt hela tiden därför kallas detta värde Effektivvärde.
+## Samband
+
+Toppvärdet är alltid störren än effektivvärdet eftersom effektivvärdet är medelspänningen för strömmen/spänningen.
+Effektivvärdet är det samma som spänningen i en DC krets. Så in en DC krets så är toppvärdet och effektivvärdet samma.
 
 ### Exempel
 
@@ -24,7 +41,7 @@ Effektivvärdet är alltid lägre än toppvärdet.
 
 Toppvärdet är alltid större än effektivvärdet.
 
-### Formel
+## Beräkningar
 För att räkna ut toppvärdet när du har effektivvärdet använder du följande formel.  
 {{< katex >}} û = U * \sqrt[]{2} {{< /katex >}}
 
@@ -151,7 +168,6 @@ Vad händer med periodtiden om frekvensen minskar?
 | Tvärsnittsarea | A                | Kvadratmillimeter | mm²| 
 | Resistivitet | {{< katex >}}\rho{{< /katex >}} | Ohm per meter per kvadratmillimeter | Ohm/m/mm² | 
 | Effekt       | P                  | Watt        | W                |
-| Verkninsgrad | 𝝶                  | Procent / Faktor     | % / ingen                | 
 | Periodtid | {{< katex >}} t {{< /katex >}}  | Sekunder     | s                | 
 | Frekvens | {{< katex >}} f {{< /katex >}}                  | Hertz     | Hz                | 
 

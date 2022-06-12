@@ -14,11 +14,28 @@ Den elektriska effekten beror på ström och spänning. Ju fler elektroner som p
 
 Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.
 
-### Effektlagen
+## Samband
+
+Strömmen och spänningens storlek är det som bestämmer hur stor effekten blir. Detta kallas effektlagen:  
 {{< katex >}}P = U * I{{< /katex >}}
 
 
-## Exempel
+### Ström
+Strömmen som beskriver antalet elektroner som passerar per sekund påverkar effekten
+genom att varje elektron har en viss kraft ju fler elektroner ju mer kraft. Därför ökar
+effekten om strömmen ökar och tvärt om.
+
+### Spänning
+Spänningen beskriver hur hårt elektronerna pressas genom kretsen.
+Om elektronerna pressas hårdare så har varje elektron mer kraft.
+Därför ökar effekten om spänningen ökar och tvärt om.
+
+### Resistans
+Resistansen bromsar elektronerna, en högre resistans ger alltså en lägre ström 
+som i sin tur leder till lägre effekt. Om resistansen minskas blir det tvärt om,
+strömmen ökar så att effekten ökar.
+
+### Exempel
 
 Om strömmen ökar och spänningen är densamma så kommer effekten att öka.
 
@@ -31,6 +48,9 @@ Om spänningen minskar och strömmen är densamma så kommer effekten att minska
 Om resistansen minskar och spänningen är densamma så kommer strömmen att öka. Det kommer i sin tur leda till att effekten kommer att öka.
 
 Om resistansen ökar och spänningen är den samma så kommer strömmen att minska och det kommer i sin tur leda till att effekten kommer att minska.
+
+
+## Beräkningar
 
 ### Beräkningsexempel med ström och spänning:
 

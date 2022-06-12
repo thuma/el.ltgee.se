@@ -18,9 +18,9 @@ Ordet serie i detta fall är samma princip som när man använder order i vanlig
 Serie betyder alltså att något sker i en följd efter varandra. En seriemördare mördar en sedan nästa osv,
 till skillnad från tillexempel en massmördare som mördar många samtidigt.
 
-## Uträkningar i seriekretsen
+## Samband
 ### Spänningen
-Spänningn som kommer från spänningskällan kommer att delas upp över de olika belastningar. Alla spänningarna över belastningarna kommer tillsammans bli den spänning som spänningskällan ger.  
+Spänningn från spänningskällan kommer att delas upp över de olika belastningar. Alla spänningarna över belastningarna kommer tillsammans bli den spänning som spänningskällan ger.
 {{< katex >}}U = U_1+U_2+U_3...{{< /katex >}} 
 
 ### Strömmen
@@ -31,14 +31,17 @@ I en seriekrets finns det bara en väg för strömmen att gå. Därför finns de
 Eftersom strömmen måste gå igenom alla belastningar den ena efter den andra blir detn totala resistansen  summan av alla belastningarnas resistans.  
 {{< katex >}}R_{tot} = R_1+R_2+R_3...{{< /katex >}}
 
-## Exempel
+### Exempel
 
 Om du lägger till en belastning i serie så kommer den totala resistansen att öka eftersom strömmen får ytterligare ett hinder att passera.
 
 Om du tar bort en belastning som sitter i serie och kopplar ihop så att strömmen kan passera direkt minskar resistansen eftersom strömmen slipper går igenom den belastningen.
 
+Om du lägger till en belastning i serie så sjunker spänningen över dom andra belastningarna i seriekretsen.
+
 Om du har två resistorer i serie och en har stor resistans och en har liten så kommer den med stor resistans få en hög spänning och den med låg resistans kommer att få en låg spänning. Detta beror på att båda kommer att få samma ström och strömmen gånger resistansen ger spänningen enligt Ohms-lag. Detta gör att spänningen blir hög med hög resistans och låg med låg resistans.
 
+## Beräkningar
 ### Beräkningsexempel för spänning:
 
 | Data       |
