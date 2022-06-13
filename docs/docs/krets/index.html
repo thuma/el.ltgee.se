@@ -3,23 +3,21 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Krets#I en elektrisk krets kan strömmen röra sig hela vägen runt, från &#43; på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
+<meta name="description" content="Krets #  I en elektrisk krets kan strömmen röra sig hela vägen runt, från &#43; på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
 Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så slutar elektronerna att röra på sig, det kallas för en öppen krets.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="2. Krets" />
-<meta property="og:description" content="Krets#I en elektrisk krets kan strömmen röra sig hela vägen runt, från &#43; på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
+<meta property="og:description" content="Krets #  I en elektrisk krets kan strömmen röra sig hela vägen runt, från &#43; på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
 Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så slutar elektronerna att röra på sig, det kallas för en öppen krets." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://el.ltgee.se/docs/krets/" /><meta property="article:section" content="docs" />
-
-
+<meta property="og:url" content="https://el.ltgee.se/docs/krets/" />
 
 <title>2. Krets | Ellära 1</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.57792342adf0a412aad0c36d644d6309adb97123772e81a337cd7a4379a25e65.js" integrity="sha256-V3kjQq3wpBKq0MNtZE1jCa25cSN3LoGjN816Q3miXmU=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.0d9836123081ea805147dcd3f3342b92f05cfeeec8af0557f362e60299d63dfb.js" integrity="sha256-DZg2EjCB6oBRR9zT8zQrkvBc/u7IrwVX82LmApnWPfs=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -97,7 +95,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/serie/" class="">3. Seriekrets</a>
+    <a href="https://el.ltgee.se/docs/effekt/" class="">3. Effekt</a>
   
 
         </li>
@@ -110,7 +108,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/parallell/" class="">4. Parallellkrets</a>
+    <a href="https://el.ltgee.se/docs/serie/" class="">4. Seriekrets</a>
   
 
         </li>
@@ -123,7 +121,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/kombinerad/" class="">5. Kombinerad krets</a>
+    <a href="https://el.ltgee.se/docs/parallell/" class="">5. Parallellkrets</a>
   
 
         </li>
@@ -136,7 +134,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/effekt/" class="">6. Effekt</a>
+    <a href="https://el.ltgee.se/docs/kombinerad/" class="">6. Kombinerad krets</a>
   
 
         </li>
@@ -162,7 +160,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/verkningsgrad/" class="">8. Verkningsgrad</a>
+    <a href="https://el.ltgee.se/docs/verkningsgrad/" class="">8. Effektförlust</a>
   
 
         </li>
@@ -232,7 +230,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -266,13 +264,17 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#ordet-krets">Ordet krets</a></li>
     <li><a href="#ordet-kortslutning">Ordet kortslutning</a></li>
     <li><a href="#kretsschema">Kretsschema</a></li>
+    <li><a href="#samband">Samband</a>
+      <ul>
+        <li><a href="#spänningen">Spänningen</a></li>
+        <li><a href="#resistansen">Resistansen</a></li>
+        <li><a href="#strömmen">Strömmen</a></li>
+        <li><a href="#exempel">Exempel</a></li>
+      </ul>
+    </li>
     <li><a href="#beräkningar">Beräkningar</a>
       <ul>
         <li><a href="#ohms-lag">Ohms lag</a></li>
-      </ul>
-    </li>
-    <li><a href="#exempel">Exempel</a>
-      <ul>
         <li><a href="#beräkningsexempel-för-spänningen">Beräkningsexempel för spänningen:</a></li>
         <li><a href="#beräkningsexempel-för-strömmen">Beräkningsexempel för strömmen:</a></li>
         <li><a href="#beräkningsexempel-för-resistansen">Beräkningsexempel för resistansen:</a></li>
@@ -315,44 +317,37 @@ På samma sett så kretsar strömmen/elektronerna runt i kretsen.</p>
   <a class="anchor" href="#kretsschema">#</a>
 </h2>
 <p>För att veta hur olika kretsar ska kopplas anväds kretscehma. I ett kretsschema så är alla komponenter ritade efter hur de ska kopplas. Det är inte alls ritat efter hur de sitter rent fysiskt. Olika kompontner beskrivs med <a href="/posts/kretsschemasymboler">kretsschemasybmoler</a> som beskriver villken komponent som är vilken. <a href="/posts/kretsschemasymboler">kretsschemasybmoler</a> är inte bilder på hur komponenterna ser ut i verkligheten utan är ritade efter funktionen som de har.</p>
-<h2 id="beräkningar">
-  Beräkningar
-  <a class="anchor" href="#ber%c3%a4kningar">#</a>
-</h2>
-<p>Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste.
-Denna formel används för att kunna räkna ut spänning, ström och resistans 
-i kretsar.</p>
-<h3 id="ohms-lag">
-  Ohms lag
-  <a class="anchor" href="#ohms-lag">#</a>
-</h3>
-
-<link rel="stylesheet" href="/katex/katex.min.css" />
-<script defer src="/katex/katex.min.js"></script>
-<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
-  \(U = I * R\)
-</span>
-
-<p>Den kan också omvandlas genom algebra till<br>
-<span>
-  \(I = \frac{U}{R}\)
-</span>
-</p>
-<p>eller<br>
-<span>
-  \(R = \frac{U}{I}\)
-</span>
-</p>
-<h2 id="exempel">
-  Exempel
-  <a class="anchor" href="#exempel">#</a>
+<h2 id="samband">
+  Samband
+  <a class="anchor" href="#samband">#</a>
 </h2>
 <p><img src="/Ohms-law.jpeg" alt=" Strömmen pressas av Spänningen och bromsas av Resistansen " /></p>
-<p>Om spänningen ökar i en krets så kommer strömmen att öka, 
+<h3 id="spänningen">
+  Spänningen
+  <a class="anchor" href="#sp%c3%a4nningen">#</a>
+</h3>
+<p>Spänningen är det som trycker elektronerna runt, högre spänning ger högre ström och tvärt om.</p>
+<h3 id="resistansen">
+  Resistansen
+  <a class="anchor" href="#resistansen">#</a>
+</h3>
+<p>Resistansen är det som bromsar elektronerna, högre resistans ger längre ström och tvärt om.</p>
+<h3 id="strömmen">
+  Strömmen
+  <a class="anchor" href="#str%c3%b6mmen">#</a>
+</h3>
+<p>Strömmen är alltså ett resultat av hur stor spänningen och resistansen är.
+Om du vill öka strömmen behöver du alltså antingen minska resistansen eller öka spänningen.
+Om du vill minska strömmen behöver du alltså öka resistansen eller minska spänningen.</p>
+<h3 id="exempel">
+  Exempel
+  <a class="anchor" href="#exempel">#</a>
+</h3>
+<p>Om spänningen ökar i en krets så kommer strömmen att öka,
 eftersom spänningen drar eller trycker hårdare i elektronerna som får fler av dem att röra på sig.</p>
-<p>Om spänningen minskar i en krets så kommer strömmen att minska, 
+<p>Om spänningen minskar i en krets så kommer strömmen att minska,
 eftersom spänningen drar eller trycker mindre i elektronerna som gör att färre av dem att rör på sig.</p>
-<p>Om resistansen minskar i en krets så kommer strömmen att öka, 
+<p>Om resistansen minskar i en krets så kommer strömmen att öka,
 eftersom resistansen bromsar elektronerna mindre som gör att fler av dem rör på sig.</p>
 <p>Om resistansen ökar i en krets så kommer strömmen att minska,
 eftersom resistansen bromsar elektronerna mer som gör att färre av dem att rör på sig.</p>
@@ -366,6 +361,34 @@ eftersom resistansen bromsar elektronerna mer som gör att färre av dem att rö
 <li>eftersom resistansen bromsar elektronerna mer,</li>
 <li>eftersom spänningen drar eller trycker mindre i elektronerna.</li>
 </ul>
+<h2 id="beräkningar">
+  Beräkningar
+  <a class="anchor" href="#ber%c3%a4kningar">#</a>
+</h2>
+<p>Ohms lag är den mest grundläggande lagen inom ellära och även den viktigaste.
+Denna formel används för att kunna räkna ut spänning, ström och resistans
+i kretsar.</p>
+<h3 id="ohms-lag">
+  Ohms lag
+  <a class="anchor" href="#ohms-lag">#</a>
+</h3>
+
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \(U = I * R\)
+</span>
+
+<p>Den kan också skrivas<br>
+<span>
+  \(I = \frac{U}{R}\)
+</span>
+</p>
+<p>eller som<br>
+<span>
+  \(R = \frac{U}{I}\)
+</span>
+</p>
 <h3 id="beräkningsexempel-för-spänningen">
   Beräkningsexempel för spänningen:
   <a class="anchor" href="#ber%c3%a4kningsexempel-f%c3%b6r-sp%c3%a4nningen">#</a>
@@ -575,7 +598,8 @@ eftersom resistansen bromsar elektronerna mer som gör att färre av dem att rö
 
 
 
-  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  
@@ -603,13 +627,17 @@ eftersom resistansen bromsar elektronerna mer som gör att färre av dem att rö
     <li><a href="#ordet-krets">Ordet krets</a></li>
     <li><a href="#ordet-kortslutning">Ordet kortslutning</a></li>
     <li><a href="#kretsschema">Kretsschema</a></li>
+    <li><a href="#samband">Samband</a>
+      <ul>
+        <li><a href="#spänningen">Spänningen</a></li>
+        <li><a href="#resistansen">Resistansen</a></li>
+        <li><a href="#strömmen">Strömmen</a></li>
+        <li><a href="#exempel">Exempel</a></li>
+      </ul>
+    </li>
     <li><a href="#beräkningar">Beräkningar</a>
       <ul>
         <li><a href="#ohms-lag">Ohms lag</a></li>
-      </ul>
-    </li>
-    <li><a href="#exempel">Exempel</a>
-      <ul>
         <li><a href="#beräkningsexempel-för-spänningen">Beräkningsexempel för spänningen:</a></li>
         <li><a href="#beräkningsexempel-för-strömmen">Beräkningsexempel för strömmen:</a></li>
         <li><a href="#beräkningsexempel-för-resistansen">Beräkningsexempel för resistansen:</a></li>

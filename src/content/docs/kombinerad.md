@@ -1,6 +1,6 @@
 ---
-title: "5. Kombinerad krets"
-weight: 5
+title: "6. Kombinerad krets"
+weight: 6
 ---
 # Kombinerad krets
 

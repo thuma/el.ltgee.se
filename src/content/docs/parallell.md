@@ -1,6 +1,6 @@
 ---
-title: "4. Parallellkrets"
-weight: 4
+title: "5. Parallellkrets"
+weight: 5
 ---
 # Parallellkrets
 
@@ -39,11 +39,11 @@ I en parallellkrets så minskar resistasen ju fler komponenter som kopplas in. D
 #### Beräkningsform
 {{< katex >}}R_{tot} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_1} + \frac{1}{R_3} + ...}{{< /katex >}}
 
-#### Bråkform med 2 resistorer
+#### Bråkform
 {{< katex >}}R_{tot} = \frac{R_1*R_2}{R_1+R_2}{{< /katex >}}  
 *Denna fungerar bara på två parallellkopplade motstånd.*
 
-## Exempel
+### Exempel
 
 Om du lägger till en resistor i en parallellkrets så minskar resistansen eftersom strömmen får fler vägar att gå.
 
@@ -55,6 +55,7 @@ Om du lägger till en resistor i en parallellkrets så ökar strömmen eftersom 
 
 Om du tar bort en resistor i en parallellkrets så minskar strömmen eftersom det finns färre vägar för strömmen att röra sig genom kretsen.
 
+## Beräkningar
 ### Beräkningsexempel för resistans
 | Data                                     |
 | ---------------------------------------- |

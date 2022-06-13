@@ -7,7 +7,10 @@ weight: 1
 ![Credit: Pixabay CC0 1.0](/electron.png)
 
 ## Ström
-Ström är elektroner som rör sig i en ledare. Strömmen är ett mått på hur många elektroner som rör sig. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
+Ström är elektroner som passerar i en ledare.
+Många elektroner ger en stor ström få ger en låg ström.
+Strömmen som förkortas I, mäts i enheten Ampere som förkortas A.
+Ampere är alltså en måttenhet som beskriver hur många elektroner som passerar per sekund.
 
 Innom elläran så säger vi att strömmen åker från plus till minus.
 Plus och minus kallas också anod(+) och katod(-).
@@ -55,6 +58,6 @@ Ordet resistans eller motstånd används i andara sammanghang tillexempel i Star
 | ----------- | ---------- | ----------- | ---------- |
 | Ström       | I          | Ampere      | A          |
 | Spänning    | U          | Volt        | V          |
-| Resistans    | R          | Ohm         | Ω          |
+| Resistans   | R          | Ohm         | Ω          |
 
 

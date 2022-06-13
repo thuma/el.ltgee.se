@@ -3,23 +3,21 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ledningsresistans#Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
- Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Längd#Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.">
+<meta name="description" content="Ledningsresistans #  Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
+ Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Samband #  Längd #  Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="7. Ledningsresistans" />
-<meta property="og:description" content="Ledningsresistans#Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
- Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Längd#Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt." />
+<meta property="og:description" content="Ledningsresistans #  Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
+ Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Samband #  Längd #  Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://el.ltgee.se/docs/ledningsresistans/" /><meta property="article:section" content="docs" />
-
-
+<meta property="og:url" content="https://el.ltgee.se/docs/ledningsresistans/" />
 
 <title>7. Ledningsresistans | Ellära 1</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.57792342adf0a412aad0c36d644d6309adb97123772e81a337cd7a4379a25e65.js" integrity="sha256-V3kjQq3wpBKq0MNtZE1jCa25cSN3LoGjN816Q3miXmU=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.0d9836123081ea805147dcd3f3342b92f05cfeeec8af0557f362e60299d63dfb.js" integrity="sha256-DZg2EjCB6oBRR9zT8zQrkvBc/u7IrwVX82LmApnWPfs=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -97,7 +95,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/serie/" class="">3. Seriekrets</a>
+    <a href="https://el.ltgee.se/docs/effekt/" class="">3. Effekt</a>
   
 
         </li>
@@ -110,7 +108,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/parallell/" class="">4. Parallellkrets</a>
+    <a href="https://el.ltgee.se/docs/serie/" class="">4. Seriekrets</a>
   
 
         </li>
@@ -123,7 +121,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/kombinerad/" class="">5. Kombinerad krets</a>
+    <a href="https://el.ltgee.se/docs/parallell/" class="">5. Parallellkrets</a>
   
 
         </li>
@@ -136,7 +134,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/effekt/" class="">6. Effekt</a>
+    <a href="https://el.ltgee.se/docs/kombinerad/" class="">6. Kombinerad krets</a>
   
 
         </li>
@@ -162,7 +160,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://el.ltgee.se/docs/verkningsgrad/" class="">8. Verkningsgrad</a>
+    <a href="https://el.ltgee.se/docs/verkningsgrad/" class="">8. Effektförlust</a>
   
 
         </li>
@@ -232,7 +230,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -263,10 +261,15 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#längd">Längd</a></li>
-    <li><a href="#tvärsnittsarean-tjocklek">Tvärsnittsarean (Tjocklek)</a></li>
-    <li><a href="#material">Material</a></li>
-    <li><a href="#temperatur">Temperatur</a></li>
+    <li><a href="#samband">Samband</a>
+      <ul>
+        <li><a href="#längd">Längd</a></li>
+        <li><a href="#tvärsnittsarean-tjocklek">Tvärsnittsarean (Tjocklek)</a></li>
+        <li><a href="#material">Material</a></li>
+        <li><a href="#temperatur">Temperatur</a></li>
+        <li><a href="#exempel">Exempel</a></li>
+      </ul>
+    </li>
     <li><a href="#ordförklaringar">Ordförklaringar</a>
       <ul>
         <li><a href="#tvärsnittsarea">Tvärsnittsarea</a></li>
@@ -274,7 +277,6 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#isolator">Isolator</a></li>
       </ul>
     </li>
-    <li><a href="#exempel">Exempel</a></li>
     <li><a href="#beräkningar">Beräkningar</a>
       <ul>
         <li><a href="#ledningsresistansen">Ledningsresistansen</a></li>
@@ -306,27 +308,45 @@ https://github.com/alex-shpak/hugo-book
 <li>Material</li>
 <li>Temperatur</li>
 </ol>
-<h2 id="längd">
+<h2 id="samband">
+  Samband
+  <a class="anchor" href="#samband">#</a>
+</h2>
+<h3 id="längd">
   Längd
   <a class="anchor" href="#l%c3%a4ngd">#</a>
-</h2>
+</h3>
 <p>Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt. Det är lättare att gå en kort sträcka och jobbigare att gå en lång sträcka.</p>
-<h2 id="tvärsnittsarean-tjocklek">
+<h3 id="tvärsnittsarean-tjocklek">
   Tvärsnittsarean (Tjocklek)
   <a class="anchor" href="#tv%c3%a4rsnittsarean-tjocklek">#</a>
-</h2>
-<p>Om kabeln är tjockare, har större tvärsnittsarea, så kommer resistansen att minska eftersom elektronerna har mer plats att rör sig och inte behöver träggas som i en smal ledare. Det är samma princip som när du står i kö och det bara finns en kassa på McDonalds. Då blir det en 
+</h3>
+<p>Om kabeln är tjockare, har större tvärsnittsarea, så kommer resistansen att minska eftersom elektronerna har mer plats att rör sig och inte behöver träggas som i en smal ledare. Det är samma princip som när du står i kö och det bara finns en kassa på McDonalds. Då blir det en
 lång kö som går sakta. Men om det är många kassor öppna så blir det många köer då får fler mat snabbare. Då kan det flöda igenom fler personer snabbare. På samma sätt så kan strömmen komma igenom snabbare när det är större tvärsnittsarea eftersom flera elektroner kan komma igenom brevid varandra i stället för att så i en lång kö.</p>
-<h2 id="material">
+<h3 id="material">
   Material
   <a class="anchor" href="#material">#</a>
-</h2>
+</h3>
 <p>Olika meterial är olika bra på att leda koppar är bättre än guld t.ex. och Silver är bättre än koppar. Det beror på att atomerna i de olika materialen har olika antal elektroner runt sig som kan hoppa vidare till nästa atom olika lätt. I <a href="#ber%c3%a4kningar">tabellen</a> längre ner kan du se olika ledares resistans per meter.</p>
-<h2 id="temperatur">
+<h3 id="temperatur">
   Temperatur
   <a class="anchor" href="#temperatur">#</a>
-</h2>
+</h3>
 <p>Högre temperatur ger högre resistans och lägre temperatur ger lägre resistans. När ett material har högre temperatur så är atomerna längre ifrån varandra det gör att det är långt för elektroner att hoppa mellan atomerna. Dessa långa hopp gör att resistansen ökar när temperaturen ökar.</p>
+<h3 id="exempel">
+  Exempel
+  <a class="anchor" href="#exempel">#</a>
+</h3>
+<ul>
+<li>En lång ledare har högre resistans än en kortare.</li>
+<li>En kort ledare har lägre resistans än en längre.</li>
+<li>En tjock ledare har en lägre resistans än en tunn ledare.</li>
+<li>En tunn ledare har en högre resistans än en tjock ledare.</li>
+<li>Ledare av koppar har lägre resistans än en ledare av stål.</li>
+<li>Ledare av bly har högre resistans än en ledare av koppar.</li>
+<li>En varm ledare har högre resistans än en kall ledare.</li>
+<li>En kall ledare har en längre resistans än en varm ledare.</li>
+</ul>
 <h2 id="ordförklaringar">
   Ordförklaringar
   <a class="anchor" href="#ordf%c3%b6rklaringar">#</a>
@@ -335,7 +355,8 @@ lång kö som går sakta. Men om det är många kassor öppna så blir det mång
   Tvärsnittsarea
   <a class="anchor" href="#tv%c3%a4rsnittsarea">#</a>
 </h3>
-<p>Tvärsnittsarea på kablar är hur många mm² som ledaren har om du sågar av den och mäter den från kortsidan. Detta blir alltså ett mått på tjockleken på ledaren. En vanlig ledning i ett hus för lampor eller elluttag brukar vara 1,5 mm². Tvärsnitt betyder snitt på tvären. Ordet snitt är när du gör ett snitt med kniven i en kycklingfilé då kan du kolla på hur stor yta som det blir på tvären genom kycklingfilén. Även kycklingfilé med stor tvärsnittsarea har lägre resistans än en kycklingfié med liten area.</p>
+<p><img src="/area.jpg" alt="Tvärsnittsarea" />
+Tvärsnittsarea på kablar är hur många mm² som ledaren har om du sågar av den och mäter den från kortsidan. Detta blir alltså ett mått på tjockleken på ledaren. En vanlig ledning i ett hus för lampor eller elluttag brukar vara 1,5 mm². Tvärsnitt betyder snitt på tvären. Ordet snitt är när du gör ett snitt med kniven i en kycklingfilé då kan du kolla på hur stor yta som det blir på tvären genom kycklingfilén. Även kycklingfilé med stor tvärsnittsarea har lägre resistans än en kycklingfié med liten area.</p>
 <h3 id="ledning">
   Ledning
   <a class="anchor" href="#ledning">#</a>
@@ -355,20 +376,6 @@ Det är samma ord:</p>
 <li>Värmeisolering - Att hålla isär värme och kyla inne och ute ur ett hus.</li>
 <li>Isolercell - Att hålla en person isär från alla andra genom att sätta denna i en egen cell.</li>
 <li>Social isolering - Att hållas isär från andra människor genom att inte prata med dem till exempel.</li>
-</ul>
-<h2 id="exempel">
-  Exempel
-  <a class="anchor" href="#exempel">#</a>
-</h2>
-<ul>
-<li>En lång ledare har högre resistans än en kortare.</li>
-<li>En kort ledare har lägre resistans än en längre.</li>
-<li>En tjock ledare, som alltså har stor tvärsnittsarea i mm², har en lägre resistans än en tunn ledare.</li>
-<li>En tunn ledare, som alltså har liten tvärsnittsarea i mm², har en högre resistans än en tjock ledare.</li>
-<li>Ledare av koppar har lägre resistans än en ledare av stål.</li>
-<li>Ledare av bly har högre resistans än en ledare av koppar.</li>
-<li>En varm ledare har högre resistans än en kall ledare.</li>
-<li>En kall ledare har en längre resistans än en varm ledare.</li>
 </ul>
 <h2 id="beräkningar">
   Beräkningar
@@ -737,7 +744,8 @@ Det är samma ord:</p>
 
 
 
-  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  
@@ -762,10 +770,15 @@ Det är samma ord:</p>
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#längd">Längd</a></li>
-    <li><a href="#tvärsnittsarean-tjocklek">Tvärsnittsarean (Tjocklek)</a></li>
-    <li><a href="#material">Material</a></li>
-    <li><a href="#temperatur">Temperatur</a></li>
+    <li><a href="#samband">Samband</a>
+      <ul>
+        <li><a href="#längd">Längd</a></li>
+        <li><a href="#tvärsnittsarean-tjocklek">Tvärsnittsarean (Tjocklek)</a></li>
+        <li><a href="#material">Material</a></li>
+        <li><a href="#temperatur">Temperatur</a></li>
+        <li><a href="#exempel">Exempel</a></li>
+      </ul>
+    </li>
     <li><a href="#ordförklaringar">Ordförklaringar</a>
       <ul>
         <li><a href="#tvärsnittsarea">Tvärsnittsarea</a></li>
@@ -773,7 +786,6 @@ Det är samma ord:</p>
         <li><a href="#isolator">Isolator</a></li>
       </ul>
     </li>
-    <li><a href="#exempel">Exempel</a></li>
     <li><a href="#beräkningar">Beräkningar</a>
       <ul>
         <li><a href="#ledningsresistansen">Ledningsresistansen</a></li>
