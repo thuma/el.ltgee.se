@@ -221,8 +221,8 @@ Vad händer om du kopplar in en kondensator och en spole med lika stor reaktans?
 | Ström (Effektivvärde) | {{< katex >}}I    {{< /katex >}}              | Ampere      | A                |
 | Spänning (Toppvärde) | {{< katex >}}û{{< /katex >}} | Volt     | V                | 
 | Spänning (Effektivvärde)     | {{< katex >}}U{{< /katex >}}                  | Volt        | V                |
-| Spänning över reaktans | {{< katex >}}U_l{{< /katex >}}   | Volt        | V                |
-| Spänning över kapacitans | {{< katex >}}U_c{{< /katex >}}   | Volt        | V                |
+| Spänning över induktiv reaktans | {{< katex >}}U_l{{< /katex >}}   | Volt        | V                |
+| Spänning över kapasitiv reaktans | {{< katex >}}U_c{{< /katex >}}   | Volt        | V                |
 | Resistans     | {{< katex >}}R {{< /katex >}}                 | Ohm         | Ω                |
 | Kapacitiv reaktans |  {{< katex >}}X_c{{< /katex >}}     |  Ohm         | Ω                |
 | Induktiv reaktans  |  {{< katex >}}X_l{{< /katex >}}     | Ohm         | Ω                |
