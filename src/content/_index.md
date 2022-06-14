@@ -5,4 +5,8 @@ Title: Ellära 1 - Faktasida
 
 Kaptiel 1 - 6 handlar om likström.
 
-Kaptiel 9 - 14 handlar om växelström.
+Kaptiel 7 - 8 handlar om el-överföring och förluster.
+
+Kaptiel 9 - 11 handlar om växelström.
+
+Kaptiel 12 - 13 handlar om elektronikens påverkan.
