@@ -12,8 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/el/</guid>
-      <description>Elektricitet#Ström#Ström är elektroner som passerar i en ledare. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A. Ampere är alltså en måttenhet som beskriver hur många elektroner som passerar per sekund.
-Innom elläran så säger vi att strömmen åker från plus till minus. Plus och minus kallas också anod(+) och katod(-).</description>
+      <description>Elektricitet#Ström#Ström är elektroner som passerar i en ledare. Många elektroner ger en stor ström få ger en låg ström. Strömmen som förkortas I, mäts i enheten Ampere som förkortas A. Ampere är alltså en måttenhet som beskriver hur många elektroner som passerar per sekund.
+Innom elläran så säger vi att strömmen åker från plus till minus. Plus och minus kallas också anod(+) och katod(-).
+Exempel#I = 5A</description>
     </item>
     
     <item>
@@ -22,7 +23,7 @@ Innom elläran så säger vi att strömmen åker från plus till minus. Plus och
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/krets/</guid>
-      <description>Krets#I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
+      <description>Krets#I en elektrisk krets kan strömmen röra sig hela vägen runt, från + på ett batteri via till exempel en lampa och sedan tillbaka igen till - på batteriet, det kallas för sluten krets. Strömmen bromsas av resistansen och trycks fram av spänningen.
 Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så slutar elektronerna att röra på sig, det kallas för en öppen krets.</description>
     </item>
     
@@ -32,7 +33,7 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/effekt/</guid>
-      <description>Effekt#Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam.</description>
+      <description>Effekt#Elektrisk effekt är ett mått på hur fort elektrisk energi omvandlas till något annat. Exempelvis hur fort det går från el till ljus i en lampa. En lampa som har en hög effekt, och allså omvandlar energin snabbt, lyser starkt. En lampa som lyser svagt omvandlar alltså energin långsammare. Elenergin kan omvandlas till rörelse i en motor, till exempel är en motor med stor effekt är stark/snabb. En motor med liten effekt är svag/långsam.</description>
     </item>
     
     <item>
@@ -41,7 +42,7 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/serie/</guid>
-      <description>Seriekrets#I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd att ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
+      <description>Seriekrets#I seriekretsar kopplar man komponenter i serie eller efter varandra, ungefär som ett tåg. Detta kallas också för seriekopplingar. Det som händer i seriekopplingen är att strömmen får svårare att ta sig fram, efter som det är fler motstånd att ta sig förbi, och då minskar strömmen. Spänningen kommer däremot dela upp sig på varje del i seriekopplingen. Hur stor spänningen över komponent blir beror på hur stor resistorn är och hur stor strömmen är, för att räkna ut det avänder man Ohms-Lag.</description>
     </item>
     
     <item>
@@ -50,7 +51,7 @@ Om en krets bryts så att strömmen inte länge kan ta sig hela vägen runt så 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/parallell/</guid>
-      <description>Parallellkrets#I parallellkretser kopplas komponenterna på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
+      <description>Parallellkrets#I parallellkretser kopplas komponenterna på varandra, eller parallellt. De kallas också för parallellkopplingar eftersom de kopplas så. I en paralellkrets så får strömmen fler vägar att ta sig fram. Eftersom det finns fler vägar för strömmen så går det mer ström ju fler komponenter som koppas in. Mer ström betyder då att den totala resistansen måste ha blivit mindre.
 Den totala resistansen blir alltså mindre än de olika delresistanserna i en parallellkoppling.</description>
     </item>
     
@@ -60,7 +61,7 @@ Den totala resistansen blir alltså mindre än de olika delresistanserna i en pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/kombinerad/</guid>
-      <description>Kombinerad krets#I en kombinerad krets så finns det både serie och parallellkopplade delar. Det finns inga formler som gäller för kombinerade kretsar. Du måste själv räkna ut de olika delarna var för sig så att du får rena serie eller parallellberäkningar att lösa.
+      <description>Kombinerad krets#I en kombinerad krets så finns det både serie och parallellkopplade delar. Det finns inga formler som gäller för kombinerade kretsar. Du måste själv räkna ut de olika delarna var för sig så att du får rena serie eller parallellberäkningar att lösa.
 För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade kretsar behöver du hitta en ren seriekrest eller en ren parallellkrets inne i den kombinerade kretsen.</description>
     </item>
     
@@ -70,8 +71,8 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/ledningsresistans/</guid>
-      <description>Ledningsresistans#Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
- Längd Tvärsnittsarean (Tjocklek) Material Temperatur  Samband#Längd#Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.</description>
+      <description>Ledningsresistans#Ledare leder ström bra, men alla ledare har lite resistans. När strömmen rör sig i en ledare så kommer den alltså att bromsas ner. Det finns fyra saker som påverkar resistansen i ledaren:
+Längd Tvärsnittsarean (Tjocklek) Material Temperatur Samband#Längd#Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt.</description>
     </item>
     
     <item>
@@ -80,9 +81,9 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/verkningsgrad/</guid>
-      <description>Effektförluster#När effekt överförs eller omvandlas så kommer det alltid att bli förluster. Det blir alltid värme när en lampa lyser tillexempel trotts att vi bara vill ha ljus. Effekten som blir till värme kallas effektförlust.
+      <description>Effektförluster#När effekt överförs eller omvandlas så kommer det alltid att bli förluster. Det blir alltid värme när en lampa lyser tillexempel trotts att vi bara vill ha ljus. Effekten som blir till värme kallas effektförlust.
 När effekt ska överföras i ledningar så blir det också förluster. Detta kallas för ledningsförluster. Eftersom långa ledningar har högre resistans så blir lesningsförlusten högre i långa ledningar.
-Exempel#En elmotor omvandlar elektrisk effekt till rörelse, den effekt som inte blir rörelse blir värme i elmotorn.</description>
+Exempel#En elmotor omvandlar elektrisk effekt till rörelse, den effekt som inte blir rörelse blir värme i elmotorn.</description>
     </item>
     
     <item>
@@ -91,8 +92,8 @@ Exempel#En elmotor omvandlar elektrisk effekt till rörelse, den effekt som i
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/acv/</guid>
-      <description>Växelspänning#Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till + och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte + och - på samma ställe hela tiden. + och - byter hela tiden platts det kallas att polariteten ändras.
-AC#Ofta kallas växelspänning/växelström för AC vilket betyder Alternating Current.</description>
+      <description>Växelspänning#Växelspänning ändrar riktning och storlek hela tiden. Bilden ovanför visar hur spänningen går från 0V till + och sedan tillbaka ner till 0V och till -. Kurvan som syns i bilden heter sinuskurva. Växelspänning har altså inte + och - på samma ställe hela tiden. + och - byter hela tiden platts det kallas att polariteten ändras.
+AC#Ofta kallas växelspänning/växelström för AC vilket betyder Alternating Current.</description>
     </item>
     
     <item>
@@ -101,7 +102,7 @@ AC#Ofta kallas växelspänning/växelström för AC vilket betyder Alternatin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/transformatorn/</guid>
-      <description>Transformator#I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
+      <description>Transformator#I en trnsformator går strömmen genom en spole och sedan tillbaka till spänningskällan. Spolen skapar ett magnetfällt som överförs med en järnbit till en annan spole. Då kommer magnetfältet som rör sig genom jänrnbiten att skapa en spänning i den andra spolen. Genom att ha olika antal varv i spolarna så kan spänningen ändra upp eller ner.
 Det är bara när magnetfältet rör sig fram och tillbaka som det blir en spänning på den andra spolen.</description>
     </item>
     
@@ -111,8 +112,8 @@ Det är bara när magnetfältet rör sig fram och tillbaka som det blir en spän
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/fas/</guid>
-      <description>Fasförskjutning#Fasförskjutning är när strömmen och spänningen inte går i takt. Som i bilen ovan så har ström och spänning sina topp och botten värden vid olika tidpunkter. När ström och spänningn inte går i takt så fungerar inte Effekt-formeln och Ohms lag som vanligt längre.
-Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komma efter spänningen. Det beror på att magnetfältet som skapas i spolen bromsar strömmen.</description>
+      <description>Fasförskjutning#Fasförskjutning är när strömmen och spänningen inte går i takt. Som i bilen ovan så har ström och spänning sina topp och botten värden vid olika tidpunkter. När ström och spänningn inte går i takt så fungerar inte Effekt-formeln och Ohms lag som vanligt längre.
+Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komma efter spänningen. Det beror på att magnetfältet som skapas i spolen bromsar strömmen.</description>
     </item>
     
     <item>
@@ -121,7 +122,7 @@ Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/halvledaren/</guid>
-      <description>Halvledare#</description>
+      <description>Halvledare#</description>
     </item>
     
     <item>
@@ -130,7 +131,16 @@ Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/likriktaren/</guid>
-      <description>Likriktaren#</description>
+      <description>Likriktaren#</description>
+    </item>
+    
+    <item>
+      <title>15. EMC</title>
+      <link>https://el.ltgee.se/docs/emc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/emc/</guid>
+      <description>Strörningar EMC#</description>
     </item>
     
     <item>
@@ -139,6 +149,15 @@ Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/magnetf%C3%A4llt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://el.ltgee.se/docs/vaxelriktaren/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://el.ltgee.se/docs/vaxelriktaren/</guid>
       <description></description>
     </item>
     
@@ -157,7 +176,7 @@ Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/posts/kretsschemasymboler/</guid>
-      <description>Kretsschemasymboler#   Namn Symbol Bild Funktion     Batteri   Skapar en elektrisk spänning.   Spänningskälla   Ger en elektrisk spänning tillexempel ett eluttag.   Likspänningskälla   Omvandlar från en spänning till en annan spänning.   Resistor   Bromsar strömmen och blir varm när den gör det.   Ledare   Leder ström   Lampa   Omvandlar elektricitet till ljus &amp;amp; värme   Voltmeter   Mäter spänning.</description>
+      <description>Kretsschemasymboler#Namn Symbol Bild Funktion Batteri Skapar en elektrisk spänning. Spänningskälla Ger en elektrisk spänning tillexempel ett eluttag. Likspänningskälla Omvandlar från en spänning till en annan spänning. Resistor Bromsar strömmen och blir varm när den gör det. Ledare Leder ström Lampa Omvandlar elektricitet till ljus &amp;amp; värme Voltmeter Mäter spänning. Ohmmeeter Mäter resistans. Amperemeter Mäter ström. </description>
     </item>
     
     <item>
@@ -170,7 +189,7 @@ Induktiv#När du kopplar in en spole i en krets så kommer strömmen att komm
 Fyll i dina mätvärden nedan:
 Spänningens effektivvärde: V.
 Spänningens toppvärde: V.
-Ditt namn: Kontrollera function kontrollera(){var namn = document.getElementById(&#34;namn&#34;).value;if(namn.length Kopiera länk&#34;;}else {window.alert(&#34;Något stämmer inte&#34;);}}function kopiera() {var inputElement = document.getElementById(&#34;svarkod&#34;);inputElement.select();inputElement.setSelectionRange(0, 99999);navigator.clipboard.writeText(inputElement.value);}</description>
+Ditt namn: Kontrollera </description>
     </item>
     
     <item>
@@ -183,7 +202,7 @@ Ditt namn: Kontrollera function kontrollera(){var namn = document.getElementB
 Fyll i dina mätvärden nedan:
 Period tid: ms.
 Frekvens: Hz.
-Ditt namn: Kontrollera function kontrollera(){var namn = document.getElementById(&#34;namn&#34;).value;if(namn.length Kopiera länk&#34;;}else {window.alert(&#34;Något stämmer inte&#34;);}}function kopiera() {var inputElement = document.getElementById(&#34;svarkod&#34;);inputElement.select();inputElement.setSelectionRange(0, 99999);navigator.clipboard.writeText(inputElement.value);}</description>
+Ditt namn: Kontrollera </description>
     </item>
     
     <item>
@@ -192,7 +211,7 @@ Ditt namn: Kontrollera function kontrollera(){var namn = document.getElementB
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/posts/test/</guid>
-      <description>var data = JSON.parse(atob(window.location.hash.replace(&#34;#&#34;,&#34;&#34;)));document.getElementById(&#34;Rubrik&#34;).innerHTML = data.namn;document.getElementById(&#34;data&#34;).innerHTML = JSON.stringify(data, null, 2);</description>
+      <description></description>
     </item>
     
   </channel>
