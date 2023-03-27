@@ -23,7 +23,7 @@ I kretsen ovan så behöver du räkna ut ersättningsresistansen för R1 och R1 
 ### Ändring av parallellkrets i seriekrets
 ![Krets där en resistor läggs till](/kombineradex1.png)
 
-Om du lägger till en resistor (R4) parallellt med R2 och R3 i i kretsen ovan så kommer den totala resistansen att minska eftersom strömmen får fler vägar att gå.
+Om du lägger till en resistor (R4) parallellt med R2 och R3 i kretsen ovan så kommer den totala resistansen att minska eftersom strömmen får fler vägar att gå.
 Då kommer strömmen att öka i kretsen, strömmen genom R1 blir därför högre. En högre ström leder till ett större spänningsfall över R1. Detta gör att spänningen över R2 & R3 minskar. Detta gör att strömmen genom R2 och R3 minskar när resistorn kopplas in paralellt med R2 och R3.
 
 ### Ändring av krets ytterigare en parallell resistor.
