@@ -16,8 +16,8 @@ Ledare leder ström bra, men alla ledare har lite [resistans](/docs/el/). När s
 Ju längre kabeln är desto mer kommer den att bromsas eftersom elektronerna måste röra sig längre. Det är samma princip som när du ska gǻ eller cykla långt. Det är lättare att gå en kort sträcka och jobbigare att gå en lång sträcka.
 
 ### Tvärsnittsarean (Tjocklek)
-Om kabeln är tjockare, har större tvärsnittsarea, så kommer resistansen att minska eftersom elektronerna har mer plats att rör sig och inte behöver trängas som i en smal ledare. Det är samma princip som när du står i kö och det bara finns en kassa på McDonalds. Då blir det en 
-lång kö som går sakta. Men om det är många kassor, som är öppna så blir det många köer och då får fler mat snabbare. Då kan det flöda igenom fler personer snabbare. På samma sätt så kan strömmen komma igenom snabbare när det är större tvärsnittsarea eftersom flera elektroner kan komma igenom brevid varandra i stället för att så i en lång kö.
+Om kabeln är tjockare, har större tvärsnittsarea, så kommer resistansen att minska eftersom elektronerna har mer plats att rör sig och inte behöver trängas som i en smal ledare. Det är samma princip som när du står i kö och det bara finns en kassa på McDonalds. Då blir det 
+lång kö som går sakta. Men om det är många kassor, som är öppna så blir det många köer och då får fler mat snabbare. Då kan det flöda igenom fler personer snabbare. På samma sätt så kan strömmen komma igenom snabbare när det är större tvärsnittsarea eftersom flera elektroner kan komma igenom brevid varandra i stället fö
 
 ### Material
 Olika meterial är olika bra på att leda. Koppar är bättre än guld t.ex. och silver är bättre än koppar. Det beror på att atomerna i de olika materialen har olika antal elektroner runt sig som kan hoppa vidare till nästa atom olika lätt. I [tabellen](#beräkningar) längre ner kan du se olika ledares resistans per meter.
