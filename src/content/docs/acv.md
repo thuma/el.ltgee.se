@@ -23,7 +23,7 @@ Toppvärdet är det som är högst upp på sinuskurvan.
 
 ## Effektivvärde
 Effektivvärdet är hur stor spänningen är i medel.
-Näs polariteten är tvärt om så ändrar det inte riktningen på effektivvärdet.
+När polariteten är tvärt om så ändrar det inte riktningen på effektivvärdet.
 Detta beror på att effektivvärdet beskriver hur stor effekten är inte vilket håll den kommer från.
 I en DC krets så finns bara effektivärdet. Det är effektivvärdet vi använder när vi räknar med tillexmepel Ohms-lag.
   
