@@ -9,25 +9,25 @@ weight: 11
 Fasförskjutning är när strömmen och spänningen inte går i takt. Som i bilen ovan så har ström och spänning sina topp och botten värden vid olika tidpunkter. När ström och spänningn inte går i takt så fungerar inte Effekt-formeln och Ohms lag som vanligt längre.
 
 ## Induktiv
-När du kopplar in en spole i en krets så kommer strömmen att komma efter spänningen. Det beror på att magnetfältet som skapas i spolen bromsar strömmen. På bilden så kan du se hur strömmen (blå) kommer efter spänningen (röd).
+När du kopplar in en spole i en krets kommer strömmen att komma efter spänningen. Det beror på att magnetfältet som skapas i spolen bromsar strömmen. På bilden kan du se hur strömmen (blå) kommer efter spänningen (röd).
 ![Spole med spänning](/spole24AC.svg)  
 ![Strömmen efter](/lfi.png)
 
 ## Kapasitiv
-När du kopplar in en kondensatorn i en krets så kommer strömmen att komma före spänningen. Det beror på att strömmen tidigare har blivit lagrad i kondensatorn och skickas ut redan innan spänningen kommer. På bilden så kan du se hur strömmen (blå) kommer före spänningen (röd).
+När du kopplar in en kondensatorn i en krets kommer strömmen att komma före spänningen. Det beror på att strömmen tidigare har blivit lagrad i kondensatorn och skickas ut redan innan spänningen kommer. På bilden kan du se hur strömmen (blå) kommer före spänningen (röd).
 ![Spole med spänning](/24vcond.svg)  
 ![Ström före](/cfi.png)
 
 ## Ordet fas
 
-Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga ett effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummern så får du jätteont villken är en stor effekt. Om du slår dig lite på tummen får du lite ont eller liten effekt.
+Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga att effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummen, får du jätteont, villken är en stor effekt. Om du slår dig lite på tummen, får du lite ont eller liten effekt.
 
 ## Ordet förskjutning
 
 Försjutning betyder att något är flyttat, att något inte ligger tillsammans.
 
 ## Trianglar
-När det finns fasförskjutning i en krets så kan du beskriva hur de olika delarna hänger samman med hjälp av trianglar. Grundtrianglarna i en enkel krets med fasförskjutning är dessa:
+När det finns fasförskjutning i en krets, kan du beskriva hur de olika delarna hänger samman med hjälp av trianglar. Grundtrianglarna i en enkel krets med fasförskjutning är dessa:
 ![Impedeans,Spänning,Effekt](/Fasförskjutning.svg)
 {{< katex >}}\varphi{{< /katex >}} är samma i alla trianglarna. Vet du vnikeln {{< katex >}}\varphi{{< /katex >}} i en krets så vet du de andra också, eftersom det är samma.
 
@@ -74,13 +74,13 @@ När det finns fasförskjutning i en krets så kan du beskriva hur de olika dela
 
 ## Exempel
 
-Om en spole är inkopplad i kretsen så kommer strömmen att komma efter spänningen.
+Om en spole är inkopplad i kretsen, kommer strömmen att komma efter spänningen.
 
-Om en kondensator är inkopplad i kretsen så kommer strömmen att komma före spänningen.
+Om en kondensator är inkopplad i kretsen, kommer strömmen att komma före spänningen.
 
-Om både en kondensator och en spole är inkopplad i en krets så kommer de att motverka varandra så fasförskjutningen kommer att minska.
+Om både en kondensator och en spole är inkopplad i en krets, kommer de att motverka varandra och fasförskjutningen kommer att minska.
 
-Om det är rätt storlek på kondesator och spole så kommer fasförskjutningen att försvinna helt.
+Om det är rätt storlek på kondesator och spole, kommer fasförskjutningen att försvinna helt.
 
 ### Beräkningsexempel fasförskjutning resistans och impedans:
 
