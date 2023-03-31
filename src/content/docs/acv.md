@@ -25,7 +25,7 @@ Toppvärdet är det som är högst upp på sinuskurvan.
 Effektivvärdet är hur stor spänningen är i medel.
 När polariteten är tvärt om så ändrar det inte riktningen på effektivvärdet.
 Detta beror på att effektivvärdet beskriver hur stor effekten är inte vilket håll den kommer från.
-I en DC krets så finns bara effektivärdet. Det är effektivvärdet vi använder när vi räknar med tillexmepel Ohms-lag.
+I en DC krets finns bara effektivärdet. Det är effektivvärdet vi använder när vi räknar med tillexmepel Ohms-lag.
   
 {{< katex >}} U {{< /katex >}} = Effektivvärde  
 ![Sinuskurvamedtippvärde](/sinuseffektiv.png)
@@ -33,7 +33,7 @@ I en DC krets så finns bara effektivärdet. Det är effektivvärdet vi använde
 ## Samband
 
 Toppvärdet är alltid störren än effektivvärdet eftersom effektivvärdet är medelspänningen för strömmen/spänningen.
-Effektivvärdet är det samma som spänningen i en DC krets. Så in en DC krets så är toppvärdet och effektivvärdet samma.
+Effektivvärdet är det samma som spänningen i en DC krets. I en DC krets är toppvärdet och effektivvärdet samma.
 
 ### Exempel
 
@@ -90,7 +90,7 @@ Frekvens är hur många gånger något händer per sekund. Det mäts i enheten H
 
 ### Ordet period
 Ordet period är samma som en period är i hockey, innebandy, etc. Alltså en omgång.
-I boxning heter det rond alltså rund/varv en elektrisk peroiod är också ett varv för en enkel generator. 
+I boxning heter det rond alltså rund/varv, en elektrisk peroiod är också ett varv för en enkel generator. 
 
 ### Exempel
 
@@ -144,7 +144,7 @@ För att räkna ut frekvensen så gäller följande formel:
 
 Vad är störst av effektivvärde och toppvärde?
 
-Vad är minsta av toppvärde och effektivvärde?
+Vad är minst av toppvärde och effektivvärde?
 
 Vad händer med frekvensen om periodtiden ökar?
 
