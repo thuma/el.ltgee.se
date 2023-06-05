@@ -74,8 +74,8 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/potential/</guid>
-      <description>Potential #  Ordet potential #  En fotbollsspelare med stor potential
-Samband #  Spänningen #  Spänningn från spänningskällan kommer att delas upp över de olika belastningar. Alla spänningarna över belastningarna kommer tillsammans bli den spänning som spänningskällan ger.   \(U = U_1&amp;#43;U_2&amp;#43;U_3...\)  Strömmen #  I en seriekrets finns det bara en väg för strömmen att gå. Därför finns det bara en ström i kretsen. Strömman är alltså lika stor över allt i kretsen.</description>
+      <description>Potential #  Potential är ett ord som används för att beskriva spänning på olika ställen i en krets. När någon frågar dig vad den elektriska potentialen på ett ställe är så är det spänningen mellan den punkten och jord som du ska mäta. Så när potential ska mätas så ska den svarta kabeln på multimetern alltid vara kopplad till jord.
+Om någon frågar efter potentialskilnaden mellan två punktar så är det spänningen mellan dessa två punkter som önskas.</description>
     </item>
     
     <item>
