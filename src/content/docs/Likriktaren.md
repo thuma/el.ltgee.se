@@ -1,6 +1,7 @@
 ---
-title: "13. Likriktaren"
-weight: 13
+title: "14. Likriktaren"
+weight: 14
+draft: true
 ---
 # Likriktaren
 

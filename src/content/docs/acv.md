@@ -1,6 +1,6 @@
 ---
-Title: 9. Växelspänning
-weight: 9
+Title: 10. Växelspänning
+weight: 10
 ---
 
 # Växelspänning

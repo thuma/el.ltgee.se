@@ -1,6 +1,6 @@
 ---
-Title: 7. Ledningsresistans
-weight: 7
+Title: 9. Ledningsresistans
+weight: 9
 ---
 # Ledningsresistans
 

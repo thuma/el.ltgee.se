@@ -1,6 +1,6 @@
 ---
-Title: 10. Transformator
-weight: 10
+Title: 11. Transformator
+weight: 11
 ---
 # Transformator
 
