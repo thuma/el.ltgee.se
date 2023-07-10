@@ -5,11 +5,7 @@
     <link>https://el.ltgee.se/</link>
     <description>Recent content in Ellära 1 - Faktasida on Ellära 1</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>sv-SE</language>
-    
-	<atom:link href="https://el.ltgee.se/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>sv-SE</language><atom:link href="https://el.ltgee.se/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Elektricitet</title>
       <link>https://el.ltgee.se/docs/el/</link>
@@ -74,7 +70,7 @@ För att lösa ut och ersätta seriekopplingar/parallellkopplingar i kombinerade
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://el.ltgee.se/docs/potential/</guid>
-      <description>Potential #  Potential är ett ord som används för att beskriva spänning på olika ställen i en krets. När någon frågar dig vad den elektriska potentialen på ett ställe är så är det spänningen mellan den punkten och jord som du ska mäta. Så när potential ska mätas så ska den svarta kabeln på multimetern alltid vara kopplad till jord.
+      <description>Potential #  Potential är ett ord som används för att beskriva spänning på olika ställen i en krets. När någon frågar dig vad den elektriska potentialen på ett ställe är det spänningen mellan den punkten och jord som du ska mäta. Så när potential ska mätas så ska den svarta mätsladden på multimetern alltid vara kopplad till jord.
 Om någon frågar efter potentialskilnaden mellan två punktar så är det spänningen mellan dessa två punkter som önskas.</description>
     </item>
     
@@ -131,10 +127,10 @@ Induktiv #  När du kopplar in en spole i en krets kommer strömmen att komma ef
     
     <item>
       <title></title>
-      <link>https://el.ltgee.se/docs/magnetfa%CC%88llt/</link>
+      <link>https://el.ltgee.se/docs/magnetf%C3%A4llt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://el.ltgee.se/docs/magnetfa%CC%88llt/</guid>
+      <guid>https://el.ltgee.se/docs/magnetf%C3%A4llt/</guid>
       <description></description>
     </item>
     
@@ -149,10 +145,10 @@ Induktiv #  När du kopplar in en spole i en krets kommer strömmen att komma ef
     
     <item>
       <title></title>
-      <link>https://el.ltgee.se/docs/va%CC%88xelspa%CC%88nning/</link>
+      <link>https://el.ltgee.se/docs/v%C3%A4xelsp%C3%A4nning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://el.ltgee.se/docs/va%CC%88xelspa%CC%88nning/</guid>
+      <guid>https://el.ltgee.se/docs/v%C3%A4xelsp%C3%A4nning/</guid>
       <description></description>
     </item>
     
@@ -167,10 +163,10 @@ Induktiv #  När du kopplar in en spole i en krets kommer strömmen att komma ef
     
     <item>
       <title>Mätning - Effektivvärde och Toppvärde</title>
-      <link>https://el.ltgee.se/posts/labbtoppeffektivva%CC%88rde/</link>
+      <link>https://el.ltgee.se/posts/labbtoppeffektivv%C3%A4rde/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://el.ltgee.se/posts/labbtoppeffektivva%CC%88rde/</guid>
+      <guid>https://el.ltgee.se/posts/labbtoppeffektivv%C3%A4rde/</guid>
       <description>Koppla in &amp;hellip; saad
 Fyll i dina mätvärden nedan:
 Spänningens effektivvärde: V.

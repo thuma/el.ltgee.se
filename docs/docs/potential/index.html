@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Potential #  Potential är ett ord som används för att beskriva spänning på olika ställen i en krets. När någon frågar dig vad den elektriska potentialen på ett ställe är så är det spänningen mellan den punkten och jord som du ska mäta. Så när potential ska mätas så ska den svarta kabeln på multimetern alltid vara kopplad till jord.
+<meta name="description" content="Potential #  Potential är ett ord som används för att beskriva spänning på olika ställen i en krets. När någon frågar dig vad den elektriska potentialen på ett ställe är det spänningen mellan den punkten och jord som du ska mäta. Så när potential ska mätas så ska den svarta mätsladden på multimetern alltid vara kopplad till jord.
 Om någon frågar efter potentialskilnaden mellan två punktar så är det spänningen mellan dessa två punkter som önskas.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="7. Potential" />
-<meta property="og:description" content="Potential #  Potential är ett ord som används för att beskriva spänning på olika ställen i en krets. När någon frågar dig vad den elektriska potentialen på ett ställe är så är det spänningen mellan den punkten och jord som du ska mäta. Så när potential ska mätas så ska den svarta kabeln på multimetern alltid vara kopplad till jord.
+<meta property="og:description" content="Potential #  Potential är ett ord som används för att beskriva spänning på olika ställen i en krets. När någon frågar dig vad den elektriska potentialen på ett ställe är det spänningen mellan den punkten och jord som du ska mäta. Så när potential ska mätas så ska den svarta mätsladden på multimetern alltid vara kopplad till jord.
 Om någon frågar efter potentialskilnaden mellan två punktar så är det spänningen mellan dessa två punkter som önskas." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://el.ltgee.se/docs/potential/" />
+<meta property="og:url" content="https://el.ltgee.se/docs/potential/" /><meta property="article:section" content="docs" />
+
+
 
 <title>7. Potential | Ellära 1</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.5d183408ed158520aa78c951c11b8629166384ca63a5a51b86b44456d129d830.js" integrity="sha256-XRg0CO0VhSCqeMlRwRuGKRZjhMpjpaUbhrREVtEp2DA=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.f767b585ce83e2ac424fd9efdf493354882dad2792dd2397352d0661fbe9e582.js" integrity="sha256-92e1hc6D4qxCT9nv30kzVIgtrSeS3SOXNS0GYfvp5YI=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -245,7 +247,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
 
 
  
@@ -282,13 +284,6 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#exempel">Exempel</a></li>
       </ul>
     </li>
-    <li><a href="#beräkningar">Beräkningar</a>
-      <ul>
-        <li><a href="#potential-1">potential</a></li>
-        <li><a href="#potentialskilnad">Potentialskilnad</a></li>
-      </ul>
-    </li>
-    <li><a href="#frågor">Frågor</a></li>
   </ul>
 </nav>
 
@@ -307,12 +302,13 @@ https://github.com/alex-shpak/hugo-book
 </h1>
 <p><img src="/potential.png" alt="Potential" /></p>
 <p>Potential är ett ord som används för att beskriva spänning på olika ställen i en krets.
-När någon frågar dig vad den elektriska potentialen på ett ställe är
-så är det spänningen mellan den punkten och jord som du ska mäta. Så när potential ska
-mätas så ska den svarta kabeln på multimetern alltid vara kopplad till jord.</p>
+När någon frågar dig vad den elektriska potentialen på ett ställe är det spänningen
+mellan den punkten och jord som du ska mäta. Så när potential ska
+mätas så ska den svarta mätsladden på multimetern alltid vara kopplad till jord.</p>
 <p>Om någon frågar efter potentialskilnaden mellan två punktar så är det spänningen mellan
 dessa två punkter som önskas. Om du först mäter potentialen i dessa två punkter så
-kan du ta reda på potentialskilnaden genom att räkna ut skilnaden mellan potentialerna.</p>
+kan du ta reda på potentialskilnaden genom att räkna ut skilnaden mellan potentialerna.
+Det går också att mäta spänningen mellan dessa två punker direk med voltmeter.</p>
 <h2 id="ordet-potential">
   Ordet potential
   <a class="anchor" href="#ordet-potential">#</a>
@@ -325,31 +321,42 @@ många mål om den får spela fotboll.</p>
   Samband
   <a class="anchor" href="#samband">#</a>
 </h2>
+<p>På schemat så kommer punkt A ha 9V i potential om batteriet har en spänning på 9V.
+Potentialen i punkt B kommer att vara mindre än 9V. För att veta hur stor potential det är i B så behöver du antigen veta spänningen över den övre eller den nedre resistorn. Eller mäta mellan B och jord.
+Om spänningen över den övre resistorn är 3V så kommer potentialen att vara 6V eftersom hela spänningen är 9V och 
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \( 9V - 3V = 6V \)
+</span>
+<br>
+<img src="/potentialground.png" alt="Potential med jord" /></p>
 <h3 id="exempel">
   Exempel
   <a class="anchor" href="#exempel">#</a>
 </h3>
-<h2 id="beräkningar">
-  Beräkningar
-  <a class="anchor" href="#ber%c3%a4kningar">#</a>
-</h2>
-<h3 id="potential-1">
-  potential
-  <a class="anchor" href="#potential-1">#</a>
-</h3>
-<p><img src="/potentialdoublebatamidleground.png" alt="Dubbla batterier jordning i mitten" />
-<img src="/potentialmiddleground.png" alt="Jordning i mitten" />
-<img src="/potentialdoublebat.png" alt="Dubbla batterier" />
-<img src="/potentialground.png" alt="Potential med jord" />
+<h4 id="negativ-och-positiv-potential">
+  Negativ och positiv potential
+  <a class="anchor" href="#negativ-och-positiv-potential">#</a>
+</h4>
+<p>Potentialen kan också vara negativ som i detta exempel:<br>
+<img src="/potentialmiddleground.png" alt="Jordning i mitten" /><br>
+Eftersom Jorden sitter i mitten så kommer A att ha en positiv potential medan B kommer att ha en negativ potential.</p>
+<h4 id="högre-potential-vid-flera-batterier">
+  Högre potential vid flera batterier
+  <a class="anchor" href="#h%c3%b6gre-potential-vid-flera-batterier">#</a>
+</h4>
+<p>Potentialen i punkt A i detta exempel kommer att bli båda batteriernas spänning tillsammans så om det ena batteriet är på 9V och det andra är på 1,5V så kommer potentialen i A att vara 10,5V eftersom <span>
+  \( 9V &#43; 1.5V = 10.5V \)
+</span>
+<br>
+<img src="/potentialdoublebat.png" alt="Dubbla batterier" /></p>
+<h4 id="enbart-negativ-potential">
+  Enbart negativ potential
+  <a class="anchor" href="#enbart-negativ-potential">#</a>
+</h4>
+<p>Om + från batterier är jordat så kommer alla potentialer att vara negativa. Alltså kommer både B och C att vara - i exemplet nedan:<br>
 <img src="/potentialpositiveground.png" alt="Potential med negativ jord" /></p>
-<h3 id="potentialskilnad">
-  Potentialskilnad
-  <a class="anchor" href="#potentialskilnad">#</a>
-</h3>
-<h2 id="frågor">
-  Frågor
-  <a class="anchor" href="#fr%c3%a5gor">#</a>
-</h2>
 </article>
  
       
@@ -366,8 +373,7 @@ många mål om den får spela fotboll.</p>
 
 
 
-  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
-document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
 
 
  
@@ -398,13 +404,6 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
         <li><a href="#exempel">Exempel</a></li>
       </ul>
     </li>
-    <li><a href="#beräkningar">Beräkningar</a>
-      <ul>
-        <li><a href="#potential-1">potential</a></li>
-        <li><a href="#potentialskilnad">Potentialskilnad</a></li>
-      </ul>
-    </li>
-    <li><a href="#frågor">Frågor</a></li>
   </ul>
 </nav>
 
