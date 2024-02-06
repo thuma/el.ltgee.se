@@ -19,11 +19,12 @@ När du kopplar in en kondensatorn i en krets kommer strömmen att komma före s
 ![Ström före](/cfi.png)
 
 ## Ordet fas
+Ordet fas utanför elvärden betyder att något är i takt eller har kommit lika långt. I elvärlden så har fas två användingsområden: 
 
-Ordet effekt används även utanför elvärlden då betyder det nästan samma sak. Ett exempel är att säga att effekten av att slå sig på tummen med hammaren är att man får ont. Om du slår dig jättehårt med hammaren på tummen, får du jätteont, villken är en stor effekt. Om du slår dig lite på tummen, får du lite ont eller liten effekt.
+1. Vi har tre olika faser i elnätet. De har 400V i spänning mellan varandra och 230V mot neutral/jord. Dessa kallas också för linjer där av förkortas de till L1,L2 och L3.
+2. Fas betyder också om ström / spänning är i takt. När de inte är i takt så kallas det för fasförskjutning. Faserna L1, L2 och L3 är som exempel förskjutna 120 grader i förhållande till varandra i vanliga fall.
 
 ## Ordet förskjutning
-
 Försjutning betyder att något är flyttat, att något inte ligger tillsammans.
 
 ## Trianglar
