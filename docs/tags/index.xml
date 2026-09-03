@@ -4,7 +4,8 @@
     <title>Tags on Ellära 1</title>
     <link>https://el.ltgee.se/tags/</link>
     <description>Recent content in Tags on Ellära 1</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>sv-SE</language><atom:link href="https://el.ltgee.se/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>sv-SE</language>
+    <atom:link href="https://el.ltgee.se/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
