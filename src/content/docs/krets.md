@@ -110,7 +110,7 @@ eller som
 | Steg       | Exempel       |
 | ---------- | ------------- |
 | Formel     | I = U/R       |
-| Uträkning  | U = 15V * 30Ω |
+| Uträkning  | I = 15V / 30Ω |
 | Resultat   | I = 0,5A      |
 
 | Svar       |
